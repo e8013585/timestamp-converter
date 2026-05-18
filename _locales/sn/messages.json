@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Timestamp Converter",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "TS Converter",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Iyo inokurumidza, yemazuva ano yekushandura timestamp utility kune vanogadzira",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Converter"
+  },
+  "tabLiveClock": {
+    "message": "Live Clock"
+  },
+  "tabBatch": {
+    "message": "Batch"
+  },
+  "tabUtilities": {
+    "message": "Utilities"
+  },
+  "tabFormats": {
+    "message": "Formats"
+  },
+  "inputPlaceholder": {
+    "message": "Isa chitambi chenguva, zuva, kana mutauro chaiwo...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Shandura"
+  },
+  "clearBtn": {
+    "message": "Pachena"
+  },
+  "copyBtn": {
+    "message": "Copy"
+  },
+  "copiedBtn": {
+    "message": "Kopirwa!"
+  },
+  "pasteBtn": {
+    "message": "Paste"
+  },
+  "detectedLabel": {
+    "message": "Detected"
+  },
+  "detectedUnixSec": {
+    "message": "Unix Timetamp (Masekonzi)"
+  },
+  "detectedUnixMs": {
+    "message": "Unix Timetamp (Milisekondi)"
+  },
+  "detectedIso": {
+    "message": "ISO 8601 Zuva"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 Zuva"
+  },
+  "detectedHuman": {
+    "message": "Zuva Rinoverengwa Nevanhu"
+  },
+  "detectedRelative": {
+    "message": "Relative Date Expression"
+  },
+  "detectedUnknown": {
+    "message": "Unknown Format"
+  },
+  "resultUnixSec": {
+    "message": "Unix (masekondi)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (Mamilliseconds)"
+  },
+  "resultLocalTime": {
+    "message": "Nguva Yenzvimbo"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "Hama"
+  },
+  "resultHuman": {
+    "message": "Munhu Anoverengeka"
+  },
+  "timezoneLabel": {
+    "message": "Timezone"
+  },
+  "timezonePreview": {
+    "message": "Multi-Timezone Preview"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "Local"
+  },
+  "tzNewYork": {
+    "message": "New York"
+  },
+  "tzLondon": {
+    "message": "London"
+  },
+  "tzTokyo": {
+    "message": "Tokyo"
+  },
+  "tzIstanbul": {
+    "message": "Istanbul"
+  },
+  "tzSydney": {
+    "message": "Sydney"
+  },
+  "tzLosAngeles": {
+    "message": "Los Angeles"
+  },
+  "tzBerlin": {
+    "message": "Berlin"
+  },
+  "tzDubai": {
+    "message": "Dubai"
+  },
+  "liveClockTitle": {
+    "message": "Live Clock"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (masekondi)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (Mamilliseconds)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "Local"
+  },
+  "pauseBtn": {
+    "message": "Pause"
+  },
+  "resumeBtn": {
+    "message": "Resume"
+  },
+  "batchTitle": {
+    "message": "Batch Shanduko"
+  },
+  "batchPlaceholder": {
+    "message": "Namira akati wandei kana misi, imwe pamutsara…"
+  },
+  "batchConvertBtn": {
+    "message": "Shandura Zvese"
+  },
+  "batchClearBtn": {
+    "message": "Pachena"
+  },
+  "batchCopyAllBtn": {
+    "message": "Kopa Zvese"
+  },
+  "batchExportBtn": {
+    "message": "Export JSON"
+  },
+  "batchResultsLabel": {
+    "message": "Results"
+  },
+  "batchLineLabel": {
+    "message": "Line"
+  },
+  "batchInputLabel": {
+    "message": "Input"
+  },
+  "batchOutputLabel": {
+    "message": "Output"
+  },
+  "batchErrorLabel": {
+    "message": "Error"
+  },
+  "utilitiesTitle": {
+    "message": "Utilities"
+  },
+  "utilDiffTitle": {
+    "message": "Nguva Yakasiyana Calculator"
+  },
+  "utilDiffFrom": {
+    "message": "Kubva"
+  },
+  "utilDiffTo": {
+    "message": "To"
+  },
+  "utilDiffBtn": {
+    "message": "Verenga Musiyano"
+  },
+  "utilDiffSeconds": {
+    "message": "Sekondi"
+  },
+  "utilDiffMinutes": {
+    "message": "Maminitsi"
+  },
+  "utilDiffHours": {
+    "message": "Maawa"
+  },
+  "utilDiffDays": {
+    "message": "Mazuva"
+  },
+  "utilDiffMonths": {
+    "message": "Mwedzi"
+  },
+  "utilDiffYears": {
+    "message": "Makore"
+  },
+  "utilGeneratorTitle": {
+    "message": "Timestamp Generator"
+  },
+  "utilGenNow": {
+    "message": "Zvino"
+  },
+  "utilGenStartDay": {
+    "message": "Kutanga kweZuva"
+  },
+  "utilGenEndDay": {
+    "message": "Kupera kweZuva"
+  },
+  "utilGenStartMonth": {
+    "message": "Kutanga Mwedzi"
+  },
+  "utilGenEndMonth": {
+    "message": "Kupera kweMwedzi"
+  },
+  "utilGenStartYear": {
+    "message": "Kutanga Kwegore"
+  },
+  "utilGenEndYear": {
+    "message": "Kupera kweGore"
+  },
+  "utilGenRandom": {
+    "message": "Random Timestamp"
+  },
+  "utilEpochTitle": {
+    "message": "Epoch Explorer"
+  },
+  "utilEpochDesc": {
+    "message": "Unix nguva inoverenga masekonzi kubva Ndira 1, 1970, 00:00:00 UTC (iyo Unix Epoch). Zvitampu mumasekonzi zvinokwana mu32-bit integer kusvika Ndira 19, 2038 (dambudziko reY2K38). JavaScript inoshandisa milliseconds nekukasira."
+  },
+  "utilEpoch2038": {
+    "message": "Gore ra2038 Dambudziko"
+  },
+  "utilEpoch2038Desc": {
+    "message": "32-bit akasainwa nhamba dzinofashukira pa2,147,483,647 - izvo zvinoenderana ne03:14:07 UTC muna Ndira 19, 2038."
+  },
+  "utilEpochPrecision": {
+    "message": "Precision Guide"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 manhamba = masekonzi | 13 manhamba = milliseconds | 16 manhamba = microseconds | 19 manhamba = nanoseconds"
+  },
+  "formatsTitle": {
+    "message": "Vadivelu Comedy Format Studio"
+  },
+  "formatsInputLabel": {
+    "message": "Zuva / Timetamp Input"
+  },
+  "formatsPatternLabel": {
+    "message": "Format Pattern"
+  },
+  "formatsPreviewLabel": {
+    "message": "Preview"
+  },
+  "formatsPresetsLabel": {
+    "message": "Presets"
+  },
+  "formatsLocaleLabel": {
+    "message": "Locale"
+  },
+  "formatsStyleLabel": {
+    "message": "Date Style"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Time Style"
+  },
+  "presetFull": {
+    "message": "Full"
+  },
+  "presetDate": {
+    "message": "Date Chete"
+  },
+  "presetTime": {
+    "message": "Nguva Chete"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "Python"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "Chitambi chenguva chaonekwa muclipboard"
+  },
+  "clipboardConvert": {
+    "message": "Shandura"
+  },
+  "clipboardDismiss": {
+    "message": "Dzinga"
+  },
+  "errorInvalidInput": {
+    "message": "Mapindiro akashata kana asingazivikanwe"
+  },
+  "errorInvalidDate": {
+    "message": "Zuva risiri iro"
+  },
+  "errorEmptyInput": {
+    "message": "Ndapota isa chitambi chenguva kana zuva"
+  },
+  "errorOutOfRange": {
+    "message": "Chitambi chenguva chiri kunze kwechikamu chinotsigirwa"
+  },
+  "historyTitle": {
+    "message": "Recent Conversions"
+  },
+  "historyClear": {
+    "message": "Clear History"
+  },
+  "historyEmpty": {
+    "message": "Hapana shanduko dzichangoburwa"
+  },
+  "darkModeToggle": {
+    "message": "Toggle Dark Mode"
+  },
+  "languageLabel": {
+    "message": "Mutauro"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "keyboardShortcuts": {
+    "message": "Keyboard Shortcuts"
+  },
+  "shortcutConvert": {
+    "message": "Shandura"
+  },
+  "shortcutClear": {
+    "message": "Pachena"
+  },
+  "shortcutCopy": {
+    "message": "Copy Result"
+  },
+  "devPresetsTitle": {
+    "message": "Developer Presets"
+  },
+  "devPresetCopied": {
+    "message": "Snippet yekodhi yakakopwa!"
+  },
+  "relativeAgo": {
+    "message": "ago"
+  },
+  "relativeIn": {
+    "message": "mu"
+  },
+  "relativeNow": {
+    "message": "izvozvi"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

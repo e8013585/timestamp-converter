@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Conversor de carimbo de data/hora",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "Conversor TS",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Um utilitário de conversão de carimbo de data/hora rápido e moderno para desenvolvedores",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Conversor"
+  },
+  "tabLiveClock": {
+    "message": "Relógio ao vivo"
+  },
+  "tabBatch": {
+    "message": "Lote"
+  },
+  "tabUtilities": {
+    "message": "Utilitários"
+  },
+  "tabFormats": {
+    "message": "Formatos"
+  },
+  "inputPlaceholder": {
+    "message": "Insira carimbo de data/hora, data ou idioma natural…",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Converter"
+  },
+  "clearBtn": {
+    "message": "Claro"
+  },
+  "copyBtn": {
+    "message": "Cópia"
+  },
+  "copiedBtn": {
+    "message": "Copiado!"
+  },
+  "pasteBtn": {
+    "message": "Colar"
+  },
+  "detectedLabel": {
+    "message": "Detectado"
+  },
+  "detectedUnixSec": {
+    "message": "Carimbo de data e hora Unix (segundos)"
+  },
+  "detectedUnixMs": {
+    "message": "Carimbo de data e hora Unix (milissegundos)"
+  },
+  "detectedIso": {
+    "message": "Data ISO 8601"
+  },
+  "detectedRfc": {
+    "message": "Data RFC 2822"
+  },
+  "detectedHuman": {
+    "message": "Data legível por humanos"
+  },
+  "detectedRelative": {
+    "message": "Expressão de data relativa"
+  },
+  "detectedUnknown": {
+    "message": "Formato desconhecido"
+  },
+  "resultUnixSec": {
+    "message": "Unix (segundos)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (milissegundos)"
+  },
+  "resultLocalTime": {
+    "message": "Hora local"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "Relativo"
+  },
+  "resultHuman": {
+    "message": "Legível por humanos"
+  },
+  "timezoneLabel": {
+    "message": "Fuso horário"
+  },
+  "timezonePreview": {
+    "message": "Visualização de vários fusos horários"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "Local"
+  },
+  "tzNewYork": {
+    "message": "Nova Iorque"
+  },
+  "tzLondon": {
+    "message": "Londres"
+  },
+  "tzTokyo": {
+    "message": "Tóquio"
+  },
+  "tzIstanbul": {
+    "message": "Istambul"
+  },
+  "tzSydney": {
+    "message": "Sidney"
+  },
+  "tzLosAngeles": {
+    "message": "Los Angeles"
+  },
+  "tzBerlin": {
+    "message": "Berlim"
+  },
+  "tzDubai": {
+    "message": "Dubai"
+  },
+  "liveClockTitle": {
+    "message": "Relógio ao vivo"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (segundos)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (milissegundos)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "Local"
+  },
+  "pauseBtn": {
+    "message": "Pausa"
+  },
+  "resumeBtn": {
+    "message": "Retomar"
+  },
+  "batchTitle": {
+    "message": "Conversão em lote"
+  },
+  "batchPlaceholder": {
+    "message": "Cole vários carimbos de data/hora ou datas, um por linha…"
+  },
+  "batchConvertBtn": {
+    "message": "Converter tudo"
+  },
+  "batchClearBtn": {
+    "message": "Claro"
+  },
+  "batchCopyAllBtn": {
+    "message": "Copiar tudo"
+  },
+  "batchExportBtn": {
+    "message": "Exportar JSON"
+  },
+  "batchResultsLabel": {
+    "message": "Resultados"
+  },
+  "batchLineLabel": {
+    "message": "Linha"
+  },
+  "batchInputLabel": {
+    "message": "Entrada"
+  },
+  "batchOutputLabel": {
+    "message": "Saída"
+  },
+  "batchErrorLabel": {
+    "message": "Erro"
+  },
+  "utilitiesTitle": {
+    "message": "Utilitários"
+  },
+  "utilDiffTitle": {
+    "message": "Calculadora de diferença horária"
+  },
+  "utilDiffFrom": {
+    "message": "De"
+  },
+  "utilDiffTo": {
+    "message": "Para"
+  },
+  "utilDiffBtn": {
+    "message": "Calcular diferença"
+  },
+  "utilDiffSeconds": {
+    "message": "Segundos"
+  },
+  "utilDiffMinutes": {
+    "message": "Minutos"
+  },
+  "utilDiffHours": {
+    "message": "Horas"
+  },
+  "utilDiffDays": {
+    "message": "Dias"
+  },
+  "utilDiffMonths": {
+    "message": "Meses"
+  },
+  "utilDiffYears": {
+    "message": "Anos"
+  },
+  "utilGeneratorTitle": {
+    "message": "Gerador de carimbo de data/hora"
+  },
+  "utilGenNow": {
+    "message": "Agora"
+  },
+  "utilGenStartDay": {
+    "message": "Início do dia"
+  },
+  "utilGenEndDay": {
+    "message": "Fim do dia"
+  },
+  "utilGenStartMonth": {
+    "message": "Início do mês"
+  },
+  "utilGenEndMonth": {
+    "message": "Fim do mês"
+  },
+  "utilGenStartYear": {
+    "message": "Início do ano"
+  },
+  "utilGenEndYear": {
+    "message": "Fim do ano"
+  },
+  "utilGenRandom": {
+    "message": "Carimbo de data e hora aleatório"
+  },
+  "utilEpochTitle": {
+    "message": "Explorador de Época"
+  },
+  "utilEpochDesc": {
+    "message": "O tempo Unix conta segundos desde 1º de janeiro de 1970, 00:00:00 UTC (a Época Unix). Os carimbos de data e hora em segundos cabem em um número inteiro de 32 bits até 19 de janeiro de 2038 (o problema Y2K38). JavaScript usa milissegundos por padrão."
+  },
+  "utilEpoch2038": {
+    "message": "Problema do ano 2038"
+  },
+  "utilEpoch2038Desc": {
+    "message": "Números inteiros assinados de 32 bits estouram em 2.147.483.647 — o que corresponde às 03:14:07 UTC de 19 de janeiro de 2038."
+  },
+  "utilEpochPrecision": {
+    "message": "Guia de precisão"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 dígitos = segundos | 13 dígitos = milissegundos | 16 dígitos = microssegundos | 19 dígitos = nanossegundos"
+  },
+  "formatsTitle": {
+    "message": "Estúdio de formato"
+  },
+  "formatsInputLabel": {
+    "message": "Entrada de data/timestamp"
+  },
+  "formatsPatternLabel": {
+    "message": "Padrão de formato"
+  },
+  "formatsPreviewLabel": {
+    "message": "Visualização"
+  },
+  "formatsPresetsLabel": {
+    "message": "Predefinições"
+  },
+  "formatsLocaleLabel": {
+    "message": "Localidade"
+  },
+  "formatsStyleLabel": {
+    "message": "Estilo de data"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Estilo de tempo"
+  },
+  "presetFull": {
+    "message": "Completo"
+  },
+  "presetDate": {
+    "message": "Somente data"
+  },
+  "presetTime": {
+    "message": "Apenas tempo"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "Pitão"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "Carimbo de data/hora detectado na área de transferência"
+  },
+  "clipboardConvert": {
+    "message": "Converter"
+  },
+  "clipboardDismiss": {
+    "message": "Liberar"
+  },
+  "errorInvalidInput": {
+    "message": "Entrada inválida ou não reconhecida"
+  },
+  "errorInvalidDate": {
+    "message": "Data inválida"
+  },
+  "errorEmptyInput": {
+    "message": "Insira um carimbo de data/hora ou data"
+  },
+  "errorOutOfRange": {
+    "message": "Carimbo de data e hora fora do intervalo suportado"
+  },
+  "historyTitle": {
+    "message": "Conversões recentes"
+  },
+  "historyClear": {
+    "message": "Limpar histórico"
+  },
+  "historyEmpty": {
+    "message": "Nenhuma conversão recente"
+  },
+  "darkModeToggle": {
+    "message": "Alternar modo escuro"
+  },
+  "languageLabel": {
+    "message": "Linguagem"
+  },
+  "settingsTitle": {
+    "message": "Configurações"
+  },
+  "keyboardShortcuts": {
+    "message": "Atalhos de teclado"
+  },
+  "shortcutConvert": {
+    "message": "Converter"
+  },
+  "shortcutClear": {
+    "message": "Claro"
+  },
+  "shortcutCopy": {
+    "message": "Copiar resultado"
+  },
+  "devPresetsTitle": {
+    "message": "Predefinições do desenvolvedor"
+  },
+  "devPresetCopied": {
+    "message": "Trecho de código copiado!"
+  },
+  "relativeAgo": {
+    "message": "atrás"
+  },
+  "relativeIn": {
+    "message": "em"
+  },
+  "relativeNow": {
+    "message": "agora mesmo"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

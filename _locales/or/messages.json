@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "ଟାଇମଷ୍ଟ୍ୟାମ୍ପ କନଭର୍ଟର |",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "TS କନଭର୍ଟର |",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "ବିକାଶକାରୀଙ୍କ ପାଇଁ ଏକ ଦ୍ରୁତ, ଆଧୁନିକ ଟାଇମଷ୍ଟ୍ୟାମ୍ପ ରୂପାନ୍ତର ଉପଯୋଗୀତା |",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "କନଭର୍ଟର |"
+  },
+  "tabLiveClock": {
+    "message": "ଲାଇଭ୍ ଘଣ୍ଟା |"
+  },
+  "tabBatch": {
+    "message": "ବ୍ୟାଚ୍"
+  },
+  "tabUtilities": {
+    "message": "ଉପଯୋଗିତା"
+  },
+  "tabFormats": {
+    "message": "ଫର୍ମାଟ୍"
+  },
+  "inputPlaceholder": {
+    "message": "ଟାଇମଷ୍ଟ୍ୟାମ୍ପ, ତାରିଖ, କିମ୍ବା ପ୍ରାକୃତିକ ଭାଷା ପ୍ରବେଶ କରନ୍ତୁ…",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "ରୂପାନ୍ତର କରନ୍ତୁ |"
+  },
+  "clearBtn": {
+    "message": "ସଫା"
+  },
+  "copyBtn": {
+    "message": "କପି କରନ୍ତୁ |"
+  },
+  "copiedBtn": {
+    "message": "କପି ହୋଇଛି!"
+  },
+  "pasteBtn": {
+    "message": "ଲେପନ କରନ୍ତୁ |"
+  },
+  "detectedLabel": {
+    "message": "ଚିହ୍ନଟ ହେଲା |"
+  },
+  "detectedUnixSec": {
+    "message": "ୟୁନିକ୍ସ ଟାଇମଷ୍ଟ୍ୟାମ୍ପ (ସେକେଣ୍ଡ)"
+  },
+  "detectedUnixMs": {
+    "message": "ୟୁନିକ୍ସ ଟାଇମଷ୍ଟ୍ୟାମ୍ପ (ମିଲିସେକେଣ୍ଡ)"
+  },
+  "detectedIso": {
+    "message": "ISO 8601 ତାରିଖ"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 ତାରିଖ |"
+  },
+  "detectedHuman": {
+    "message": "ମାନବ-ପଠନଯୋଗ୍ୟ ତାରିଖ |"
+  },
+  "detectedRelative": {
+    "message": "ଆପେକ୍ଷିକ ତାରିଖ ଅଭିବ୍ୟକ୍ତି |"
+  },
+  "detectedUnknown": {
+    "message": "ଅଜ୍ଞାତ ଫର୍ମାଟ୍ |"
+  },
+  "resultUnixSec": {
+    "message": "ୟୁନିକ୍ସ (ସେକେଣ୍ଡ୍)"
+  },
+  "resultUnixMs": {
+    "message": "ୟୁନିକ୍ସ (ମିଲିସେକେଣ୍ଡ)"
+  },
+  "resultLocalTime": {
+    "message": "ସ୍ଥାନୀୟ ସମୟ |"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "ସମ୍ପର୍କୀୟ"
+  },
+  "resultHuman": {
+    "message": "ମାନବ ପଠନୀୟ |"
+  },
+  "timezoneLabel": {
+    "message": "ଟାଇମଜୋନ |"
+  },
+  "timezonePreview": {
+    "message": "ମଲ୍ଟି ଟାଇମଜୋନ ପୂର୍ବାବଲୋକନ |"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "ସ୍ଥାନୀୟ"
+  },
+  "tzNewYork": {
+    "message": "ନ୍ୟୁୟର୍କ |"
+  },
+  "tzLondon": {
+    "message": "ଲଣ୍ଡନ |"
+  },
+  "tzTokyo": {
+    "message": "ଟୋକିଓ"
+  },
+  "tzIstanbul": {
+    "message": "ଇସ୍ତାନବୁଲ"
+  },
+  "tzSydney": {
+    "message": "ସିଡନୀ |"
+  },
+  "tzLosAngeles": {
+    "message": "ଲସ୍ ଆଞ୍ଜେଲସ୍ |"
+  },
+  "tzBerlin": {
+    "message": "ବର୍ଲିନ୍ |"
+  },
+  "tzDubai": {
+    "message": "ଦୁବାଇ |"
+  },
+  "liveClockTitle": {
+    "message": "ଲାଇଭ୍ ଘଣ୍ଟା |"
+  },
+  "liveUnixLabel": {
+    "message": "ୟୁନିକ୍ସ (ସେକେଣ୍ଡ୍)"
+  },
+  "liveUnixMsLabel": {
+    "message": "ୟୁନିକ୍ସ (ମିଲିସେକେଣ୍ଡ)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "ସ୍ଥାନୀୟ"
+  },
+  "pauseBtn": {
+    "message": "ବିରାମ"
+  },
+  "resumeBtn": {
+    "message": "ପୁନ ume କାର୍ଯ୍ୟ ଆରମ୍ଭ କରନ୍ତୁ |"
+  },
+  "batchTitle": {
+    "message": "ବ୍ୟାଚ୍ ରୂପାନ୍ତର |"
+  },
+  "batchPlaceholder": {
+    "message": "ଏକାଧିକ ଟାଇମଷ୍ଟ୍ୟାମ୍ପ କିମ୍ବା ତାରିଖ ଲେପନ କରନ୍ତୁ, ପ୍ରତି ଧାଡିରେ ଗୋଟିଏ…"
+  },
+  "batchConvertBtn": {
+    "message": "ସମସ୍ତଙ୍କୁ ରୂପାନ୍ତର କରନ୍ତୁ |"
+  },
+  "batchClearBtn": {
+    "message": "ସଫା"
+  },
+  "batchCopyAllBtn": {
+    "message": "ସମସ୍ତ କପି କରନ୍ତୁ |"
+  },
+  "batchExportBtn": {
+    "message": "JSON ରପ୍ତାନି କରନ୍ତୁ |"
+  },
+  "batchResultsLabel": {
+    "message": "ଫଳାଫଳ"
+  },
+  "batchLineLabel": {
+    "message": "ରେଖା |"
+  },
+  "batchInputLabel": {
+    "message": "ଇନପୁଟ୍"
+  },
+  "batchOutputLabel": {
+    "message": "ଆଉଟପୁଟ୍"
+  },
+  "batchErrorLabel": {
+    "message": "ତ୍ରୁଟି |"
+  },
+  "utilitiesTitle": {
+    "message": "ଉପଯୋଗିତା"
+  },
+  "utilDiffTitle": {
+    "message": "ସମୟ ପାର୍ଥକ୍ୟ କାଲକୁଲେଟର |"
+  },
+  "utilDiffFrom": {
+    "message": "ଠାରୁ"
+  },
+  "utilDiffTo": {
+    "message": "କୁ"
+  },
+  "utilDiffBtn": {
+    "message": "ପାର୍ଥକ୍ୟ ଗଣନା କରନ୍ତୁ |"
+  },
+  "utilDiffSeconds": {
+    "message": "ସେକେଣ୍ଡ୍ |"
+  },
+  "utilDiffMinutes": {
+    "message": "ମିନିଟ୍ |"
+  },
+  "utilDiffHours": {
+    "message": "ଘଣ୍ଟା"
+  },
+  "utilDiffDays": {
+    "message": "ଦିନଗୁଡିକ"
+  },
+  "utilDiffMonths": {
+    "message": "ମାସଗୁଡିକ"
+  },
+  "utilDiffYears": {
+    "message": "ବର୍ଷ"
+  },
+  "utilGeneratorTitle": {
+    "message": "ଟାଇମଷ୍ଟ୍ୟାମ୍ପ ଜେନେରେଟର |"
+  },
+  "utilGenNow": {
+    "message": "ବର୍ତ୍ତମାନ"
+  },
+  "utilGenStartDay": {
+    "message": "ଦିନର ଆରମ୍ଭ"
+  },
+  "utilGenEndDay": {
+    "message": "ଦିନର ଶେଷ"
+  },
+  "utilGenStartMonth": {
+    "message": "ମାସର ଆରମ୍ଭ"
+  },
+  "utilGenEndMonth": {
+    "message": "ମାସର ଶେଷ"
+  },
+  "utilGenStartYear": {
+    "message": "ବର୍ଷର ଆରମ୍ଭ"
+  },
+  "utilGenEndYear": {
+    "message": "ବର୍ଷର ଶେଷ"
+  },
+  "utilGenRandom": {
+    "message": "ଅନିୟମିତ ଟାଇମଷ୍ଟ୍ୟାମ୍ପ |"
+  },
+  "utilEpochTitle": {
+    "message": "Epoch Explorer"
+  },
+  "utilEpochDesc": {
+    "message": "ଜାନୁଆରୀ 1, 1970, 00:00:00 UTC (ୟୁନିକ୍ସ ଯୁଗ) ଠାରୁ ୟୁନିକ୍ସ ସମୟ ସେକେଣ୍ଡ ଗଣନା କରେ | ସେକେଣ୍ଡରେ ଟାଇମଷ୍ଟ୍ୟାମ୍ପଗୁଡିକ ଜାନୁୟାରୀ 19, 2038 ପର୍ଯ୍ୟନ୍ତ (Y2K38 ସମସ୍ୟା) 32-ବିଟ୍ ଇଣ୍ଟିଜର୍ରେ ଫିଟ୍ ହୁଏ | ଜାଭାସ୍କ୍ରିପ୍ଟ ଡିଫଲ୍ଟ ଭାବରେ ମିଲିସେକେଣ୍ଡ ବ୍ୟବହାର କରେ |"
+  },
+  "utilEpoch2038": {
+    "message": "ବର୍ଷ 2038 ସମସ୍ୟା |"
+  },
+  "utilEpoch2038Desc": {
+    "message": "32-ବିଟ୍ ସ୍ signed ାକ୍ଷରିତ ପୂର୍ଣ୍ଣ ସଂଖ୍ୟା 2,147,483,647 ରେ ଓଭରଫ୍ଲୋ - ଯାହା ଜାନୁୟାରୀ 19, 2038 ରେ 03:14:07 UTC ସହିତ ଅନୁରୂପ ଅଟେ |"
+  },
+  "utilEpochPrecision": {
+    "message": "ସଠିକ୍ ଗାଇଡ୍ |"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 ଅଙ୍କ = ସେକେଣ୍ଡ | 13 ଅଙ୍କ = ମିଲିସେକେଣ୍ଡ | | 16 ଅଙ୍କ = ମାଇକ୍ରୋ ସେକେଣ୍ଡ୍ | 19 ଅଙ୍କ = ନାନୋ ସେକେଣ୍ଡ୍ |"
+  },
+  "formatsTitle": {
+    "message": "ଫର୍ମାଟ୍ ଷ୍ଟୁଡିଓ |"
+  },
+  "formatsInputLabel": {
+    "message": "ତାରିଖ / ଟାଇମଷ୍ଟ୍ୟାମ୍ପ ଇନପୁଟ୍ |"
+  },
+  "formatsPatternLabel": {
+    "message": "ଫର୍ମାଟ୍ ପାଟର୍ନ |"
+  },
+  "formatsPreviewLabel": {
+    "message": "ପୂର୍ବାବଲୋକନ"
+  },
+  "formatsPresetsLabel": {
+    "message": "ପ୍ରିସେଟ୍ |"
+  },
+  "formatsLocaleLabel": {
+    "message": "ଲୋକାଲ୍"
+  },
+  "formatsStyleLabel": {
+    "message": "ତାରିଖ ଶ Style ଳୀ"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "ସମୟ ଶ Style ଳୀ"
+  },
+  "presetFull": {
+    "message": "ପୂର୍ଣ୍ଣ"
+  },
+  "presetDate": {
+    "message": "କେବଳ ତାରିଖ |"
+  },
+  "presetTime": {
+    "message": "କେବଳ ସମୟ |"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "ଜାଭାସ୍କ୍ରିପ୍ଟ |"
+  },
+  "presetPython": {
+    "message": "ପାଇଥନ୍ |"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "କ୍ଲିପବୋର୍ଡରେ ଟାଇମଷ୍ଟ୍ୟାମ୍ପ ଚିହ୍ନଟ ହେଲା |"
+  },
+  "clipboardConvert": {
+    "message": "ରୂପାନ୍ତର କରନ୍ତୁ |"
+  },
+  "clipboardDismiss": {
+    "message": "ବରଖାସ୍ତ"
+  },
+  "errorInvalidInput": {
+    "message": "ଅବ val ଧ କିମ୍ବା ଅଜ୍ଞାତ ଇନପୁଟ୍ |"
+  },
+  "errorInvalidDate": {
+    "message": "ଅବ val ଧ ତାରିଖ |"
+  },
+  "errorEmptyInput": {
+    "message": "ଦୟାକରି ଏକ ଟାଇମଷ୍ଟ୍ୟାମ୍ପ କିମ୍ବା ତାରିଖ ପ୍ରବେଶ କରନ୍ତୁ |"
+  },
+  "errorOutOfRange": {
+    "message": "ସମର୍ଥିତ ପରିସରରୁ ଟାଇମଷ୍ଟ୍ୟାମ୍ପ |"
+  },
+  "historyTitle": {
+    "message": "ସାମ୍ପ୍ରତିକ ରୂପାନ୍ତର |"
+  },
+  "historyClear": {
+    "message": "ଇତିହାସ ସଫା କରନ୍ତୁ |"
+  },
+  "historyEmpty": {
+    "message": "କ recent ଣସି ସାମ୍ପ୍ରତିକ ପରିବର୍ତ୍ତନ ନାହିଁ |"
+  },
+  "darkModeToggle": {
+    "message": "ଡାର୍କ ମୋଡ୍ ଟୋଗଲ୍ କରନ୍ତୁ |"
+  },
+  "languageLabel": {
+    "message": "ଭାଷା"
+  },
+  "settingsTitle": {
+    "message": "ସେଟିଂସମୂହ"
+  },
+  "keyboardShortcuts": {
+    "message": "କୀବୋର୍ଡ୍ ସର୍ଟକଟ୍ |"
+  },
+  "shortcutConvert": {
+    "message": "ରୂପାନ୍ତର କରନ୍ତୁ |"
+  },
+  "shortcutClear": {
+    "message": "ସଫା"
+  },
+  "shortcutCopy": {
+    "message": "ଫଳାଫଳ କପି କରନ୍ତୁ |"
+  },
+  "devPresetsTitle": {
+    "message": "ବିକାଶକାରୀ ପ୍ରିସେଟ୍ |"
+  },
+  "devPresetCopied": {
+    "message": "କୋଡ୍ ସ୍ନିପେଟ୍ କପି ହୋଇଛି!"
+  },
+  "relativeAgo": {
+    "message": "ପୂର୍ବରୁ"
+  },
+  "relativeIn": {
+    "message": "ଭିତରେ"
+  },
+  "relativeNow": {
+    "message": "ବର୍ତ୍ତମାନ"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

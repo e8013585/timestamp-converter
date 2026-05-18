@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Timestamp Converter",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "TS Converter",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "ဆော့ဖ်ဝဲရေးသားသူများအတွက် မြန်ဆန်ပြီး ခေတ်မီသော အချိန်တံဆိပ်ပြောင်းလဲခြင်း အသုံးဝင်မှု",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "ပြောင်းပေးသည်။"
+  },
+  "tabLiveClock": {
+    "message": "တိုက်ရိုက်နာရီ"
+  },
+  "tabBatch": {
+    "message": "သုတ်"
+  },
+  "tabUtilities": {
+    "message": "အသုံးအဆောင်များ"
+  },
+  "tabFormats": {
+    "message": "ပုံစံများ"
+  },
+  "inputPlaceholder": {
+    "message": "အချိန်တံဆိပ်၊ ရက်စွဲ သို့မဟုတ် သဘာဝဘာသာစကားကို ထည့်ပါ...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "ပြောင်းပါ။"
+  },
+  "clearBtn": {
+    "message": "ရှင်းပါတယ်။"
+  },
+  "copyBtn": {
+    "message": "ကော်ပီ"
+  },
+  "copiedBtn": {
+    "message": "ကူးယူထားသည်။"
+  },
+  "pasteBtn": {
+    "message": "ငါးပိ"
+  },
+  "detectedLabel": {
+    "message": "စစ်ဆေးတွေ့ရှိခဲ့သည်။"
+  },
+  "detectedUnixSec": {
+    "message": "Unix အချိန်တံဆိပ် (စက္ကန့်)"
+  },
+  "detectedUnixMs": {
+    "message": "Unix အချိန်တံဆိပ် (မီလီစက္ကန့်များ)"
+  },
+  "detectedIso": {
+    "message": "ISO 8601 ရက်စွဲ"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 ရက်စွဲ"
+  },
+  "detectedHuman": {
+    "message": "လူသားဖတ်နိုင်သော ရက်စွဲ"
+  },
+  "detectedRelative": {
+    "message": "နှိုင်းရရက်စွဲ ဖော်ပြချက်"
+  },
+  "detectedUnknown": {
+    "message": "အမည်မသိပုံစံ"
+  },
+  "resultUnixSec": {
+    "message": "Unix (စက္ကန့်)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (မီလီစက္ကန့်)"
+  },
+  "resultLocalTime": {
+    "message": "ဒေသစံတော်ချိန်"
+  },
+  "resultUtc": {
+    "message": "ကမ္ဘာတစ်လွှားကိုသြဒိနိတ်အချိန်"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "ဆွေးမျိုး"
+  },
+  "resultHuman": {
+    "message": "လူသားဖတ်နိုင်သော"
+  },
+  "timezoneLabel": {
+    "message": "အချိန်ဇုန်"
+  },
+  "timezonePreview": {
+    "message": "Multi-Timezone အကြိုကြည့်ရှုခြင်း။"
+  },
+  "tzUtc": {
+    "message": "ကမ္ဘာတစ်လွှားကိုသြဒိနိတ်အချိန်"
+  },
+  "tzLocal": {
+    "message": "ပြည်တွင်း"
+  },
+  "tzNewYork": {
+    "message": "နယူးယောက်"
+  },
+  "tzLondon": {
+    "message": "လန်ဒန်"
+  },
+  "tzTokyo": {
+    "message": "တိုကျို"
+  },
+  "tzIstanbul": {
+    "message": "အစ္စတန်ဘူလ်"
+  },
+  "tzSydney": {
+    "message": "ဆစ်ဒနီ"
+  },
+  "tzLosAngeles": {
+    "message": "လော့စ်အိန်ဂျလိစ်"
+  },
+  "tzBerlin": {
+    "message": "ဘာလင်"
+  },
+  "tzDubai": {
+    "message": "ဒူဘိုင်း"
+  },
+  "liveClockTitle": {
+    "message": "တိုက်ရိုက်နာရီ"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (စက္ကန့်)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (မီလီစက္ကန့်)"
+  },
+  "liveUtcLabel": {
+    "message": "ကမ္ဘာတစ်လွှားကိုသြဒိနိတ်အချိန်"
+  },
+  "liveLocalLabel": {
+    "message": "ပြည်တွင်း"
+  },
+  "pauseBtn": {
+    "message": "ခဏရပ်ပါ။"
+  },
+  "resumeBtn": {
+    "message": "ကိုယ်ရေးအကျဥ်း"
+  },
+  "batchTitle": {
+    "message": "အသုတ်ပြောင်းခြင်း။"
+  },
+  "batchPlaceholder": {
+    "message": "အချိန်တံဆိပ် သို့မဟုတ် ရက်စွဲများစွာကို ကူးထည့်ပါ၊ တစ်ကြောင်းလျှင် တစ်ခု..."
+  },
+  "batchConvertBtn": {
+    "message": "အားလုံးပြောင်းပါ။"
+  },
+  "batchClearBtn": {
+    "message": "ရှင်းပါတယ်။"
+  },
+  "batchCopyAllBtn": {
+    "message": "အားလုံးကို ကူးယူပါ။"
+  },
+  "batchExportBtn": {
+    "message": "JSON ကို ထုတ်ယူပါ။"
+  },
+  "batchResultsLabel": {
+    "message": "ရလဒ်များ"
+  },
+  "batchLineLabel": {
+    "message": "လိုင်း"
+  },
+  "batchInputLabel": {
+    "message": "ထည့်သွင်းခြင်း။"
+  },
+  "batchOutputLabel": {
+    "message": "အထွက်"
+  },
+  "batchErrorLabel": {
+    "message": "အမှား"
+  },
+  "utilitiesTitle": {
+    "message": "အသုံးအဆောင်များ"
+  },
+  "utilDiffTitle": {
+    "message": "အချိန်ကွာခြားချက်ဂဏန်းတွက်စက်"
+  },
+  "utilDiffFrom": {
+    "message": "ထံမှ"
+  },
+  "utilDiffTo": {
+    "message": "ရန်"
+  },
+  "utilDiffBtn": {
+    "message": "ကွာခြားမှုကို တွက်ချက်ပါ။"
+  },
+  "utilDiffSeconds": {
+    "message": "စက္ကန့်"
+  },
+  "utilDiffMinutes": {
+    "message": "မိနစ်"
+  },
+  "utilDiffHours": {
+    "message": "နာရီ"
+  },
+  "utilDiffDays": {
+    "message": "နေ့ရက်များ"
+  },
+  "utilDiffMonths": {
+    "message": "လ"
+  },
+  "utilDiffYears": {
+    "message": "နှစ်တွေ"
+  },
+  "utilGeneratorTitle": {
+    "message": "Timestamp မီးစက်"
+  },
+  "utilGenNow": {
+    "message": "ကဲ"
+  },
+  "utilGenStartDay": {
+    "message": "နေ့၏အစ"
+  },
+  "utilGenEndDay": {
+    "message": "နေ့၏အဆုံး"
+  },
+  "utilGenStartMonth": {
+    "message": "လ၏အစ"
+  },
+  "utilGenEndMonth": {
+    "message": "လကုန်"
+  },
+  "utilGenStartYear": {
+    "message": "နှစ်အစ"
+  },
+  "utilGenEndYear": {
+    "message": "နှစ်ကုန်"
+  },
+  "utilGenRandom": {
+    "message": "ကျပန်းအချိန်တံဆိပ်"
+  },
+  "utilEpochTitle": {
+    "message": "Epoch Explorer"
+  },
+  "utilEpochDesc": {
+    "message": "Unix အချိန်သည် ဇန်နဝါရီ 1၊ 1970၊ 00:00:00 UTC (Unix Epoch) မှစပြီး စက္ကန့်များကို ရေတွက်သည်။ စက္ကန့်ပိုင်းအတွင်း အချိန်တံဆိပ်တုံးများသည် 2038 ခုနှစ် ဇန်နဝါရီလ 19 ရက်နေ့အထိ (Y2K38 ပြဿနာ) 32-bit ကိန်းပြည့်နှင့် ကိုက်ညီပါသည်။ JavaScript သည် မူရင်းအတိုင်း မီလီစက္ကန့်များကို အသုံးပြုသည်။"
+  },
+  "utilEpoch2038": {
+    "message": "2038 ခုနှစ် ပြဿနာ"
+  },
+  "utilEpoch2038Desc": {
+    "message": "32-bit ရေးထိုးထားသော ကိန်းပြည့်များသည် 2,147,483,647 တွင် ပြည့်နေပါသည် — ဇန်နဝါရီ 19၊ 2038 တွင် 03:14:07 UTC နှင့် ကိုက်ညီပါသည်။"
+  },
+  "utilEpochPrecision": {
+    "message": "တိကျမှုလမ်းညွှန်"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 ဂဏန်း = စက္ကန့် | 13 ဂဏန်း = မီလီစက္ကန့် | 16 ဂဏန်း = မိုက်ခရိုစက္ကန့် | 19 ဂဏန်းများ = နာနိုစက္ကန့်များ"
+  },
+  "formatsTitle": {
+    "message": "ဖော်မတ်စတူဒီယို"
+  },
+  "formatsInputLabel": {
+    "message": "ရက်စွဲ / Timestamp ထည့်သွင်းခြင်း။"
+  },
+  "formatsPatternLabel": {
+    "message": "ဖော်မတ်ပုံစံ"
+  },
+  "formatsPreviewLabel": {
+    "message": "စမ်းကြည့်ပါ။"
+  },
+  "formatsPresetsLabel": {
+    "message": "ကြိုတင်သတ်မှတ်မှုများ"
+  },
+  "formatsLocaleLabel": {
+    "message": "နေရာဒေသ"
+  },
+  "formatsStyleLabel": {
+    "message": "ရက်စွဲပုံစံ"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "အချိန်စတိုင်"
+  },
+  "presetFull": {
+    "message": "အပြည့်"
+  },
+  "presetDate": {
+    "message": "ရက်စွဲသာ"
+  },
+  "presetTime": {
+    "message": "အချိန်သာ"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "စပါးအုံး"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "အချိန်တံဆိပ်ကို ကလစ်ဘုတ်တွင် တွေ့ရှိခဲ့သည်။"
+  },
+  "clipboardConvert": {
+    "message": "ပြောင်းပါ။"
+  },
+  "clipboardDismiss": {
+    "message": "ပယ်ရန်"
+  },
+  "errorInvalidInput": {
+    "message": "မမှန်ကန်သော သို့မဟုတ် အသိအမှတ်ပြုမထားသော ထည့်သွင်းမှု"
+  },
+  "errorInvalidDate": {
+    "message": "ရက်စွဲ မမှန်ကန်ပါ။"
+  },
+  "errorEmptyInput": {
+    "message": "ကျေးဇူးပြု၍ အချိန်တံဆိပ် သို့မဟုတ် ရက်စွဲကို ထည့်ပါ။"
+  },
+  "errorOutOfRange": {
+    "message": "ပံ့ပိုးပေးထားသော အပိုင်းအခြားပြင်ပတွင် အချိန်တံဆိပ်တုံး"
+  },
+  "historyTitle": {
+    "message": "လတ်တလော ပြောင်းလဲမှုများ"
+  },
+  "historyClear": {
+    "message": "သမိုင်းကို ရှင်းလင်းပါ။"
+  },
+  "historyEmpty": {
+    "message": "လတ်တလော ပြောင်းလဲမှုများ မရှိပါ။"
+  },
+  "darkModeToggle": {
+    "message": "အမှောင်မုဒ်ကို ပြောင်းပါ။"
+  },
+  "languageLabel": {
+    "message": "ဘာသာစကား"
+  },
+  "settingsTitle": {
+    "message": "ဆက်တင်များ"
+  },
+  "keyboardShortcuts": {
+    "message": "ကီးဘုတ်ဖြတ်လမ်းများ"
+  },
+  "shortcutConvert": {
+    "message": "ပြောင်းပါ။"
+  },
+  "shortcutClear": {
+    "message": "ရှင်းပါတယ်။"
+  },
+  "shortcutCopy": {
+    "message": "ရလဒ်ကို ကူးယူပါ။"
+  },
+  "devPresetsTitle": {
+    "message": "ဆော့ဖ်ဝဲပြင်ဆင်မှုများ"
+  },
+  "devPresetCopied": {
+    "message": "ကုဒ်အတိုအထွာကို ကူးယူလိုက်ပါပြီ။"
+  },
+  "relativeAgo": {
+    "message": "လွန်ခဲ့သော"
+  },
+  "relativeIn": {
+    "message": "၌"
+  },
+  "relativeNow": {
+    "message": "အခုပဲ"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

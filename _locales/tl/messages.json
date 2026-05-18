@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Timestamp Converter",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "TS Converter",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Isang mabilis, modernong timestamp conversion utility para sa mga developer",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Converter"
+  },
+  "tabLiveClock": {
+    "message": "Live na Orasan"
+  },
+  "tabBatch": {
+    "message": "Batch"
+  },
+  "tabUtilities": {
+    "message": "Mga utility"
+  },
+  "tabFormats": {
+    "message": "Mga format"
+  },
+  "inputPlaceholder": {
+    "message": "Ilagay ang timestamp, petsa, o natural na wika...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Magbalik-loob"
+  },
+  "clearBtn": {
+    "message": "Maaliwalas"
+  },
+  "copyBtn": {
+    "message": "Kopyahin"
+  },
+  "copiedBtn": {
+    "message": "Kinopya!"
+  },
+  "pasteBtn": {
+    "message": "Idikit"
+  },
+  "detectedLabel": {
+    "message": "Natukoy"
+  },
+  "detectedUnixSec": {
+    "message": "Unix Timestamp (Segundo)"
+  },
+  "detectedUnixMs": {
+    "message": "Unix Timestamp (Milliseconds)"
+  },
+  "detectedIso": {
+    "message": "Petsa ng ISO 8601"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 Petsa"
+  },
+  "detectedHuman": {
+    "message": "Petsa na Nababasa ng Tao"
+  },
+  "detectedRelative": {
+    "message": "Kamag-anak na Pagpapahayag ng Petsa"
+  },
+  "detectedUnknown": {
+    "message": "Hindi Alam na Format"
+  },
+  "resultUnixSec": {
+    "message": "Unix (Segundo)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "resultLocalTime": {
+    "message": "Lokal na Oras"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "Kamag-anak"
+  },
+  "resultHuman": {
+    "message": "Nababasa ng Tao"
+  },
+  "timezoneLabel": {
+    "message": "Timezone"
+  },
+  "timezonePreview": {
+    "message": "Multi-Timezone Preview"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "Lokal"
+  },
+  "tzNewYork": {
+    "message": "New York"
+  },
+  "tzLondon": {
+    "message": "London"
+  },
+  "tzTokyo": {
+    "message": "Tokyo"
+  },
+  "tzIstanbul": {
+    "message": "Istanbul"
+  },
+  "tzSydney": {
+    "message": "Sydney"
+  },
+  "tzLosAngeles": {
+    "message": "Los Angeles"
+  },
+  "tzBerlin": {
+    "message": "Berlin"
+  },
+  "tzDubai": {
+    "message": "Dubai"
+  },
+  "liveClockTitle": {
+    "message": "Live na Orasan"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (Segundo)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (Milliseconds)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "Lokal"
+  },
+  "pauseBtn": {
+    "message": "I-pause"
+  },
+  "resumeBtn": {
+    "message": "Ipagpatuloy"
+  },
+  "batchTitle": {
+    "message": "Batch Conversion"
+  },
+  "batchPlaceholder": {
+    "message": "Mag-paste ng maraming timestamp o petsa, isa bawat linya..."
+  },
+  "batchConvertBtn": {
+    "message": "I-convert Lahat"
+  },
+  "batchClearBtn": {
+    "message": "Maaliwalas"
+  },
+  "batchCopyAllBtn": {
+    "message": "Kopyahin Lahat"
+  },
+  "batchExportBtn": {
+    "message": "I-export ang JSON"
+  },
+  "batchResultsLabel": {
+    "message": "Mga resulta"
+  },
+  "batchLineLabel": {
+    "message": "Linya"
+  },
+  "batchInputLabel": {
+    "message": "Input"
+  },
+  "batchOutputLabel": {
+    "message": "Output"
+  },
+  "batchErrorLabel": {
+    "message": "Error"
+  },
+  "utilitiesTitle": {
+    "message": "Mga utility"
+  },
+  "utilDiffTitle": {
+    "message": "Calculator ng Pagkakaiba ng Oras"
+  },
+  "utilDiffFrom": {
+    "message": "Mula sa"
+  },
+  "utilDiffTo": {
+    "message": "Upang"
+  },
+  "utilDiffBtn": {
+    "message": "Kalkulahin ang Pagkakaiba"
+  },
+  "utilDiffSeconds": {
+    "message": "Mga segundo"
+  },
+  "utilDiffMinutes": {
+    "message": "Mga minuto"
+  },
+  "utilDiffHours": {
+    "message": "Oras"
+  },
+  "utilDiffDays": {
+    "message": "Mga araw"
+  },
+  "utilDiffMonths": {
+    "message": "mga buwan"
+  },
+  "utilDiffYears": {
+    "message": "taon"
+  },
+  "utilGeneratorTitle": {
+    "message": "Generator ng Timestamp"
+  },
+  "utilGenNow": {
+    "message": "Ngayon"
+  },
+  "utilGenStartDay": {
+    "message": "Simula ng Araw"
+  },
+  "utilGenEndDay": {
+    "message": "Katapusan ng Araw"
+  },
+  "utilGenStartMonth": {
+    "message": "Simula ng Buwan"
+  },
+  "utilGenEndMonth": {
+    "message": "Katapusan ng Buwan"
+  },
+  "utilGenStartYear": {
+    "message": "Simula ng Taon"
+  },
+  "utilGenEndYear": {
+    "message": "Katapusan ng Taon"
+  },
+  "utilGenRandom": {
+    "message": "Random na Timestamp"
+  },
+  "utilEpochTitle": {
+    "message": "Epoch Explorer"
+  },
+  "utilEpochDesc": {
+    "message": "Ang oras ng Unix ay nagbibilang ng mga segundo mula noong Enero 1, 1970, 00:00:00 UTC (ang Unix Epoch). Ang mga timestamp sa mga segundo ay magkasya sa isang 32-bit na integer hanggang Enero 19, 2038 (ang problema sa Y2K38). Gumagamit ang JavaScript ng mga millisecond bilang default."
+  },
+  "utilEpoch2038": {
+    "message": "Taong 2038 Problema"
+  },
+  "utilEpoch2038Desc": {
+    "message": "Ang 32-bit signed integers ay umaapaw sa 2,147,483,647 — na katumbas ng 03:14:07 UTC noong Enero 19, 2038."
+  },
+  "utilEpochPrecision": {
+    "message": "Gabay sa Katumpakan"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 digit = segundo | 13 digit = milliseconds | 16 na digit = microseconds | 19 digit = nanoseconds"
+  },
+  "formatsTitle": {
+    "message": "Format Studio"
+  },
+  "formatsInputLabel": {
+    "message": "Petsa / Timestamp Input"
+  },
+  "formatsPatternLabel": {
+    "message": "Pattern ng Format"
+  },
+  "formatsPreviewLabel": {
+    "message": "Silipin"
+  },
+  "formatsPresetsLabel": {
+    "message": "Preset"
+  },
+  "formatsLocaleLabel": {
+    "message": "Lokal"
+  },
+  "formatsStyleLabel": {
+    "message": "Estilo ng Petsa"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Estilo ng Panahon"
+  },
+  "presetFull": {
+    "message": "Puno"
+  },
+  "presetDate": {
+    "message": "Petsa Lang"
+  },
+  "presetTime": {
+    "message": "Oras Lang"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "sawa"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "Nakita ang timestamp sa clipboard"
+  },
+  "clipboardConvert": {
+    "message": "Magbalik-loob"
+  },
+  "clipboardDismiss": {
+    "message": "I-dismiss"
+  },
+  "errorInvalidInput": {
+    "message": "Di-wasto o hindi nakikilalang input"
+  },
+  "errorInvalidDate": {
+    "message": "Di-wastong petsa"
+  },
+  "errorEmptyInput": {
+    "message": "Mangyaring maglagay ng timestamp o petsa"
+  },
+  "errorOutOfRange": {
+    "message": "Wala sa sinusuportahang hanay ang timestamp"
+  },
+  "historyTitle": {
+    "message": "Mga Kamakailang Conversion"
+  },
+  "historyClear": {
+    "message": "I-clear ang Kasaysayan"
+  },
+  "historyEmpty": {
+    "message": "Walang kamakailang mga conversion"
+  },
+  "darkModeToggle": {
+    "message": "I-toggle ang Dark Mode"
+  },
+  "languageLabel": {
+    "message": "Wika"
+  },
+  "settingsTitle": {
+    "message": "Mga setting"
+  },
+  "keyboardShortcuts": {
+    "message": "Mga Keyboard Shortcut"
+  },
+  "shortcutConvert": {
+    "message": "Magbalik-loob"
+  },
+  "shortcutClear": {
+    "message": "Maaliwalas"
+  },
+  "shortcutCopy": {
+    "message": "Kopyahin ang Resulta"
+  },
+  "devPresetsTitle": {
+    "message": "Mga Preset ng Developer"
+  },
+  "devPresetCopied": {
+    "message": "Nakopya ang snippet ng code!"
+  },
+  "relativeAgo": {
+    "message": "kanina"
+  },
+  "relativeIn": {
+    "message": "sa"
+  },
+  "relativeNow": {
+    "message": "ngayon lang"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

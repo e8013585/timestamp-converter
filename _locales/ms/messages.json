@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Penukar Cap Masa",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "Penukar TS",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Utiliti penukaran cap masa yang pantas dan moden untuk pembangun",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Penukar"
+  },
+  "tabLiveClock": {
+    "message": "Jam Langsung"
+  },
+  "tabBatch": {
+    "message": "Kumpulan"
+  },
+  "tabUtilities": {
+    "message": "Utiliti"
+  },
+  "tabFormats": {
+    "message": "Format"
+  },
+  "inputPlaceholder": {
+    "message": "Masukkan cap masa, tarikh atau bahasa semula jadi…",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Tukar"
+  },
+  "clearBtn": {
+    "message": "Jelas"
+  },
+  "copyBtn": {
+    "message": "salin"
+  },
+  "copiedBtn": {
+    "message": "disalin!"
+  },
+  "pasteBtn": {
+    "message": "tampal"
+  },
+  "detectedLabel": {
+    "message": "Dikesan"
+  },
+  "detectedUnixSec": {
+    "message": "Cap Masa Unix (Saat)"
+  },
+  "detectedUnixMs": {
+    "message": "Cap Masa Unix (Millisaat)"
+  },
+  "detectedIso": {
+    "message": "Tarikh ISO 8601"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 Tarikh"
+  },
+  "detectedHuman": {
+    "message": "Tarikh Boleh Dibaca Manusia"
+  },
+  "detectedRelative": {
+    "message": "Ungkapan Tarikh Relatif"
+  },
+  "detectedUnknown": {
+    "message": "Format Tidak Diketahui"
+  },
+  "resultUnixSec": {
+    "message": "Unix (Saat)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (Millisaat)"
+  },
+  "resultLocalTime": {
+    "message": "Waktu Tempatan"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "relatif"
+  },
+  "resultHuman": {
+    "message": "Boleh Dibaca Manusia"
+  },
+  "timezoneLabel": {
+    "message": "Zon waktu"
+  },
+  "timezonePreview": {
+    "message": "Pratonton Berbilang Zon Waktu"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "Tempatan"
+  },
+  "tzNewYork": {
+    "message": "New York"
+  },
+  "tzLondon": {
+    "message": "London"
+  },
+  "tzTokyo": {
+    "message": "Tokyo"
+  },
+  "tzIstanbul": {
+    "message": "Istanbul"
+  },
+  "tzSydney": {
+    "message": "Sydney"
+  },
+  "tzLosAngeles": {
+    "message": "Los Angeles"
+  },
+  "tzBerlin": {
+    "message": "Berlin"
+  },
+  "tzDubai": {
+    "message": "Dubai"
+  },
+  "liveClockTitle": {
+    "message": "Jam Langsung"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (Saat)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (Millisaat)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "Tempatan"
+  },
+  "pauseBtn": {
+    "message": "jeda"
+  },
+  "resumeBtn": {
+    "message": "Sambung semula"
+  },
+  "batchTitle": {
+    "message": "Penukaran Kelompok"
+  },
+  "batchPlaceholder": {
+    "message": "Tampalkan beberapa cap masa atau tarikh, satu setiap baris…"
+  },
+  "batchConvertBtn": {
+    "message": "Tukar Semua"
+  },
+  "batchClearBtn": {
+    "message": "Jelas"
+  },
+  "batchCopyAllBtn": {
+    "message": "Salin Semua"
+  },
+  "batchExportBtn": {
+    "message": "Eksport JSON"
+  },
+  "batchResultsLabel": {
+    "message": "Keputusan"
+  },
+  "batchLineLabel": {
+    "message": "Talian"
+  },
+  "batchInputLabel": {
+    "message": "Input"
+  },
+  "batchOutputLabel": {
+    "message": "Keluaran"
+  },
+  "batchErrorLabel": {
+    "message": "ralat"
+  },
+  "utilitiesTitle": {
+    "message": "Utiliti"
+  },
+  "utilDiffTitle": {
+    "message": "Kalkulator Perbezaan Masa"
+  },
+  "utilDiffFrom": {
+    "message": "daripada"
+  },
+  "utilDiffTo": {
+    "message": "Kepada"
+  },
+  "utilDiffBtn": {
+    "message": "Kira Perbezaan"
+  },
+  "utilDiffSeconds": {
+    "message": "Detik"
+  },
+  "utilDiffMinutes": {
+    "message": "minit"
+  },
+  "utilDiffHours": {
+    "message": "jam"
+  },
+  "utilDiffDays": {
+    "message": "hari-hari"
+  },
+  "utilDiffMonths": {
+    "message": "berbulan-bulan"
+  },
+  "utilDiffYears": {
+    "message": "tahun"
+  },
+  "utilGeneratorTitle": {
+    "message": "Penjana Cap Masa"
+  },
+  "utilGenNow": {
+    "message": "Sekarang"
+  },
+  "utilGenStartDay": {
+    "message": "Permulaan Hari"
+  },
+  "utilGenEndDay": {
+    "message": "Penghujung Hari"
+  },
+  "utilGenStartMonth": {
+    "message": "Permulaan Bulan"
+  },
+  "utilGenEndMonth": {
+    "message": "Hujung Bulan"
+  },
+  "utilGenStartYear": {
+    "message": "Permulaan Tahun"
+  },
+  "utilGenEndYear": {
+    "message": "Akhir Tahun"
+  },
+  "utilGenRandom": {
+    "message": "Cap Masa Rawak"
+  },
+  "utilEpochTitle": {
+    "message": "Epoch Explorer"
+  },
+  "utilEpochDesc": {
+    "message": "Masa Unix mengira saat sejak 1 Januari 1970, 00:00:00 UTC (Epoch Unix). Cap masa dalam saat muat dalam integer 32-bit sehingga 19 Januari 2038 (masalah Y2K38). JavaScript menggunakan milisaat secara lalai."
+  },
+  "utilEpoch2038": {
+    "message": "Masalah Tahun 2038"
+  },
+  "utilEpoch2038Desc": {
+    "message": "Integer bertanda 32-bit melimpah pada 2,147,483,647 — yang sepadan dengan 03:14:07 UTC pada 19 Januari 2038."
+  },
+  "utilEpochPrecision": {
+    "message": "Panduan Ketepatan"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 digit = saat | 13 digit = milisaat | 16 digit = mikrosaat | 19 digit = nanosaat"
+  },
+  "formatsTitle": {
+    "message": "Studio Format"
+  },
+  "formatsInputLabel": {
+    "message": "Tarikh / Input Cap Masa"
+  },
+  "formatsPatternLabel": {
+    "message": "Corak Format"
+  },
+  "formatsPreviewLabel": {
+    "message": "Pratonton"
+  },
+  "formatsPresetsLabel": {
+    "message": "Pratetap"
+  },
+  "formatsLocaleLabel": {
+    "message": "Tempatan"
+  },
+  "formatsStyleLabel": {
+    "message": "Gaya Tarikh"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Gaya Masa"
+  },
+  "presetFull": {
+    "message": "penuh"
+  },
+  "presetDate": {
+    "message": "Tarikh Sahaja"
+  },
+  "presetTime": {
+    "message": "Masa Sahaja"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "Ular sawa"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "Cap masa dikesan dalam papan keratan"
+  },
+  "clipboardConvert": {
+    "message": "Tukar"
+  },
+  "clipboardDismiss": {
+    "message": "Tolak"
+  },
+  "errorInvalidInput": {
+    "message": "Input tidak sah atau tidak dikenali"
+  },
+  "errorInvalidDate": {
+    "message": "Tarikh tidak sah"
+  },
+  "errorEmptyInput": {
+    "message": "Sila masukkan cap masa atau tarikh"
+  },
+  "errorOutOfRange": {
+    "message": "Cap masa di luar julat yang disokong"
+  },
+  "historyTitle": {
+    "message": "Penukaran Terbaharu"
+  },
+  "historyClear": {
+    "message": "Kosongkan Sejarah"
+  },
+  "historyEmpty": {
+    "message": "Tiada penukaran terbaharu"
+  },
+  "darkModeToggle": {
+    "message": "Togol Mod Gelap"
+  },
+  "languageLabel": {
+    "message": "Bahasa"
+  },
+  "settingsTitle": {
+    "message": "tetapan"
+  },
+  "keyboardShortcuts": {
+    "message": "Pintasan Papan Kekunci"
+  },
+  "shortcutConvert": {
+    "message": "Tukar"
+  },
+  "shortcutClear": {
+    "message": "Jelas"
+  },
+  "shortcutCopy": {
+    "message": "Salin Keputusan"
+  },
+  "devPresetsTitle": {
+    "message": "Pratetap Pembangun"
+  },
+  "devPresetCopied": {
+    "message": "Coretan kod disalin!"
+  },
+  "relativeAgo": {
+    "message": "lalu"
+  },
+  "relativeIn": {
+    "message": "dalam"
+  },
+  "relativeNow": {
+    "message": "tadi"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

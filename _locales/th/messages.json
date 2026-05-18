@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "ตัวแปลงการประทับเวลา",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "TS ตัวแปลง",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "ยูทิลิตี้การแปลงการประทับเวลาที่รวดเร็วและทันสมัยสำหรับนักพัฒนา",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "ตัวแปลง"
+  },
+  "tabLiveClock": {
+    "message": "นาฬิกาสด"
+  },
+  "tabBatch": {
+    "message": "แบทช์"
+  },
+  "tabUtilities": {
+    "message": "สาธารณูปโภค"
+  },
+  "tabFormats": {
+    "message": "รูปแบบ"
+  },
+  "inputPlaceholder": {
+    "message": "ป้อนการประทับเวลา วันที่ หรือภาษาธรรมชาติ...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "แปลง"
+  },
+  "clearBtn": {
+    "message": "ชัดเจน"
+  },
+  "copyBtn": {
+    "message": "สำเนา"
+  },
+  "copiedBtn": {
+    "message": "คัดลอก!"
+  },
+  "pasteBtn": {
+    "message": "แปะ"
+  },
+  "detectedLabel": {
+    "message": "ตรวจพบ"
+  },
+  "detectedUnixSec": {
+    "message": "การประทับเวลา Unix (วินาที)"
+  },
+  "detectedUnixMs": {
+    "message": "การประทับเวลา Unix (มิลลิวินาที)"
+  },
+  "detectedIso": {
+    "message": "วันที่ ISO 8601"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 วันที่"
+  },
+  "detectedHuman": {
+    "message": "วันที่มนุษย์สามารถอ่านได้"
+  },
+  "detectedRelative": {
+    "message": "การแสดงออกวันที่สัมพัทธ์"
+  },
+  "detectedUnknown": {
+    "message": "รูปแบบที่ไม่รู้จัก"
+  },
+  "resultUnixSec": {
+    "message": "ยูนิกซ์ (วินาที)"
+  },
+  "resultUnixMs": {
+    "message": "ยูนิกซ์ (มิลลิวินาที)"
+  },
+  "resultLocalTime": {
+    "message": "เวลาท้องถิ่น"
+  },
+  "resultUtc": {
+    "message": "เวลาสากลเชิงพิกัด"
+  },
+  "resultIso": {
+    "message": "ISO8601"
+  },
+  "resultRfc": {
+    "message": "อาร์เอฟซี 2822"
+  },
+  "resultRelative": {
+    "message": "ญาติ"
+  },
+  "resultHuman": {
+    "message": "มนุษย์สามารถอ่านได้"
+  },
+  "timezoneLabel": {
+    "message": "เขตเวลา"
+  },
+  "timezonePreview": {
+    "message": "ดูตัวอย่างเขตเวลาหลายเขต"
+  },
+  "tzUtc": {
+    "message": "เวลาสากลเชิงพิกัด"
+  },
+  "tzLocal": {
+    "message": "ท้องถิ่น"
+  },
+  "tzNewYork": {
+    "message": "นิวยอร์ก"
+  },
+  "tzLondon": {
+    "message": "ลอนดอน"
+  },
+  "tzTokyo": {
+    "message": "โตเกียว"
+  },
+  "tzIstanbul": {
+    "message": "อิสตันบูล"
+  },
+  "tzSydney": {
+    "message": "ซิดนีย์"
+  },
+  "tzLosAngeles": {
+    "message": "ลอสแอนเจลิส"
+  },
+  "tzBerlin": {
+    "message": "เบอร์ลิน"
+  },
+  "tzDubai": {
+    "message": "ดูไบ"
+  },
+  "liveClockTitle": {
+    "message": "นาฬิกาสด"
+  },
+  "liveUnixLabel": {
+    "message": "ยูนิกซ์ (วินาที)"
+  },
+  "liveUnixMsLabel": {
+    "message": "ยูนิกซ์ (มิลลิวินาที)"
+  },
+  "liveUtcLabel": {
+    "message": "เวลาสากลเชิงพิกัด"
+  },
+  "liveLocalLabel": {
+    "message": "ท้องถิ่น"
+  },
+  "pauseBtn": {
+    "message": "หยุดชั่วคราว"
+  },
+  "resumeBtn": {
+    "message": "ประวัติย่อ"
+  },
+  "batchTitle": {
+    "message": "การแปลงชุด"
+  },
+  "batchPlaceholder": {
+    "message": "วางการประทับเวลาหรือวันที่หลายรายการ หนึ่งรายการต่อบรรทัด..."
+  },
+  "batchConvertBtn": {
+    "message": "แปลงทั้งหมด"
+  },
+  "batchClearBtn": {
+    "message": "ชัดเจน"
+  },
+  "batchCopyAllBtn": {
+    "message": "คัดลอกทั้งหมด"
+  },
+  "batchExportBtn": {
+    "message": "ส่งออก JSON"
+  },
+  "batchResultsLabel": {
+    "message": "ผลลัพธ์"
+  },
+  "batchLineLabel": {
+    "message": "เส้น"
+  },
+  "batchInputLabel": {
+    "message": "ป้อนข้อมูล"
+  },
+  "batchOutputLabel": {
+    "message": "เอาท์พุต"
+  },
+  "batchErrorLabel": {
+    "message": "ข้อผิดพลาด"
+  },
+  "utilitiesTitle": {
+    "message": "สาธารณูปโภค"
+  },
+  "utilDiffTitle": {
+    "message": "เครื่องคำนวณความแตกต่างของเวลา"
+  },
+  "utilDiffFrom": {
+    "message": "จาก"
+  },
+  "utilDiffTo": {
+    "message": "ถึง"
+  },
+  "utilDiffBtn": {
+    "message": "คำนวณความแตกต่าง"
+  },
+  "utilDiffSeconds": {
+    "message": "วินาที"
+  },
+  "utilDiffMinutes": {
+    "message": "นาที"
+  },
+  "utilDiffHours": {
+    "message": "ชั่วโมง"
+  },
+  "utilDiffDays": {
+    "message": "วัน"
+  },
+  "utilDiffMonths": {
+    "message": "เดือน"
+  },
+  "utilDiffYears": {
+    "message": "ปี"
+  },
+  "utilGeneratorTitle": {
+    "message": "เครื่องกำเนิดการประทับเวลา"
+  },
+  "utilGenNow": {
+    "message": "ตอนนี้"
+  },
+  "utilGenStartDay": {
+    "message": "เริ่มต้นวัน"
+  },
+  "utilGenEndDay": {
+    "message": "สิ้นสุดวัน"
+  },
+  "utilGenStartMonth": {
+    "message": "ต้นเดือน"
+  },
+  "utilGenEndMonth": {
+    "message": "สิ้นเดือน"
+  },
+  "utilGenStartYear": {
+    "message": "เริ่มต้นปี"
+  },
+  "utilGenEndYear": {
+    "message": "สิ้นปี"
+  },
+  "utilGenRandom": {
+    "message": "การประทับเวลาแบบสุ่ม"
+  },
+  "utilEpochTitle": {
+    "message": "นักสำรวจยุค"
+  },
+  "utilEpochDesc": {
+    "message": "เวลา Unix นับวินาทีตั้งแต่วันที่ 1 มกราคม 1970, 00:00:00 UTC (ยุค Unix) การประทับเวลาเป็นวินาทีจะพอดีกับจำนวนเต็ม 32 บิตจนถึงวันที่ 19 มกราคม 2038 (ปัญหา Y2K38) JavaScript ใช้มิลลิวินาทีเป็นค่าเริ่มต้น"
+  },
+  "utilEpoch2038": {
+    "message": "ปัญหาปี 2581"
+  },
+  "utilEpoch2038Desc": {
+    "message": "จำนวนเต็มแบบ 32 บิตล้นที่ 2,147,483,647 — ซึ่งสอดคล้องกับ 03:14:07 UTC ของวันที่ 19 มกราคม 2038"
+  },
+  "utilEpochPrecision": {
+    "message": "คู่มือที่แม่นยำ"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 หลัก = วินาที | 13 หลัก = มิลลิวินาที | 16 หลัก = ไมโครวินาที | 19 หลัก = นาโนวินาที"
+  },
+  "formatsTitle": {
+    "message": "ฟอร์แมตสตูดิโอ"
+  },
+  "formatsInputLabel": {
+    "message": "อินพุตวันที่ / ประทับเวลา"
+  },
+  "formatsPatternLabel": {
+    "message": "รูปแบบรูปแบบ"
+  },
+  "formatsPreviewLabel": {
+    "message": "ดูตัวอย่าง"
+  },
+  "formatsPresetsLabel": {
+    "message": "ค่าที่ตั้งล่วงหน้า"
+  },
+  "formatsLocaleLabel": {
+    "message": "สถานที่"
+  },
+  "formatsStyleLabel": {
+    "message": "วันที่สไตล์"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "สไตล์เวลา"
+  },
+  "presetFull": {
+    "message": "เต็ม"
+  },
+  "presetDate": {
+    "message": "วันที่เท่านั้น"
+  },
+  "presetTime": {
+    "message": "เวลาเท่านั้น"
+  },
+  "presetIso": {
+    "message": "ISO8601"
+  },
+  "presetRfc": {
+    "message": "อาร์เอฟซี 2822"
+  },
+  "presetJs": {
+    "message": "จาวาสคริปต์"
+  },
+  "presetPython": {
+    "message": "หลาม"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "เจสัน"
+  },
+  "clipboardDetected": {
+    "message": "ตรวจพบการประทับเวลาในคลิปบอร์ด"
+  },
+  "clipboardConvert": {
+    "message": "แปลง"
+  },
+  "clipboardDismiss": {
+    "message": "อนุญาตให้ออกไป"
+  },
+  "errorInvalidInput": {
+    "message": "อินพุตไม่ถูกต้องหรือไม่รู้จัก"
+  },
+  "errorInvalidDate": {
+    "message": "วันที่ไม่ถูกต้อง"
+  },
+  "errorEmptyInput": {
+    "message": "โปรดป้อนการประทับเวลาหรือวันที่"
+  },
+  "errorOutOfRange": {
+    "message": "การประทับเวลาอยู่นอกช่วงที่รองรับ"
+  },
+  "historyTitle": {
+    "message": "การแปลงล่าสุด"
+  },
+  "historyClear": {
+    "message": "ล้างประวัติ"
+  },
+  "historyEmpty": {
+    "message": "ไม่มีการแปลงล่าสุด"
+  },
+  "darkModeToggle": {
+    "message": "สลับโหมดมืด"
+  },
+  "languageLabel": {
+    "message": "ภาษา"
+  },
+  "settingsTitle": {
+    "message": "การตั้งค่า"
+  },
+  "keyboardShortcuts": {
+    "message": "แป้นพิมพ์ลัด"
+  },
+  "shortcutConvert": {
+    "message": "แปลง"
+  },
+  "shortcutClear": {
+    "message": "ชัดเจน"
+  },
+  "shortcutCopy": {
+    "message": "คัดลอกผลลัพธ์"
+  },
+  "devPresetsTitle": {
+    "message": "ค่าที่ตั้งล่วงหน้าสำหรับนักพัฒนา"
+  },
+  "devPresetCopied": {
+    "message": "คัดลอกข้อมูลโค้ดแล้ว!"
+  },
+  "relativeAgo": {
+    "message": "ที่ผ่านมา"
+  },
+  "relativeIn": {
+    "message": "ใน"
+  },
+  "relativeNow": {
+    "message": "แค่ตอนนี้"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

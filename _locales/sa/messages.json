@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "समयमुद्रांक परिवर्तक",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "टी एस परिवर्तक",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "विकासकानां कृते द्रुतगतिः, आधुनिकः समयमुद्रिकारूपान्तरण-उपयोगिता",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "परिवर्तक"
+  },
+  "tabLiveClock": {
+    "message": "लाइव घड़ी"
+  },
+  "tabBatch": {
+    "message": "राशिः"
+  },
+  "tabUtilities": {
+    "message": "उपयोगिताएँ"
+  },
+  "tabFormats": {
+    "message": "प्रारूपाः"
+  },
+  "inputPlaceholder": {
+    "message": "समयमुद्रिका, तिथिः, प्राकृतिकभाषा वा प्रविशन्तु...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "रैकृ"
+  },
+  "clearBtn": {
+    "message": "स्पष्टः"
+  },
+  "copyBtn": {
+    "message": "प्रतिलिपि"
+  },
+  "copiedBtn": {
+    "message": "प्रतिलिपिकृतम् !"
+  },
+  "pasteBtn": {
+    "message": "चिनोतु"
+  },
+  "detectedLabel": {
+    "message": "ज्ञातम्"
+  },
+  "detectedUnixSec": {
+    "message": "यूनिक्स टाइमस्टैम्प (सेकेण्ड्) २."
+  },
+  "detectedUnixMs": {
+    "message": "यूनिक्स टाइमस्टैम्प (मिलिसेकेण्ड्) २."
+  },
+  "detectedIso": {
+    "message": "ISO 8601 तिथि"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 तिथि"
+  },
+  "detectedHuman": {
+    "message": "मानव-पठनीय तिथि"
+  },
+  "detectedRelative": {
+    "message": "सापेक्ष तिथि अभिव्यक्ति"
+  },
+  "detectedUnknown": {
+    "message": "अज्ञात प्रारूप"
+  },
+  "resultUnixSec": {
+    "message": "यूनिक्स (सेकेण्ड्) २."
+  },
+  "resultUnixMs": {
+    "message": "यूनिक्स (मिलिसेकेण्ड्) २."
+  },
+  "resultLocalTime": {
+    "message": "स्थानीय समय"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601 इति"
+  },
+  "resultRfc": {
+    "message": "आरएफसी २८२२"
+  },
+  "resultRelative": {
+    "message": "संबंधी"
+  },
+  "resultHuman": {
+    "message": "मानव पठनीय"
+  },
+  "timezoneLabel": {
+    "message": "समयक्षेत्रम्"
+  },
+  "timezonePreview": {
+    "message": "बहु-समयक्षेत्र पूर्वावलोकन"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "स्थानिक"
+  },
+  "tzNewYork": {
+    "message": "न्यूयोर्क"
+  },
+  "tzLondon": {
+    "message": "लण्डन्"
+  },
+  "tzTokyo": {
+    "message": "टोक्यो"
+  },
+  "tzIstanbul": {
+    "message": "इस्तान्बुल"
+  },
+  "tzSydney": {
+    "message": "सिड्नी"
+  },
+  "tzLosAngeles": {
+    "message": "लॉस एन्जल्स"
+  },
+  "tzBerlin": {
+    "message": "बर्लिन"
+  },
+  "tzDubai": {
+    "message": "दुबई"
+  },
+  "liveClockTitle": {
+    "message": "लाइव घड़ी"
+  },
+  "liveUnixLabel": {
+    "message": "यूनिक्स (सेकेण्ड्) २."
+  },
+  "liveUnixMsLabel": {
+    "message": "यूनिक्स (मिलिसेकेण्ड्) २."
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "स्थानिक"
+  },
+  "pauseBtn": {
+    "message": "विराम"
+  },
+  "resumeBtn": {
+    "message": "पुनर्प्रारम्भय"
+  },
+  "batchTitle": {
+    "message": "बैच रूपांतरण"
+  },
+  "batchPlaceholder": {
+    "message": "बहुविधसमयमुद्रिकाः अथवा तिथयः चिनोतु, प्रतिपङ्क्तिः एकः..."
+  },
+  "batchConvertBtn": {
+    "message": "सर्वं परिवर्तयतु"
+  },
+  "batchClearBtn": {
+    "message": "स्पष्टः"
+  },
+  "batchCopyAllBtn": {
+    "message": "सर्वाणि प्रतिलिख्यताम्"
+  },
+  "batchExportBtn": {
+    "message": "JSON निर्यातं कुर्वन्तु"
+  },
+  "batchResultsLabel": {
+    "message": "परिणामाः"
+  },
+  "batchLineLabel": {
+    "message": "पंक्ति"
+  },
+  "batchInputLabel": {
+    "message": "निवेशः"
+  },
+  "batchOutputLabel": {
+    "message": "उत्पादनम्"
+  },
+  "batchErrorLabel": {
+    "message": "त्रुटि"
+  },
+  "utilitiesTitle": {
+    "message": "उपयोगिताएँ"
+  },
+  "utilDiffTitle": {
+    "message": "समय भेद गणक"
+  },
+  "utilDiffFrom": {
+    "message": "इत्यस्मात्‌"
+  },
+  "utilDiffTo": {
+    "message": "इत्यस्मै"
+  },
+  "utilDiffBtn": {
+    "message": "भेदस्य गणनां कुरुत"
+  },
+  "utilDiffSeconds": {
+    "message": "सेकण्ड्"
+  },
+  "utilDiffMinutes": {
+    "message": "पन्चनिमेषः"
+  },
+  "utilDiffHours": {
+    "message": "घण्टानः"
+  },
+  "utilDiffDays": {
+    "message": "दिवसाः"
+  },
+  "utilDiffMonths": {
+    "message": "मासाः"
+  },
+  "utilDiffYears": {
+    "message": "वर्षाः"
+  },
+  "utilGeneratorTitle": {
+    "message": "टाइमस्टैम्प जनरेटर"
+  },
+  "utilGenNow": {
+    "message": "अधुना"
+  },
+  "utilGenStartDay": {
+    "message": "दिवसस्य आरम्भः"
+  },
+  "utilGenEndDay": {
+    "message": "दिवसस्य समाप्तिः"
+  },
+  "utilGenStartMonth": {
+    "message": "मासस्य आरम्भः"
+  },
+  "utilGenEndMonth": {
+    "message": "मासस्य समाप्तिः"
+  },
+  "utilGenStartYear": {
+    "message": "वर्षस्य आरम्भः"
+  },
+  "utilGenEndYear": {
+    "message": "वर्षस्य समाप्तिः"
+  },
+  "utilGenRandom": {
+    "message": "यादृच्छिक समयमुद्रिका"
+  },
+  "utilEpochTitle": {
+    "message": "युग अन्वेषक"
+  },
+  "utilEpochDesc": {
+    "message": "यूनिक्ससमयः १९७० जनवरी १ दिनाङ्कात् ००:००:०० UTC (युनिक्सयुगम्) तः सेकण्ड् गणयति । सेकेण्ड्-मात्रायां समयमुद्रिकाः २०३८ जनवरी-मासस्य १९ दिनाङ्कपर्यन्तं ३२-बिट्-पूर्णाङ्के उपयुज्यन्ते (Y2K38 समस्या) । जावास्क्रिप्ट् पूर्वनिर्धारितरूपेण मिलीसेकेण्ड् इत्यस्य उपयोगं करोति ।"
+  },
+  "utilEpoch2038": {
+    "message": "वर्ष २०३८ समस्या"
+  },
+  "utilEpoch2038Desc": {
+    "message": "३२-बिट् हस्ताक्षरिताः पूर्णाङ्काः २,१४७,४८३,६४७ इत्यत्र अतिप्रवाहिताः भवन्ति — यत् २०३८ जनवरी १९ दिनाङ्के ०३:१४:०७ UTC इत्यस्य अनुरूपम् अस्ति ।"
+  },
+  "utilEpochPrecision": {
+    "message": "सटीकता मार्गदर्शिका"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 digits = सेकण्ड | 13 digits = मिलीसेकेण्ड | 16 digits = सूक्ष्मसेकेण्ड | १९ अङ्काः = नैनोसेकेण्ड्"
+  },
+  "formatsTitle": {
+    "message": "प्रारूप स्टूडियो"
+  },
+  "formatsInputLabel": {
+    "message": "तिथि / टाइमस्टैम्प इनपुट"
+  },
+  "formatsPatternLabel": {
+    "message": "प्रारूप पैटर्न"
+  },
+  "formatsPreviewLabel": {
+    "message": "पूर्वावलोकनम्"
+  },
+  "formatsPresetsLabel": {
+    "message": "पूर्वनिर्धारित"
+  },
+  "formatsLocaleLabel": {
+    "message": "लोकल"
+  },
+  "formatsStyleLabel": {
+    "message": "तिथिशैली"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "कालशैली"
+  },
+  "presetFull": {
+    "message": "पूर्ण"
+  },
+  "presetDate": {
+    "message": "तिथिमात्रम्"
+  },
+  "presetTime": {
+    "message": "कालमात्रम्"
+  },
+  "presetIso": {
+    "message": "ISO 8601 इति"
+  },
+  "presetRfc": {
+    "message": "आरएफसी २८२२"
+  },
+  "presetJs": {
+    "message": "जावास्क्रिप्ट्"
+  },
+  "presetPython": {
+    "message": "अजगर"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "मोङ्गोडीबी"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "क्लिप्बोर्ड् मध्ये समयमुद्रिका ज्ञाता"
+  },
+  "clipboardConvert": {
+    "message": "रैकृ"
+  },
+  "clipboardDismiss": {
+    "message": "उत्सृज्"
+  },
+  "errorInvalidInput": {
+    "message": "अमान्यं वा अचिन्त्यं वा निवेशः"
+  },
+  "errorInvalidDate": {
+    "message": "अमान्य तिथि"
+  },
+  "errorEmptyInput": {
+    "message": "कृपया समयमुद्रिकां तिथिं वा प्रविशन्तु"
+  },
+  "errorOutOfRange": {
+    "message": "समर्थितपरिधितः बहिः समयमुद्रिका"
+  },
+  "historyTitle": {
+    "message": "अद्यतनरूपान्तरणम्"
+  },
+  "historyClear": {
+    "message": "इतिहासं स्पष्टं कुरुत"
+  },
+  "historyEmpty": {
+    "message": "अद्यतनरूपान्तरणं नास्ति"
+  },
+  "darkModeToggle": {
+    "message": "डार्क मोड टॉगल करें"
+  },
+  "languageLabel": {
+    "message": "भाषा"
+  },
+  "settingsTitle": {
+    "message": "सेटिंग्स्"
+  },
+  "keyboardShortcuts": {
+    "message": "कीबोर्ड शॉर्टकट"
+  },
+  "shortcutConvert": {
+    "message": "रैकृ"
+  },
+  "shortcutClear": {
+    "message": "स्पष्टः"
+  },
+  "shortcutCopy": {
+    "message": "Copy Result"
+  },
+  "devPresetsTitle": {
+    "message": "विकासक पूर्वनिर्धारित"
+  },
+  "devPresetCopied": {
+    "message": "कोड स्निपेट प्रतिलिपिकृत!"
+  },
+  "relativeAgo": {
+    "message": "पूर्व"
+  },
+  "relativeIn": {
+    "message": "इत्यस्मिन्‌"
+  },
+  "relativeNow": {
+    "message": "अधुना एव"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

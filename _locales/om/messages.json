@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Jijjiirraa Chaappaa Yeroo",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "Jijjiirraa TS",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Faayidaa jijjiirraa chaappaa yeroo saffisaa, ammayyaa kan developers",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Jijjiirraa"
+  },
+  "tabLiveClock": {
+    "message": "Sa'aatii Kallattiin"
+  },
+  "tabBatch": {
+    "message": "Oomishaalee waal duukaa oomishaman"
+  },
+  "tabUtilities": {
+    "message": "Faayidaa"
+  },
+  "tabFormats": {
+    "message": "Akkaataawwan"
+  },
+  "inputPlaceholder": {
+    "message": "Chaappaa yeroo, guyyaa, ykn afaan uumamaa galchi...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Jijjiiruu"
+  },
+  "clearBtn": {
+    "message": "Ifaa"
+  },
+  "copyBtn": {
+    "message": "Koppii godhaa"
+  },
+  "copiedBtn": {
+    "message": "Koppii godhame!"
+  },
+  "pasteBtn": {
+    "message": "Maxxansi"
+  },
+  "detectedLabel": {
+    "message": "Argame"
+  },
+  "detectedUnixSec": {
+    "message": "Chaappaa Yeroo Unix (Sekondii) ."
+  },
+  "detectedUnixMs": {
+    "message": "Chaappaa Yeroo Unix (Milliseconds) ."
+  },
+  "detectedIso": {
+    "message": "ISO 8601 Guyyaa"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 Guyyaa"
+  },
+  "detectedHuman": {
+    "message": "Guyyaa Namaan Dubbifamuu Danda'u"
+  },
+  "detectedRelative": {
+    "message": "Ibsa Guyyaa Fira"
+  },
+  "detectedUnknown": {
+    "message": "Akkaataa Hin Beekamne"
+  },
+  "resultUnixSec": {
+    "message": "Unix (Sekondii) ."
+  },
+  "resultUnixMs": {
+    "message": "Yuuniksii (Miliisekondii) ."
+  },
+  "resultLocalTime": {
+    "message": "Sa'aatii Naannoo"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601 ta’uu isaati"
+  },
+  "resultRfc": {
+    "message": "RFC 2822 irratti kan argamu"
+  },
+  "resultRelative": {
+    "message": "Fira"
+  },
+  "resultHuman": {
+    "message": "Nama Dubbifamuu Danda'u"
+  },
+  "timezoneLabel": {
+    "message": "Naannoo sa'aatii"
+  },
+  "timezonePreview": {
+    "message": "Durargii Naannoo Yeroo Hedduu"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "Kan naannoo"
+  },
+  "tzNewYork": {
+    "message": "Niiw Yoorkitti"
+  },
+  "tzLondon": {
+    "message": "London"
+  },
+  "tzTokyo": {
+    "message": "Tookiyoo"
+  },
+  "tzIstanbul": {
+    "message": "Istaanbul"
+  },
+  "tzSydney": {
+    "message": "Siidnii"
+  },
+  "tzLosAngeles": {
+    "message": "Los Anjeelees jedhamuun beekama"
+  },
+  "tzBerlin": {
+    "message": "Barliin"
+  },
+  "tzDubai": {
+    "message": "Dubaayitti"
+  },
+  "liveClockTitle": {
+    "message": "Sa'aatii Kallattiin"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (Sekondii) ."
+  },
+  "liveUnixMsLabel": {
+    "message": "Yuuniksii (Miliisekondii) ."
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "Kan naannoo"
+  },
+  "pauseBtn": {
+    "message": "Gidduutti dhaabuu"
+  },
+  "resumeBtn": {
+    "message": "Deebisanii jalqabuu"
+  },
+  "batchTitle": {
+    "message": "Jijjiirraa Tuuta"
+  },
+  "batchPlaceholder": {
+    "message": "Chaappaawwan yeroo ykn guyyoota hedduu, sarara tokkoof tokko maxxansi..."
+  },
+  "batchConvertBtn": {
+    "message": "Hundaa Jijjiirraa"
+  },
+  "batchClearBtn": {
+    "message": "Ifaa"
+  },
+  "batchCopyAllBtn": {
+    "message": "Hundaa Koppii"
+  },
+  "batchExportBtn": {
+    "message": "JSON erguu"
+  },
+  "batchResultsLabel": {
+    "message": "Bu'aawwan"
+  },
+  "batchLineLabel": {
+    "message": "Sarara"
+  },
+  "batchInputLabel": {
+    "message": "Galtee"
+  },
+  "batchOutputLabel": {
+    "message": "Bu’aa"
+  },
+  "batchErrorLabel": {
+    "message": "Dogoggora"
+  },
+  "utilitiesTitle": {
+    "message": "Faayidaa"
+  },
+  "utilDiffTitle": {
+    "message": "Shallaggii Garaagarummaa Yeroo"
+  },
+  "utilDiffFrom": {
+    "message": "Irraa"
+  },
+  "utilDiffTo": {
+    "message": "Gara"
+  },
+  "utilDiffBtn": {
+    "message": "Garaagarummaa Shallaguu"
+  },
+  "utilDiffSeconds": {
+    "message": "Sekondii"
+  },
+  "utilDiffMinutes": {
+    "message": "Daqiiqaawwan"
+  },
+  "utilDiffHours": {
+    "message": "Sa'aatiiwwan"
+  },
+  "utilDiffDays": {
+    "message": "Guyyoota"
+  },
+  "utilDiffMonths": {
+    "message": "Ji'oota"
+  },
+  "utilDiffYears": {
+    "message": "Waggoota"
+  },
+  "utilGeneratorTitle": {
+    "message": "Jenereetara Chaappaa Yeroo"
+  },
+  "utilGenNow": {
+    "message": "Amma"
+  },
+  "utilGenStartDay": {
+    "message": "Jalqaba Guyyaa"
+  },
+  "utilGenEndDay": {
+    "message": "Xumura Guyyaa"
+  },
+  "utilGenStartMonth": {
+    "message": "Jalqaba Ji'aa"
+  },
+  "utilGenEndMonth": {
+    "message": "Xumura Ji'aa"
+  },
+  "utilGenStartYear": {
+    "message": "Jalqaba Waggaa"
+  },
+  "utilGenEndYear": {
+    "message": "Xumura Waggaa"
+  },
+  "utilGenRandom": {
+    "message": "Chaappaa Yeroo Tasaa"
+  },
+  "utilEpochTitle": {
+    "message": "Epoch Explorer jedhamu"
+  },
+  "utilEpochDesc": {
+    "message": "Yeroon Unix erga Guraandhala 1, 1970, 00:00:00 UTC (the Unix Epoch) sekondii lakkaa'a. Chaappaawwan yeroo sekondii keessatti lakkoofsa guutuu 32-bit keessatti hamma Guraandhala 19, 2038tti (rakkina Y2K38) ni simata. JaavaScript durtii milisekondii fayyadama."
+  },
+  "utilEpoch2038": {
+    "message": "Bara 2038 Rakkoo"
+  },
+  "utilEpoch2038Desc": {
+    "message": "Lakkoofsota guutuu mallattoo 32-bit 2,147,483,647 irratti dhangala'u — kunis 03:14:07 UTC Guraandhala 19, 2038 waliin walsima."
+  },
+  "utilEpochPrecision": {
+    "message": "Qajeelfama Sirrummaa"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "Dijiitii 10 = sekondii | Dijiitii 13 = milisekondii | Dijiitii 16 = maaykiroo sekoondii | Dijiitii 19 = naannoo sekoondii"
+  },
+  "formatsTitle": {
+    "message": "Istuudiyoo Foormaatii"
+  },
+  "formatsInputLabel": {
+    "message": "Guyyaa / Galtee Chaappaa Yeroo"
+  },
+  "formatsPatternLabel": {
+    "message": "Akkaataa Foormaatii"
+  },
+  "formatsPreviewLabel": {
+    "message": "Dursee ilaaluu"
+  },
+  "formatsPresetsLabel": {
+    "message": "Dursee saagi"
+  },
+  "formatsLocaleLabel": {
+    "message": "Naannoo"
+  },
+  "formatsStyleLabel": {
+    "message": "Akkaataa Guyyaa"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Akkaataa Yeroo"
+  },
+  "presetFull": {
+    "message": "Guutuu"
+  },
+  "presetDate": {
+    "message": "Guyyaa Qofa"
+  },
+  "presetTime": {
+    "message": "Yeroo Qofa"
+  },
+  "presetIso": {
+    "message": "ISO 8601 ta’uu isaati"
+  },
+  "presetRfc": {
+    "message": "RFC 2822 irratti kan argamu"
+  },
+  "presetJs": {
+    "message": "JaavaScript"
+  },
+  "presetPython": {
+    "message": "Paayitoon"
+  },
+  "presetSql": {
+    "message": "SQL jedhamuun beekama"
+  },
+  "presetMongo": {
+    "message": "MongoDB jedhamuun beekama"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "Chaappaan yeroo gabatee kiliippii keessatti argame"
+  },
+  "clipboardConvert": {
+    "message": "Jijjiiruu"
+  },
+  "clipboardDismiss": {
+    "message": "Balleessuu"
+  },
+  "errorInvalidInput": {
+    "message": "Galtee sirrii hin taane ykn hin beekamne"
+  },
+  "errorInvalidDate": {
+    "message": "Guyyaa sirrii hin taane"
+  },
+  "errorEmptyInput": {
+    "message": "Maaloo chaappaa yeroo ykn guyyaa galchi"
+  },
+  "errorOutOfRange": {
+    "message": "Chaappaa yeroo daangaa deeggaramee ala"
+  },
+  "historyTitle": {
+    "message": "Jijjiiramoota Dhiheenyaa"
+  },
+  "historyClear": {
+    "message": "Seenaa Qulqulluu"
+  },
+  "historyEmpty": {
+    "message": "Jijjiiramni dhiheenya kanaa hin jiru"
+  },
+  "darkModeToggle": {
+    "message": "Haala Dukkanaa Jijjiiri"
+  },
+  "languageLabel": {
+    "message": "Afaan"
+  },
+  "settingsTitle": {
+    "message": "Sajoo"
+  },
+  "keyboardShortcuts": {
+    "message": "Karaa Gabaabaa Kiiboodii"
+  },
+  "shortcutConvert": {
+    "message": "Jijjiiruu"
+  },
+  "shortcutClear": {
+    "message": "Ifaa"
+  },
+  "shortcutCopy": {
+    "message": "Bu'aa Waraabbii"
+  },
+  "devPresetsTitle": {
+    "message": "Dursa Qopheessaa"
+  },
+  "devPresetCopied": {
+    "message": "Kutaan koodii waraabameera!"
+  },
+  "relativeAgo": {
+    "message": "dura"
+  },
+  "relativeIn": {
+    "message": "keessa"
+  },
+  "relativeNow": {
+    "message": "amma qofa"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

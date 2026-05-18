@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Табдилдиҳандаи тамғаи вақт",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "Табдилдиҳандаи TS",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Як барномаи зуд ва муосири табдилдиҳии вақт барои таҳиягарон",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Табдилдиҳанда"
+  },
+  "tabLiveClock": {
+    "message": "Соати зинда"
+  },
+  "tabBatch": {
+    "message": "Партия"
+  },
+  "tabUtilities": {
+    "message": "Хизматҳои коммуналӣ"
+  },
+  "tabFormats": {
+    "message": "Форматҳо"
+  },
+  "inputPlaceholder": {
+    "message": "Тамғаи вақт, сана ё забони табииро ворид кунед…",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Табдил додан"
+  },
+  "clearBtn": {
+    "message": "Тоза"
+  },
+  "copyBtn": {
+    "message": "Нусхабардорӣ"
+  },
+  "copiedBtn": {
+    "message": "Нусхабардорӣ!"
+  },
+  "pasteBtn": {
+    "message": "Часбонед"
+  },
+  "detectedLabel": {
+    "message": "Муайян карда шуд"
+  },
+  "detectedUnixSec": {
+    "message": "Вақти тамғаи Unix (сонияҳо)"
+  },
+  "detectedUnixMs": {
+    "message": "Вақти тамғаи Unix (миллисонияҳо)"
+  },
+  "detectedIso": {
+    "message": "Санаи ISO 8601"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 Сана"
+  },
+  "detectedHuman": {
+    "message": "Санаи барои одамон хондашаванда"
+  },
+  "detectedRelative": {
+    "message": "Ифодаи санаи нисбӣ"
+  },
+  "detectedUnknown": {
+    "message": "Формати номаълум"
+  },
+  "resultUnixSec": {
+    "message": "Unix (сонияҳо)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (миллисонияҳо)"
+  },
+  "resultLocalTime": {
+    "message": "Вақти маҳаллӣ"
+  },
+  "resultUtc": {
+    "message": "ЗҲҶ - Замони Ҳамоҳанги Ҷаҳон"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "хешу табор"
+  },
+  "resultHuman": {
+    "message": "Хониши инсон"
+  },
+  "timezoneLabel": {
+    "message": "Минтақаи вақт"
+  },
+  "timezonePreview": {
+    "message": "Пешнамоиши бисёрсоҳавӣ"
+  },
+  "tzUtc": {
+    "message": "ЗҲҶ - Замони Ҳамоҳанги Ҷаҳон"
+  },
+  "tzLocal": {
+    "message": "маҳаллӣ"
+  },
+  "tzNewYork": {
+    "message": "Нью-Йорк"
+  },
+  "tzLondon": {
+    "message": "Лондон"
+  },
+  "tzTokyo": {
+    "message": "Токио"
+  },
+  "tzIstanbul": {
+    "message": "Истанбул"
+  },
+  "tzSydney": {
+    "message": "Сидней"
+  },
+  "tzLosAngeles": {
+    "message": "Лос-Анҷелес"
+  },
+  "tzBerlin": {
+    "message": "Берлин"
+  },
+  "tzDubai": {
+    "message": "Дубай"
+  },
+  "liveClockTitle": {
+    "message": "Соати зинда"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (сонияҳо)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (миллисонияҳо)"
+  },
+  "liveUtcLabel": {
+    "message": "ЗҲҶ - Замони Ҳамоҳанги Ҷаҳон"
+  },
+  "liveLocalLabel": {
+    "message": "маҳаллӣ"
+  },
+  "pauseBtn": {
+    "message": "Таваққуф"
+  },
+  "resumeBtn": {
+    "message": "Хулоса"
+  },
+  "batchTitle": {
+    "message": "Табдилдиҳии партия"
+  },
+  "batchPlaceholder": {
+    "message": "Якчанд тамғаи вақт ё санаро часбонед, як сатр…"
+  },
+  "batchConvertBtn": {
+    "message": "Ҳамаро табдил диҳед"
+  },
+  "batchClearBtn": {
+    "message": "Тоза"
+  },
+  "batchCopyAllBtn": {
+    "message": "Ҳамаро нусхабардорӣ кунед"
+  },
+  "batchExportBtn": {
+    "message": "Содироти JSON"
+  },
+  "batchResultsLabel": {
+    "message": "Натиҷаҳо"
+  },
+  "batchLineLabel": {
+    "message": "Хат"
+  },
+  "batchInputLabel": {
+    "message": "Вуруд"
+  },
+  "batchOutputLabel": {
+    "message": "Натиҷа"
+  },
+  "batchErrorLabel": {
+    "message": "Хатогӣ"
+  },
+  "utilitiesTitle": {
+    "message": "Хизматҳои коммуналӣ"
+  },
+  "utilDiffTitle": {
+    "message": "Ҳисобкунаки фарқияти вақт"
+  },
+  "utilDiffFrom": {
+    "message": "Аз"
+  },
+  "utilDiffTo": {
+    "message": "Ба"
+  },
+  "utilDiffBtn": {
+    "message": "Ҳисоб кардани фарқият"
+  },
+  "utilDiffSeconds": {
+    "message": "Сонияхо"
+  },
+  "utilDiffMinutes": {
+    "message": "Дакикахо"
+  },
+  "utilDiffHours": {
+    "message": "Соатхо"
+  },
+  "utilDiffDays": {
+    "message": "Рӯзҳо"
+  },
+  "utilDiffMonths": {
+    "message": "Моххо"
+  },
+  "utilDiffYears": {
+    "message": "Солхо"
+  },
+  "utilGeneratorTitle": {
+    "message": "Генератори тамғаи вақт"
+  },
+  "utilGenNow": {
+    "message": "Акнун"
+  },
+  "utilGenStartDay": {
+    "message": "Оғози рӯз"
+  },
+  "utilGenEndDay": {
+    "message": "Охири рӯз"
+  },
+  "utilGenStartMonth": {
+    "message": "Оғози моҳ"
+  },
+  "utilGenEndMonth": {
+    "message": "Охири моҳ"
+  },
+  "utilGenStartYear": {
+    "message": "Оғози сол"
+  },
+  "utilGenEndYear": {
+    "message": "Охири сол"
+  },
+  "utilGenRandom": {
+    "message": "Тамғаи вақти тасодуфӣ"
+  },
+  "utilEpochTitle": {
+    "message": "Explorer Epoch"
+  },
+  "utilEpochDesc": {
+    "message": "Вақти Unix сонияҳоро аз 1 январи соли 1970, соати 00:00:00 UTC (Давраи Unix) ҳисоб мекунад. Тамғаҳои вақт дар сонияҳо то 19 январи соли 2038 ба бутуни 32-бит мувофиқат мекунанд (мушкилоти Y2K38). JavaScript бо нобаёнӣ миллисонияҳоро истифода мебарад."
+  },
+  "utilEpoch2038": {
+    "message": "Соли 2038 Масъала"
+  },
+  "utilEpoch2038Desc": {
+    "message": "Ададҳои бутуни имзошудаи 32-бит дар 2,147,483,647 зиёд мешаванд, ки ба 03:14:07 UTC дар 19 январи соли 2038 мувофиқат мекунад."
+  },
+  "utilEpochPrecision": {
+    "message": "Дастури дақиқ"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 рақам = сония | 13 рақам = миллисония | 16 рақам = микросония | 19 рақам = наносонияҳо"
+  },
+  "formatsTitle": {
+    "message": "Формат Студия"
+  },
+  "formatsInputLabel": {
+    "message": "Вуруди сана / тамғаи вақт"
+  },
+  "formatsPatternLabel": {
+    "message": "Намунаи Формат"
+  },
+  "formatsPreviewLabel": {
+    "message": "Пешнамоиш"
+  },
+  "formatsPresetsLabel": {
+    "message": "Пешниҳодҳо"
+  },
+  "formatsLocaleLabel": {
+    "message": "Маҳаллӣ"
+  },
+  "formatsStyleLabel": {
+    "message": "Услуби сана"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Услуби вақт"
+  },
+  "presetFull": {
+    "message": "Пурра"
+  },
+  "presetDate": {
+    "message": "Танҳо сана"
+  },
+  "presetTime": {
+    "message": "Фақат вақт"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "Python"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "Тамғаи вақт дар буфер муайян карда шуд"
+  },
+  "clipboardConvert": {
+    "message": "Табдил додан"
+  },
+  "clipboardDismiss": {
+    "message": "Рад кардан"
+  },
+  "errorInvalidInput": {
+    "message": "Вуруди беэътибор ё эътирофнашуда"
+  },
+  "errorInvalidDate": {
+    "message": "Санаи беэътибор"
+  },
+  "errorEmptyInput": {
+    "message": "Лутфан тамғаи вақт ё санаро ворид кунед"
+  },
+  "errorOutOfRange": {
+    "message": "Тамғаи вақт аз доираи дастгирӣ берун аст"
+  },
+  "historyTitle": {
+    "message": "Табдилоти охирин"
+  },
+  "historyClear": {
+    "message": "Таърихро тоза кунед"
+  },
+  "historyEmpty": {
+    "message": "Табдилоти охирин нест"
+  },
+  "darkModeToggle": {
+    "message": "Гузаронидани ҳолати торик"
+  },
+  "languageLabel": {
+    "message": "Забон"
+  },
+  "settingsTitle": {
+    "message": "Танзимотҳо"
+  },
+  "keyboardShortcuts": {
+    "message": "Миёнабурҳои клавиатура"
+  },
+  "shortcutConvert": {
+    "message": "Табдил додан"
+  },
+  "shortcutClear": {
+    "message": "Тоза"
+  },
+  "shortcutCopy": {
+    "message": "Натиҷаи нусхабардорӣ"
+  },
+  "devPresetsTitle": {
+    "message": "Танзимоти таҳиякунанда"
+  },
+  "devPresetCopied": {
+    "message": "Парчами код нусхабардорӣ карда шуд!"
+  },
+  "relativeAgo": {
+    "message": "пеш"
+  },
+  "relativeIn": {
+    "message": "дар"
+  },
+  "relativeNow": {
+    "message": "ҳамин ҳоло"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}
