@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Időbélyeg konverter",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "TS konverter",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Gyors, modern időbélyeg-konverziós segédprogram fejlesztők számára",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Átalakító"
+  },
+  "tabLiveClock": {
+    "message": "Élő óra"
+  },
+  "tabBatch": {
+    "message": "Batch"
+  },
+  "tabUtilities": {
+    "message": "Közművek"
+  },
+  "tabFormats": {
+    "message": "Formátumok"
+  },
+  "inputPlaceholder": {
+    "message": "Adja meg az időbélyeget, a dátumot vagy a természetes nyelvet…",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Megtérít"
+  },
+  "clearBtn": {
+    "message": "Világos"
+  },
+  "copyBtn": {
+    "message": "Másolat"
+  },
+  "copiedBtn": {
+    "message": "Másolva!"
+  },
+  "pasteBtn": {
+    "message": "Paszta"
+  },
+  "detectedLabel": {
+    "message": "Észlelve"
+  },
+  "detectedUnixSec": {
+    "message": "Unix időbélyeg (másodperc)"
+  },
+  "detectedUnixMs": {
+    "message": "Unix időbélyeg (ezredmásodperc)"
+  },
+  "detectedIso": {
+    "message": "ISO 8601 dátum"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 dátum"
+  },
+  "detectedHuman": {
+    "message": "Ember által olvasható dátum"
+  },
+  "detectedRelative": {
+    "message": "Relatív dátum kifejezés"
+  },
+  "detectedUnknown": {
+    "message": "Ismeretlen formátum"
+  },
+  "resultUnixSec": {
+    "message": "Unix (másodperc)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (ezredmásodperc)"
+  },
+  "resultLocalTime": {
+    "message": "Helyi idő"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "Relatív"
+  },
+  "resultHuman": {
+    "message": "Ember által olvasható"
+  },
+  "timezoneLabel": {
+    "message": "Időzóna"
+  },
+  "timezonePreview": {
+    "message": "Több időzóna előnézete"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "Helyi"
+  },
+  "tzNewYork": {
+    "message": "New York"
+  },
+  "tzLondon": {
+    "message": "London"
+  },
+  "tzTokyo": {
+    "message": "Tokió"
+  },
+  "tzIstanbul": {
+    "message": "Isztambul"
+  },
+  "tzSydney": {
+    "message": "Sydney"
+  },
+  "tzLosAngeles": {
+    "message": "Los Angeles"
+  },
+  "tzBerlin": {
+    "message": "Berlin"
+  },
+  "tzDubai": {
+    "message": "Dubai"
+  },
+  "liveClockTitle": {
+    "message": "Élő óra"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (másodperc)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (ezredmásodperc)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "Helyi"
+  },
+  "pauseBtn": {
+    "message": "Szünet"
+  },
+  "resumeBtn": {
+    "message": "Folytatás"
+  },
+  "batchTitle": {
+    "message": "Kötegelt átalakítás"
+  },
+  "batchPlaceholder": {
+    "message": "Több időbélyeg vagy dátum beillesztése, soronként egy…"
+  },
+  "batchConvertBtn": {
+    "message": "Összes konvertálása"
+  },
+  "batchClearBtn": {
+    "message": "Világos"
+  },
+  "batchCopyAllBtn": {
+    "message": "Összes másolása"
+  },
+  "batchExportBtn": {
+    "message": "JSON exportálása"
+  },
+  "batchResultsLabel": {
+    "message": "Eredmények"
+  },
+  "batchLineLabel": {
+    "message": "Vonal"
+  },
+  "batchInputLabel": {
+    "message": "Bemenet"
+  },
+  "batchOutputLabel": {
+    "message": "Kimenet"
+  },
+  "batchErrorLabel": {
+    "message": "Hiba"
+  },
+  "utilitiesTitle": {
+    "message": "Közművek"
+  },
+  "utilDiffTitle": {
+    "message": "Időkülönbség kalkulátor"
+  },
+  "utilDiffFrom": {
+    "message": "Tól"
+  },
+  "utilDiffTo": {
+    "message": "To"
+  },
+  "utilDiffBtn": {
+    "message": "Számítsa ki a különbséget"
+  },
+  "utilDiffSeconds": {
+    "message": "Másodpercek"
+  },
+  "utilDiffMinutes": {
+    "message": "Jegyzőkönyv"
+  },
+  "utilDiffHours": {
+    "message": "Órák"
+  },
+  "utilDiffDays": {
+    "message": "Napok"
+  },
+  "utilDiffMonths": {
+    "message": "Hónapok"
+  },
+  "utilDiffYears": {
+    "message": "Évek"
+  },
+  "utilGeneratorTitle": {
+    "message": "Időbélyeg-generátor"
+  },
+  "utilGenNow": {
+    "message": "Jelenleg"
+  },
+  "utilGenStartDay": {
+    "message": "A nap kezdete"
+  },
+  "utilGenEndDay": {
+    "message": "A nap vége"
+  },
+  "utilGenStartMonth": {
+    "message": "Hónap eleje"
+  },
+  "utilGenEndMonth": {
+    "message": "Hónap vége"
+  },
+  "utilGenStartYear": {
+    "message": "Év kezdete"
+  },
+  "utilGenEndYear": {
+    "message": "Év vége"
+  },
+  "utilGenRandom": {
+    "message": "Véletlenszerű időbélyeg"
+  },
+  "utilEpochTitle": {
+    "message": "Epoch Explorer"
+  },
+  "utilEpochDesc": {
+    "message": "A Unix idő másodperceket számol 1970. január 1., 00:00:00 UTC (a Unix Epoch) óta. A másodpercekben megadott időbélyegek egy 32 bites egész számba illeszkednek 2038. január 19-ig (az Y2K38 probléma). A JavaScript alapértelmezés szerint ezredmásodperceket használ."
+  },
+  "utilEpoch2038": {
+    "message": "2038-as év probléma"
+  },
+  "utilEpoch2038Desc": {
+    "message": "A 32 bites előjeles egész számok túlcsordulnak 2 147 483 647-nél – ami 2038. január 19-én 03:14:07 UTC-nek felel meg."
+  },
+  "utilEpochPrecision": {
+    "message": "Precíziós útmutató"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 számjegy = másodperc | 13 számjegy = ezredmásodperc | 16 számjegy = mikroszekundum | 19 számjegy = nanoszekundum"
+  },
+  "formatsTitle": {
+    "message": "Formátum Stúdió"
+  },
+  "formatsInputLabel": {
+    "message": "Dátum/időbélyeg bevitele"
+  },
+  "formatsPatternLabel": {
+    "message": "Formátumminta"
+  },
+  "formatsPreviewLabel": {
+    "message": "Előnézet"
+  },
+  "formatsPresetsLabel": {
+    "message": "Előbeállítások"
+  },
+  "formatsLocaleLabel": {
+    "message": "Nyelv"
+  },
+  "formatsStyleLabel": {
+    "message": "Dátum stílus"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Idő stílus"
+  },
+  "presetFull": {
+    "message": "Tele"
+  },
+  "presetDate": {
+    "message": "Csak dátum"
+  },
+  "presetTime": {
+    "message": "Csak idő"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "Piton"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "Időbélyeg észlelve a vágólapon"
+  },
+  "clipboardConvert": {
+    "message": "Megtérít"
+  },
+  "clipboardDismiss": {
+    "message": "Elvetés"
+  },
+  "errorInvalidInput": {
+    "message": "Érvénytelen vagy fel nem ismert bevitel"
+  },
+  "errorInvalidDate": {
+    "message": "Érvénytelen dátum"
+  },
+  "errorEmptyInput": {
+    "message": "Adjon meg egy időbélyeget vagy dátumot"
+  },
+  "errorOutOfRange": {
+    "message": "Az időbélyeg a támogatott tartományon kívül esik"
+  },
+  "historyTitle": {
+    "message": "Legutóbbi konverziók"
+  },
+  "historyClear": {
+    "message": "Törölje az előzményeket"
+  },
+  "historyEmpty": {
+    "message": "Nincsenek legutóbbi konverziók"
+  },
+  "darkModeToggle": {
+    "message": "Sötét mód váltása"
+  },
+  "languageLabel": {
+    "message": "Nyelv"
+  },
+  "settingsTitle": {
+    "message": "Beállítások elemre"
+  },
+  "keyboardShortcuts": {
+    "message": "Billentyűparancsok"
+  },
+  "shortcutConvert": {
+    "message": "Megtérít"
+  },
+  "shortcutClear": {
+    "message": "Világos"
+  },
+  "shortcutCopy": {
+    "message": "Eredmény másolása"
+  },
+  "devPresetsTitle": {
+    "message": "Fejlesztői előbeállítások"
+  },
+  "devPresetCopied": {
+    "message": "Kódrészlet másolva!"
+  },
+  "relativeAgo": {
+    "message": "ezelőtt"
+  },
+  "relativeIn": {
+    "message": "be"
+  },
+  "relativeNow": {
+    "message": "éppen most"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

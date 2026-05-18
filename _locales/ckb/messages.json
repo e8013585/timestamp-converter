@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "گۆڕینی مۆری کات",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "گۆڕینی TS",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "سوودمەندێکی خێرا و مۆدێرن بۆ گۆڕینی مۆری کات بۆ گەشەپێدەران",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "گۆڕینی"
+  },
+  "tabLiveClock": {
+    "message": "کاتژمێری ڕاستەوخۆ"
+  },
+  "tabBatch": {
+    "message": "کۆمەڵە"
+  },
+  "tabUtilities": {
+    "message": "خزمەتگوزارییەکان"
+  },
+  "tabFormats": {
+    "message": "فۆرماتەکان"
+  },
+  "inputPlaceholder": {
+    "message": "مۆری کات، بەروار، یان زمانی سروشتی بنووسە...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "گۆڕین"
+  },
+  "clearBtn": {
+    "message": "ڕوون"
+  },
+  "copyBtn": {
+    "message": "کۆپی بکە"
+  },
+  "copiedBtn": {
+    "message": "کۆپی کراوە!"
+  },
+  "pasteBtn": {
+    "message": "هەویر بکە"
+  },
+  "detectedLabel": {
+    "message": "دۆزراوەتەوە"
+  },
+  "detectedUnixSec": {
+    "message": "مۆری کاتی یونیکس (چرکە)"
+  },
+  "detectedUnixMs": {
+    "message": "مۆری کاتی یونیکس (میلی چرکە)"
+  },
+  "detectedIso": {
+    "message": "ISO 8601 بەروار"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 بەروار"
+  },
+  "detectedHuman": {
+    "message": "بەرواری خوێندنەوەی مرۆڤ"
+  },
+  "detectedRelative": {
+    "message": "دەربڕینی بەرواری ڕێژەیی"
+  },
+  "detectedUnknown": {
+    "message": "فۆرماتێکی نەزانراو"
+  },
+  "resultUnixSec": {
+    "message": "یونیکس (چرکە)"
+  },
+  "resultUnixMs": {
+    "message": "یونیکس (میلی چرکە)"
+  },
+  "resultLocalTime": {
+    "message": "کاتی ناوخۆیی"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "خزم"
+  },
+  "resultHuman": {
+    "message": "مرۆڤ بخوێنرێتەوە"
+  },
+  "timezoneLabel": {
+    "message": "ناوچەی کات"
+  },
+  "timezonePreview": {
+    "message": "پێشبینی فرە ناوچەی کاتی"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "ناوخۆیی"
+  },
+  "tzNewYork": {
+    "message": "نیویۆرک"
+  },
+  "tzLondon": {
+    "message": "لەندەن"
+  },
+  "tzTokyo": {
+    "message": "تۆکیۆ"
+  },
+  "tzIstanbul": {
+    "message": "ئەستەنبوڵ"
+  },
+  "tzSydney": {
+    "message": "سیدنی"
+  },
+  "tzLosAngeles": {
+    "message": "لۆس ئەنجلۆس"
+  },
+  "tzBerlin": {
+    "message": "بەرلین"
+  },
+  "tzDubai": {
+    "message": "دوبەی"
+  },
+  "liveClockTitle": {
+    "message": "کاتژمێری ڕاستەوخۆ"
+  },
+  "liveUnixLabel": {
+    "message": "یونیکس (چرکە)"
+  },
+  "liveUnixMsLabel": {
+    "message": "یونیکس (میلی چرکە)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "ناوخۆیی"
+  },
+  "pauseBtn": {
+    "message": "وچان"
+  },
+  "resumeBtn": {
+    "message": "دەستپێکردنەوە"
+  },
+  "batchTitle": {
+    "message": "گۆڕینی وەجبە"
+  },
+  "batchPlaceholder": {
+    "message": "چەندین مۆری کات یان بەروار لێبدە، یەک بۆ هەر دێڕێک..."
+  },
+  "batchConvertBtn": {
+    "message": "گۆڕینی هەموو"
+  },
+  "batchClearBtn": {
+    "message": "ڕوون"
+  },
+  "batchCopyAllBtn": {
+    "message": "هەمووی کۆپی بکە"
+  },
+  "batchExportBtn": {
+    "message": "هەناردەکردنی JSON"
+  },
+  "batchResultsLabel": {
+    "message": "ئەنجامەکان"
+  },
+  "batchLineLabel": {
+    "message": "هێڵ"
+  },
+  "batchInputLabel": {
+    "message": "ئینپوت"
+  },
+  "batchOutputLabel": {
+    "message": "دەرچوون"
+  },
+  "batchErrorLabel": {
+    "message": "هەڵە"
+  },
+  "utilitiesTitle": {
+    "message": "خزمەتگوزارییەکان"
+  },
+  "utilDiffTitle": {
+    "message": "حاسیبەی جیاوازی کات"
+  },
+  "utilDiffFrom": {
+    "message": "لە"
+  },
+  "utilDiffTo": {
+    "message": "بۆ"
+  },
+  "utilDiffBtn": {
+    "message": "جیاوازی حیساب بکە"
+  },
+  "utilDiffSeconds": {
+    "message": "چرکەیەک"
+  },
+  "utilDiffMinutes": {
+    "message": "کۆنووس"
+  },
+  "utilDiffHours": {
+    "message": "کاتژمێر"
+  },
+  "utilDiffDays": {
+    "message": "ڕۆژان"
+  },
+  "utilDiffMonths": {
+    "message": "مانگەکان"
+  },
+  "utilDiffYears": {
+    "message": "ساڵ"
+  },
+  "utilGeneratorTitle": {
+    "message": "مۆلیدەی مۆری کات"
+  },
+  "utilGenNow": {
+    "message": "ئێستا"
+  },
+  "utilGenStartDay": {
+    "message": "سەرەتای ڕۆژ"
+  },
+  "utilGenEndDay": {
+    "message": "کۆتایی ڕۆژ"
+  },
+  "utilGenStartMonth": {
+    "message": "سەرەتای مانگ"
+  },
+  "utilGenEndMonth": {
+    "message": "کۆتایی مانگ"
+  },
+  "utilGenStartYear": {
+    "message": "سەرەتای ساڵ"
+  },
+  "utilGenEndYear": {
+    "message": "کۆتایی ساڵ"
+  },
+  "utilGenRandom": {
+    "message": "مۆری کاتی هەڕەمەکی"
+  },
+  "utilEpochTitle": {
+    "message": "ئیپۆک ئێکسپلۆرەر"
+  },
+  "utilEpochDesc": {
+    "message": "کاتی یونیکس لە یەکەمی ژانویەی ١٩٧٠ەوە چرکە دەژمێرێت، کاتژمێر ٠٠:٠٠:٠٠ UTC (سەردەمی یونیکس). مۆری کات بە چرکە لە ژمارەیەکی تەواو ٣٢ بیتیدا جێدەبێتەوە تا ١٩ی ژانویەی ٢٠٣٨ (کێشەی Y2K38). جاڤاسکڕێپت بە شێوازی پێشوەختە میلی چرکە بەکاردەهێنێت."
+  },
+  "utilEpoch2038": {
+    "message": "ساڵی ٢٠٣٨ کێشە"
+  },
+  "utilEpoch2038Desc": {
+    "message": "ژمارە تەواوە واژۆکراوەکانی 32 بیت لە 2,147,483,647 دەڕژێن — کە هاوتایە لەگەڵ 03:14:07 UTC لە 19ی ژانویەی 2038."
+  },
+  "utilEpochPrecision": {
+    "message": "ڕێنمایی وردبینی"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 ژمارە = چرکە | 13 ژمارە = میلی چرکە | 16 ژمارە = مایکرۆ چرکە | ١٩ ژمارە = نانۆ چرکە"
+  },
+  "formatsTitle": {
+    "message": "ستۆدیۆی فۆرمات"
+  },
+  "formatsInputLabel": {
+    "message": "بەروار / هاتنە ژوورەوەی مۆری کات"
+  },
+  "formatsPatternLabel": {
+    "message": "فۆرمات نەخشی"
+  },
+  "formatsPreviewLabel": {
+    "message": "پێشبینی"
+  },
+  "formatsPresetsLabel": {
+    "message": "پێشبڕکێکان"
+  },
+  "formatsLocaleLabel": {
+    "message": "ناوچەیی"
+  },
+  "formatsStyleLabel": {
+    "message": "شێوازی بەروار"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "شێوازی کات"
+  },
+  "presetFull": {
+    "message": "پڕ"
+  },
+  "presetDate": {
+    "message": "تەنها بەروار"
+  },
+  "presetTime": {
+    "message": "تەنها کات"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "جاڤاسکڕێپت"
+  },
+  "presetPython": {
+    "message": "پایتۆن"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "مۆری کات لە کلیپبۆرددا دۆزراوەتەوە"
+  },
+  "clipboardConvert": {
+    "message": "گۆڕین"
+  },
+  "clipboardDismiss": {
+    "message": "بەلاوە نان"
+  },
+  "errorInvalidInput": {
+    "message": "هاتنە ژوورەوەی نادروست یان نەناسراو"
+  },
+  "errorInvalidDate": {
+    "message": "بەرواری نادروستە"
+  },
+  "errorEmptyInput": {
+    "message": "تکایە مۆری کات یان بەروارێک بنووسە"
+  },
+  "errorOutOfRange": {
+    "message": "مۆری کات لە دەرەوەی مەودای پشتگیریکراو"
+  },
+  "historyTitle": {
+    "message": "گۆڕانکارییەکانی ئەم دواییە"
+  },
+  "historyClear": {
+    "message": "مێژوو ڕوون"
+  },
+  "historyEmpty": {
+    "message": "هیچ گۆڕانکارییەکی ئەم دواییە نییە"
+  },
+  "darkModeToggle": {
+    "message": "گۆڕینی دۆخی تاریک"
+  },
+  "languageLabel": {
+    "message": "زمان"
+  },
+  "settingsTitle": {
+    "message": "ڕێکخستنەکان"
+  },
+  "keyboardShortcuts": {
+    "message": "کورتە ڕێگاکانی کیبۆرد"
+  },
+  "shortcutConvert": {
+    "message": "گۆڕین"
+  },
+  "shortcutClear": {
+    "message": "ڕوون"
+  },
+  "shortcutCopy": {
+    "message": "کۆپی ئەنجام"
+  },
+  "devPresetsTitle": {
+    "message": "پێشبڕکێکانی گەشەپێدەر"
+  },
+  "devPresetCopied": {
+    "message": "پارچە کۆدەکە کۆپی کراوە!"
+  },
+  "relativeAgo": {
+    "message": "لەمەوبەر"
+  },
+  "relativeIn": {
+    "message": "لە"
+  },
+  "relativeNow": {
+    "message": "تەنها ئێستا"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

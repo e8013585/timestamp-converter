@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Tiontaire Stampa Ama",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "Tiontaire TS",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Fóntas tiontaithe stampa ama tapa agus nua-aimseartha d'fhorbróirí",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Tiontaire"
+  },
+  "tabLiveClock": {
+    "message": "Clog Beo"
+  },
+  "tabBatch": {
+    "message": "Baisc"
+  },
+  "tabUtilities": {
+    "message": "Fóntais"
+  },
+  "tabFormats": {
+    "message": "Formáidí"
+  },
+  "inputPlaceholder": {
+    "message": "Cuir isteach stampa ama, dáta nó teanga nádúrtha…",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Tiontaigh"
+  },
+  "clearBtn": {
+    "message": "Glan"
+  },
+  "copyBtn": {
+    "message": "Cóip"
+  },
+  "copiedBtn": {
+    "message": "Cóipeáladh!"
+  },
+  "pasteBtn": {
+    "message": "Greamaigh"
+  },
+  "detectedLabel": {
+    "message": "Braitheadh"
+  },
+  "detectedUnixSec": {
+    "message": "Stampa ama Unix (Soicindí)"
+  },
+  "detectedUnixMs": {
+    "message": "Stampa ama Unix (Milleasoicindí)"
+  },
+  "detectedIso": {
+    "message": "ISO 8601 Dáta"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 Dáta"
+  },
+  "detectedHuman": {
+    "message": "Dáta Inléite Daonna"
+  },
+  "detectedRelative": {
+    "message": "Léiriú Dáta Coibhneasta"
+  },
+  "detectedUnknown": {
+    "message": "Formáid Anaithnid"
+  },
+  "resultUnixSec": {
+    "message": "Unix (Soicindí)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (milleasoicindí)"
+  },
+  "resultLocalTime": {
+    "message": "Am Áitiúil"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "coibhneasta"
+  },
+  "resultHuman": {
+    "message": "Daonna Inléite"
+  },
+  "timezoneLabel": {
+    "message": "Crios ama"
+  },
+  "timezonePreview": {
+    "message": "Réamhamharc Il-Chrios Ama"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "Áitiúil"
+  },
+  "tzNewYork": {
+    "message": "Nua-Eabhrac"
+  },
+  "tzLondon": {
+    "message": "Londain"
+  },
+  "tzTokyo": {
+    "message": "Tóiceo"
+  },
+  "tzIstanbul": {
+    "message": "Iostanbúl"
+  },
+  "tzSydney": {
+    "message": "Sydney"
+  },
+  "tzLosAngeles": {
+    "message": "Los Angeles"
+  },
+  "tzBerlin": {
+    "message": "Beirlín"
+  },
+  "tzDubai": {
+    "message": "Dubai"
+  },
+  "liveClockTitle": {
+    "message": "Clog Beo"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (Soicindí)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (milleasoicindí)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "Áitiúil"
+  },
+  "pauseBtn": {
+    "message": "Sos"
+  },
+  "resumeBtn": {
+    "message": "Atosaigh"
+  },
+  "batchTitle": {
+    "message": "Tiontú Baisc"
+  },
+  "batchPlaceholder": {
+    "message": "Greamaigh stampaí ama nó dátaí iolracha, ceann do gach líne…"
+  },
+  "batchConvertBtn": {
+    "message": "Tiontaigh Uile"
+  },
+  "batchClearBtn": {
+    "message": "Glan"
+  },
+  "batchCopyAllBtn": {
+    "message": "Cóipeáil Uile"
+  },
+  "batchExportBtn": {
+    "message": "Easpórtáil JSON"
+  },
+  "batchResultsLabel": {
+    "message": "Torthaí"
+  },
+  "batchLineLabel": {
+    "message": "Líne"
+  },
+  "batchInputLabel": {
+    "message": "Ionchur"
+  },
+  "batchOutputLabel": {
+    "message": "Aschur"
+  },
+  "batchErrorLabel": {
+    "message": "Earráid"
+  },
+  "utilitiesTitle": {
+    "message": "Fóntais"
+  },
+  "utilDiffTitle": {
+    "message": "Áireamhán Difríocht Ama"
+  },
+  "utilDiffFrom": {
+    "message": "Ó"
+  },
+  "utilDiffTo": {
+    "message": "Chuig"
+  },
+  "utilDiffBtn": {
+    "message": "Ríomh Difríocht"
+  },
+  "utilDiffSeconds": {
+    "message": "Soicind"
+  },
+  "utilDiffMinutes": {
+    "message": "Nóiméad"
+  },
+  "utilDiffHours": {
+    "message": "Uaireanta"
+  },
+  "utilDiffDays": {
+    "message": "Laethanta"
+  },
+  "utilDiffMonths": {
+    "message": "Míonna"
+  },
+  "utilDiffYears": {
+    "message": "Blianta"
+  },
+  "utilGeneratorTitle": {
+    "message": "Gineadóir Stampa Ama"
+  },
+  "utilGenNow": {
+    "message": "Anois"
+  },
+  "utilGenStartDay": {
+    "message": "Tús an Lae"
+  },
+  "utilGenEndDay": {
+    "message": "Deireadh Lae"
+  },
+  "utilGenStartMonth": {
+    "message": "Tús na Míosa"
+  },
+  "utilGenEndMonth": {
+    "message": "Deireadh na Míosa"
+  },
+  "utilGenStartYear": {
+    "message": "Tús na Bliana"
+  },
+  "utilGenEndYear": {
+    "message": "Deireadh na Bliana"
+  },
+  "utilGenRandom": {
+    "message": "Stampa Ama Randamach"
+  },
+  "utilEpochTitle": {
+    "message": "Taiscéalaí Aga"
+  },
+  "utilEpochDesc": {
+    "message": "Comhaireamh am Unix soicind ó 1 Eanáir, 1970, 00:00:00 UTC (an Aga Unix). Luíonn stampaí ama i soicindí i slánuimhir 32-giotán go dtí an 19 Eanáir, 2038 (an fhadhb Y2K38). Úsáideann JavaScript na milleasoicindí de réir réamhshocraithe."
+  },
+  "utilEpoch2038": {
+    "message": "Bliain 2038 Fadhb"
+  },
+  "utilEpoch2038Desc": {
+    "message": "Slánuimhreacha sínithe 32-giotán thar maoil ag 2,147,483,647 - a fhreagraíonn do 03:14:07 UTC an 19 Eanáir, 2038."
+  },
+  "utilEpochPrecision": {
+    "message": "Treoir Bheachtais"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 ndigit = soicind | 13 dhigit = milleasoicindí | 16 dhigit = micreasoicindí | 19 ndigit = nana-soicindí"
+  },
+  "formatsTitle": {
+    "message": "Formáid Stiúideo"
+  },
+  "formatsInputLabel": {
+    "message": "Ionchur Dáta / Stampa Ama"
+  },
+  "formatsPatternLabel": {
+    "message": "Patrún Formáid"
+  },
+  "formatsPreviewLabel": {
+    "message": "Réamhamharc"
+  },
+  "formatsPresetsLabel": {
+    "message": "Réamhshocruithe"
+  },
+  "formatsLocaleLabel": {
+    "message": "Logánta"
+  },
+  "formatsStyleLabel": {
+    "message": "Stíl Dáta"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Stíl Ama"
+  },
+  "presetFull": {
+    "message": "Iomlán"
+  },
+  "presetDate": {
+    "message": "Dáta amháin"
+  },
+  "presetTime": {
+    "message": "Am Amháin"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "Python"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "Braitheadh ​​stampa ama sa ghearrthaisce"
+  },
+  "clipboardConvert": {
+    "message": "Tiontaigh"
+  },
+  "clipboardDismiss": {
+    "message": "Díbhe"
+  },
+  "errorInvalidInput": {
+    "message": "Ionchur neamhbhailí nó neamhaitheanta"
+  },
+  "errorInvalidDate": {
+    "message": "Dáta neamhbhailí"
+  },
+  "errorEmptyInput": {
+    "message": "Cuir isteach stampa ama nó dáta"
+  },
+  "errorOutOfRange": {
+    "message": "Stampa ama as raon tacaithe"
+  },
+  "historyTitle": {
+    "message": "Tiontuithe Is Déanaí"
+  },
+  "historyClear": {
+    "message": "Glan Stair"
+  },
+  "historyEmpty": {
+    "message": "Níl aon tiontuithe le déanaí"
+  },
+  "darkModeToggle": {
+    "message": "Scoránaigh Mód Dorcha"
+  },
+  "languageLabel": {
+    "message": "Teanga"
+  },
+  "settingsTitle": {
+    "message": "Socruithe"
+  },
+  "keyboardShortcuts": {
+    "message": "Aicearraí méarchláir"
+  },
+  "shortcutConvert": {
+    "message": "Tiontaigh"
+  },
+  "shortcutClear": {
+    "message": "Glan"
+  },
+  "shortcutCopy": {
+    "message": "Cóipeáil Toradh"
+  },
+  "devPresetsTitle": {
+    "message": "Réamhshocruithe Forbróra"
+  },
+  "devPresetCopied": {
+    "message": "Blúire cód cóipeáilte!"
+  },
+  "relativeAgo": {
+    "message": "ó shin"
+  },
+  "relativeIn": {
+    "message": "isteach"
+  },
+  "relativeNow": {
+    "message": "díreach anois"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

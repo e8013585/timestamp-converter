@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Trawsnewidydd Stamp Amser",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "Trawsnewidydd TS",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Cyfleustodau trosi stamp amser cyflym, modern ar gyfer datblygwyr",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Trawsnewidydd"
+  },
+  "tabLiveClock": {
+    "message": "Cloc Byw"
+  },
+  "tabBatch": {
+    "message": "swp"
+  },
+  "tabUtilities": {
+    "message": "Cyfleustodau"
+  },
+  "tabFormats": {
+    "message": "Fformatau"
+  },
+  "inputPlaceholder": {
+    "message": "Rhowch stamp amser, dyddiad, neu iaith naturiol…",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Trosi"
+  },
+  "clearBtn": {
+    "message": "Clir"
+  },
+  "copyBtn": {
+    "message": "Copi"
+  },
+  "copiedBtn": {
+    "message": "Wedi'i gopïo!"
+  },
+  "pasteBtn": {
+    "message": "Gludo"
+  },
+  "detectedLabel": {
+    "message": "Wedi'i ganfod"
+  },
+  "detectedUnixSec": {
+    "message": "Stamp Amser Unix (Eiliadau)"
+  },
+  "detectedUnixMs": {
+    "message": "Stamp Amser Unix (Milieiliadau)"
+  },
+  "detectedIso": {
+    "message": "ISO 8601 Dyddiad"
+  },
+  "detectedRfc": {
+    "message": "Clwb Rygbi 2822 Dyddiad"
+  },
+  "detectedHuman": {
+    "message": "Dyddiad Darllenadwy Dynol"
+  },
+  "detectedRelative": {
+    "message": "Mynegiad Dyddiad Cymharol"
+  },
+  "detectedUnknown": {
+    "message": "Fformat Anhysbys"
+  },
+  "resultUnixSec": {
+    "message": "Unix (Eiliadau)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (Milieiliadau)"
+  },
+  "resultLocalTime": {
+    "message": "Amser Lleol"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "Clwb Rygbi 2822"
+  },
+  "resultRelative": {
+    "message": "Cymharol"
+  },
+  "resultHuman": {
+    "message": "Darllenadwy Dynol"
+  },
+  "timezoneLabel": {
+    "message": "Cylchfa Amser"
+  },
+  "timezonePreview": {
+    "message": "Rhagolwg Aml-Gylchfa Amser"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "Lleol"
+  },
+  "tzNewYork": {
+    "message": "Efrog Newydd"
+  },
+  "tzLondon": {
+    "message": "Llundain"
+  },
+  "tzTokyo": {
+    "message": "Tokyo"
+  },
+  "tzIstanbul": {
+    "message": "Istanbwl"
+  },
+  "tzSydney": {
+    "message": "Sydney"
+  },
+  "tzLosAngeles": {
+    "message": "Los Angeles"
+  },
+  "tzBerlin": {
+    "message": "Berlin"
+  },
+  "tzDubai": {
+    "message": "Dubai"
+  },
+  "liveClockTitle": {
+    "message": "Cloc Byw"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (Eiliadau)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (Milieiliadau)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "Lleol"
+  },
+  "pauseBtn": {
+    "message": "Oedwch"
+  },
+  "resumeBtn": {
+    "message": "Ail-ddechrau"
+  },
+  "batchTitle": {
+    "message": "Trosi swp"
+  },
+  "batchPlaceholder": {
+    "message": "Gludwch stampiau amser neu ddyddiadau lluosog, un fesul llinell…"
+  },
+  "batchConvertBtn": {
+    "message": "Trosi Pawb"
+  },
+  "batchClearBtn": {
+    "message": "Clir"
+  },
+  "batchCopyAllBtn": {
+    "message": "Copïo Pawb"
+  },
+  "batchExportBtn": {
+    "message": "Allforio JSON"
+  },
+  "batchResultsLabel": {
+    "message": "Canlyniadau"
+  },
+  "batchLineLabel": {
+    "message": "Llinell"
+  },
+  "batchInputLabel": {
+    "message": "Mewnbwn"
+  },
+  "batchOutputLabel": {
+    "message": "Allbwn"
+  },
+  "batchErrorLabel": {
+    "message": "Gwall"
+  },
+  "utilitiesTitle": {
+    "message": "Cyfleustodau"
+  },
+  "utilDiffTitle": {
+    "message": "Cyfrifiannell Gwahaniaeth Amser"
+  },
+  "utilDiffFrom": {
+    "message": "Oddiwrth"
+  },
+  "utilDiffTo": {
+    "message": "I"
+  },
+  "utilDiffBtn": {
+    "message": "Cyfrifwch y Gwahaniaeth"
+  },
+  "utilDiffSeconds": {
+    "message": "Eiliadau"
+  },
+  "utilDiffMinutes": {
+    "message": "Munudau"
+  },
+  "utilDiffHours": {
+    "message": "Oriau"
+  },
+  "utilDiffDays": {
+    "message": "Dyddiau"
+  },
+  "utilDiffMonths": {
+    "message": "Misoedd"
+  },
+  "utilDiffYears": {
+    "message": "Blynyddoedd"
+  },
+  "utilGeneratorTitle": {
+    "message": "Cynhyrchydd Stamp Amser"
+  },
+  "utilGenNow": {
+    "message": "Yn awr"
+  },
+  "utilGenStartDay": {
+    "message": "Dechrau Dydd"
+  },
+  "utilGenEndDay": {
+    "message": "Diwedd Dydd"
+  },
+  "utilGenStartMonth": {
+    "message": "Dechreu y Mis"
+  },
+  "utilGenEndMonth": {
+    "message": "Diwedd Mis"
+  },
+  "utilGenStartYear": {
+    "message": "Dechrau Blwyddyn"
+  },
+  "utilGenEndYear": {
+    "message": "Diwedd Blwyddyn"
+  },
+  "utilGenRandom": {
+    "message": "Stamp Amser ar Hap"
+  },
+  "utilEpochTitle": {
+    "message": "Explorer Epoch"
+  },
+  "utilEpochDesc": {
+    "message": "Mae amser Unix yn cyfrif eiliadau ers Ionawr 1, 1970, 00:00:00 UTC (yr Epoch Unix). Mae stampiau amser mewn eiliadau yn ffitio mewn cyfanrif 32-did tan Ionawr 19, 2038 (problem Y2K38). Mae JavaScript yn defnyddio milieiliadau yn ddiofyn."
+  },
+  "utilEpoch2038": {
+    "message": "Blwyddyn 2038 Problem"
+  },
+  "utilEpoch2038Desc": {
+    "message": "Cyfanrifau 32-did wedi'u llofnodi yn gorlifo ar 2,147,483,647 - sy'n cyfateb i 03:14:07 UTC ar Ionawr 19, 2038."
+  },
+  "utilEpochPrecision": {
+    "message": "Canllaw Precision"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 digid = eiliad | 13 digid = milieiliadau | 16 digid = microseconds | 19 digid = nanoseconds"
+  },
+  "formatsTitle": {
+    "message": "Stiwdio Fformat"
+  },
+  "formatsInputLabel": {
+    "message": "Mewnbwn Dyddiad / Stamp Amser"
+  },
+  "formatsPatternLabel": {
+    "message": "Patrwm Fformat"
+  },
+  "formatsPreviewLabel": {
+    "message": "Rhagolwg"
+  },
+  "formatsPresetsLabel": {
+    "message": "Rhagosodiadau"
+  },
+  "formatsLocaleLabel": {
+    "message": "Locale"
+  },
+  "formatsStyleLabel": {
+    "message": "Arddull Dyddiad"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Arddull Amser"
+  },
+  "presetFull": {
+    "message": "Llawn"
+  },
+  "presetDate": {
+    "message": "Dyddiad yn Unig"
+  },
+  "presetTime": {
+    "message": "Amser yn Unig"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "Clwb Rygbi 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "Python"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "Wedi canfod stamp amser yn y clipfwrdd"
+  },
+  "clipboardConvert": {
+    "message": "Trosi"
+  },
+  "clipboardDismiss": {
+    "message": "Diystyru"
+  },
+  "errorInvalidInput": {
+    "message": "Mewnbwn annilys neu heb ei gydnabod"
+  },
+  "errorInvalidDate": {
+    "message": "Dyddiad annilys"
+  },
+  "errorEmptyInput": {
+    "message": "Rhowch stamp amser neu ddyddiad"
+  },
+  "errorOutOfRange": {
+    "message": "Stamp amser allan o'r ystod a gefnogir"
+  },
+  "historyTitle": {
+    "message": "Trosiadau Diweddar"
+  },
+  "historyClear": {
+    "message": "Clirio Hanes"
+  },
+  "historyEmpty": {
+    "message": "Dim trawsnewidiadau diweddar"
+  },
+  "darkModeToggle": {
+    "message": "Toglo Modd Tywyll"
+  },
+  "languageLabel": {
+    "message": "Iaith"
+  },
+  "settingsTitle": {
+    "message": "Gosodiadau"
+  },
+  "keyboardShortcuts": {
+    "message": "Llwybrau Byr bysellfwrdd"
+  },
+  "shortcutConvert": {
+    "message": "Trosi"
+  },
+  "shortcutClear": {
+    "message": "Clir"
+  },
+  "shortcutCopy": {
+    "message": "Copïo Canlyniad"
+  },
+  "devPresetsTitle": {
+    "message": "Rhagosodiadau Datblygwr"
+  },
+  "devPresetCopied": {
+    "message": "Tamaid cod wedi'i gopïo!"
+  },
+  "relativeAgo": {
+    "message": "yn ôl"
+  },
+  "relativeIn": {
+    "message": "mewn"
+  },
+  "relativeNow": {
+    "message": "dim ond nawr"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

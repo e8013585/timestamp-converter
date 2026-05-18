@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "ממיר חותמת זמן",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "ממיר TS",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "כלי עזר מהיר ומודרני להמרת חותמות זמן למפתחים",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "מֵמִיר"
+  },
+  "tabLiveClock": {
+    "message": "שעון חי"
+  },
+  "tabBatch": {
+    "message": "קְבוּצָה"
+  },
+  "tabUtilities": {
+    "message": "כלי עזר"
+  },
+  "tabFormats": {
+    "message": "פורמטים"
+  },
+  "inputPlaceholder": {
+    "message": "הזן חותמת זמן, תאריך או שפה טבעית...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "לְהַמִיר"
+  },
+  "clearBtn": {
+    "message": "בָּרוּר"
+  },
+  "copyBtn": {
+    "message": "לְהַעְתִיק"
+  },
+  "copiedBtn": {
+    "message": "מוּעֲתָק!"
+  },
+  "pasteBtn": {
+    "message": "לְהַדבִּיק"
+  },
+  "detectedLabel": {
+    "message": "זוהה"
+  },
+  "detectedUnixSec": {
+    "message": "חותמת זמן של יוניקס (שניות)"
+  },
+  "detectedUnixMs": {
+    "message": "חותמת זמן של יוניקס (מילישניות)"
+  },
+  "detectedIso": {
+    "message": "תאריך ISO 8601"
+  },
+  "detectedRfc": {
+    "message": "תאריך RFC 2822"
+  },
+  "detectedHuman": {
+    "message": "תאריך קריא לאדם"
+  },
+  "detectedRelative": {
+    "message": "ביטוי תאריך יחסי"
+  },
+  "detectedUnknown": {
+    "message": "פורמט לא ידוע"
+  },
+  "resultUnixSec": {
+    "message": "יוניקס (שניות)"
+  },
+  "resultUnixMs": {
+    "message": "יוניקס (מילישניות)"
+  },
+  "resultLocalTime": {
+    "message": "זמן מקומי"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "יַחֲסִי"
+  },
+  "resultHuman": {
+    "message": "קריא אנושי"
+  },
+  "timezoneLabel": {
+    "message": "אזור זמן"
+  },
+  "timezonePreview": {
+    "message": "תצוגה מקדימה של אזור זמן רב"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "מְקוֹמִי"
+  },
+  "tzNewYork": {
+    "message": "ניו יורק"
+  },
+  "tzLondon": {
+    "message": "לונדון"
+  },
+  "tzTokyo": {
+    "message": "טוקיו"
+  },
+  "tzIstanbul": {
+    "message": "איסטנבול"
+  },
+  "tzSydney": {
+    "message": "סידני"
+  },
+  "tzLosAngeles": {
+    "message": "לוס אנג'לס"
+  },
+  "tzBerlin": {
+    "message": "ברלין"
+  },
+  "tzDubai": {
+    "message": "דובאי"
+  },
+  "liveClockTitle": {
+    "message": "שעון חי"
+  },
+  "liveUnixLabel": {
+    "message": "יוניקס (שניות)"
+  },
+  "liveUnixMsLabel": {
+    "message": "יוניקס (מילישניות)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "מְקוֹמִי"
+  },
+  "pauseBtn": {
+    "message": "הַפסָקָה"
+  },
+  "resumeBtn": {
+    "message": "קוֹרוֹת חַיִים"
+  },
+  "batchTitle": {
+    "message": "המרת אצווה"
+  },
+  "batchPlaceholder": {
+    "message": "הדבק מספר חותמות זמן או תאריכים, אחת בכל שורה..."
+  },
+  "batchConvertBtn": {
+    "message": "המר הכל"
+  },
+  "batchClearBtn": {
+    "message": "בָּרוּר"
+  },
+  "batchCopyAllBtn": {
+    "message": "העתק הכל"
+  },
+  "batchExportBtn": {
+    "message": "ייצא JSON"
+  },
+  "batchResultsLabel": {
+    "message": "תוצאות"
+  },
+  "batchLineLabel": {
+    "message": "קַו"
+  },
+  "batchInputLabel": {
+    "message": "קֶלֶט"
+  },
+  "batchOutputLabel": {
+    "message": "תְפוּקָה"
+  },
+  "batchErrorLabel": {
+    "message": "שְׁגִיאָה"
+  },
+  "utilitiesTitle": {
+    "message": "כלי עזר"
+  },
+  "utilDiffTitle": {
+    "message": "מחשבון הפרשי זמן"
+  },
+  "utilDiffFrom": {
+    "message": "מִן"
+  },
+  "utilDiffTo": {
+    "message": "אֶל"
+  },
+  "utilDiffBtn": {
+    "message": "חשב הפרש"
+  },
+  "utilDiffSeconds": {
+    "message": "שניות"
+  },
+  "utilDiffMinutes": {
+    "message": "פּרוֹטוֹקוֹל"
+  },
+  "utilDiffHours": {
+    "message": "שעות"
+  },
+  "utilDiffDays": {
+    "message": "ימים"
+  },
+  "utilDiffMonths": {
+    "message": "חודשים"
+  },
+  "utilDiffYears": {
+    "message": "שנים"
+  },
+  "utilGeneratorTitle": {
+    "message": "מחולל חותמות זמן"
+  },
+  "utilGenNow": {
+    "message": "עַכשָׁיו"
+  },
+  "utilGenStartDay": {
+    "message": "תחילת היום"
+  },
+  "utilGenEndDay": {
+    "message": "סוף היום"
+  },
+  "utilGenStartMonth": {
+    "message": "תחילת חודש"
+  },
+  "utilGenEndMonth": {
+    "message": "סוף חודש"
+  },
+  "utilGenStartYear": {
+    "message": "תחילת שנה"
+  },
+  "utilGenEndYear": {
+    "message": "סוף שנה"
+  },
+  "utilGenRandom": {
+    "message": "חותמת זמן אקראית"
+  },
+  "utilEpochTitle": {
+    "message": "Epoch Explorer"
+  },
+  "utilEpochDesc": {
+    "message": "זמן יוניקס סופר שניות מאז 1 בינואר 1970, 00:00:00 UTC (תקופת יוניקס). חותמות זמן בשניות מתאימים למספר שלם של 32 סיביות עד 19 בינואר 2038 (בעיית Y2K38). JavaScript משתמש באלפיות שניות כברירת מחדל."
+  },
+  "utilEpoch2038": {
+    "message": "בעיה של שנת 2038"
+  },
+  "utilEpoch2038Desc": {
+    "message": "מספרים שלמים עם סימנים של 32 סיביות עולים על 2,147,483,647 - מה שמתאים ל-03:14:07 UTC ב-19 בינואר 2038."
+  },
+  "utilEpochPrecision": {
+    "message": "מדריך מדויק"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 ספרות = שניות | 13 ספרות = אלפיות שניות | 16 ספרות = מיקרו שניות | 19 ספרות = ננו שניות"
+  },
+  "formatsTitle": {
+    "message": "פורמט סטודיו"
+  },
+  "formatsInputLabel": {
+    "message": "הזנת תאריך / חותמת זמן"
+  },
+  "formatsPatternLabel": {
+    "message": "עיצוב דפוס"
+  },
+  "formatsPreviewLabel": {
+    "message": "תצוגה מקדימה"
+  },
+  "formatsPresetsLabel": {
+    "message": "הגדרות קבועות מראש"
+  },
+  "formatsLocaleLabel": {
+    "message": "מקום"
+  },
+  "formatsStyleLabel": {
+    "message": "סגנון תאריך"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "סגנון זמן"
+  },
+  "presetFull": {
+    "message": "מָלֵא"
+  },
+  "presetDate": {
+    "message": "תאריך בלבד"
+  },
+  "presetTime": {
+    "message": "זמן בלבד"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "פִּיתוֹן"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "זוהתה חותמת זמן בלוח"
+  },
+  "clipboardConvert": {
+    "message": "לְהַמִיר"
+  },
+  "clipboardDismiss": {
+    "message": "לְפַטֵר"
+  },
+  "errorInvalidInput": {
+    "message": "קלט לא חוקי או לא מזוהה"
+  },
+  "errorInvalidDate": {
+    "message": "תאריך לא חוקי"
+  },
+  "errorEmptyInput": {
+    "message": "נא להזין חותמת זמן או תאריך"
+  },
+  "errorOutOfRange": {
+    "message": "חותמת זמן מחוץ לטווח הנתמך"
+  },
+  "historyTitle": {
+    "message": "המרות אחרונות"
+  },
+  "historyClear": {
+    "message": "נקה היסטוריה"
+  },
+  "historyEmpty": {
+    "message": "אין המרות אחרונות"
+  },
+  "darkModeToggle": {
+    "message": "החלף מצב כהה"
+  },
+  "languageLabel": {
+    "message": "שָׂפָה"
+  },
+  "settingsTitle": {
+    "message": "הגדרות"
+  },
+  "keyboardShortcuts": {
+    "message": "קיצורי מקלדת"
+  },
+  "shortcutConvert": {
+    "message": "לְהַמִיר"
+  },
+  "shortcutClear": {
+    "message": "בָּרוּר"
+  },
+  "shortcutCopy": {
+    "message": "העתק את התוצאה"
+  },
+  "devPresetsTitle": {
+    "message": "הגדרות מראש למפתחים"
+  },
+  "devPresetCopied": {
+    "message": "קטע הקוד הועתק!"
+  },
+  "relativeAgo": {
+    "message": "לִפנֵי"
+  },
+  "relativeIn": {
+    "message": "ב"
+  },
+  "relativeNow": {
+    "message": "זֶה עַתָה"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

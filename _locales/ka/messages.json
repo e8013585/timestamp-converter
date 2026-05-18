@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "დროის შტამპის კონვერტორი",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "TS კონვერტორი",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "სწრაფი, თანამედროვე დროის ანაბეჭდის კონვერტაციის პროგრამა დეველოპერებისთვის",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "კონვერტორი"
+  },
+  "tabLiveClock": {
+    "message": "ცოცხალი საათი"
+  },
+  "tabBatch": {
+    "message": "პარტია"
+  },
+  "tabUtilities": {
+    "message": "კომუნალური მომსახურება"
+  },
+  "tabFormats": {
+    "message": "ფორმატები"
+  },
+  "inputPlaceholder": {
+    "message": "შეიყვანეთ დროის ანაბეჭდი, თარიღი ან ბუნებრივი ენა…",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "კონვერტაცია"
+  },
+  "clearBtn": {
+    "message": "წმინდა"
+  },
+  "copyBtn": {
+    "message": "კოპირება"
+  },
+  "copiedBtn": {
+    "message": "კოპირებულია!"
+  },
+  "pasteBtn": {
+    "message": "პასტა"
+  },
+  "detectedLabel": {
+    "message": "აღმოჩენილია"
+  },
+  "detectedUnixSec": {
+    "message": "Unix Timestamp (წამები)"
+  },
+  "detectedUnixMs": {
+    "message": "Unix Timestamp (მილიწამები)"
+  },
+  "detectedIso": {
+    "message": "ISO 8601 თარიღი"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 თარიღი"
+  },
+  "detectedHuman": {
+    "message": "ადამიანისთვის წასაკითხი თარიღი"
+  },
+  "detectedRelative": {
+    "message": "შედარებითი თარიღის გამოხატულება"
+  },
+  "detectedUnknown": {
+    "message": "უცნობი ფორმატი"
+  },
+  "resultUnixSec": {
+    "message": "Unix (წამი)"
+  },
+  "resultUnixMs": {
+    "message": "Unix (მილიწამები)"
+  },
+  "resultLocalTime": {
+    "message": "ადგილობრივი დრო"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "ნათესავი"
+  },
+  "resultHuman": {
+    "message": "ადამიანის წაკითხვადი"
+  },
+  "timezoneLabel": {
+    "message": "დროის სარტყელი"
+  },
+  "timezonePreview": {
+    "message": "მრავალდროის ზონის გადახედვა"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "ადგილობრივი"
+  },
+  "tzNewYork": {
+    "message": "ნიუ-იორკი"
+  },
+  "tzLondon": {
+    "message": "ლონდონი"
+  },
+  "tzTokyo": {
+    "message": "ტოკიო"
+  },
+  "tzIstanbul": {
+    "message": "სტამბოლი"
+  },
+  "tzSydney": {
+    "message": "სიდნეი"
+  },
+  "tzLosAngeles": {
+    "message": "ლოს ანჯელესი"
+  },
+  "tzBerlin": {
+    "message": "ბერლინი"
+  },
+  "tzDubai": {
+    "message": "დუბაი"
+  },
+  "liveClockTitle": {
+    "message": "ცოცხალი საათი"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (წამი)"
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (მილიწამები)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "ადგილობრივი"
+  },
+  "pauseBtn": {
+    "message": "პაუზა"
+  },
+  "resumeBtn": {
+    "message": "რეზიუმე"
+  },
+  "batchTitle": {
+    "message": "სურათების კონვერტაცია"
+  },
+  "batchPlaceholder": {
+    "message": "ჩასვით მრავალი დროის ანაბეჭდი ან თარიღი, თითო სტრიქონზე…"
+  },
+  "batchConvertBtn": {
+    "message": "ყველას კონვერტაცია"
+  },
+  "batchClearBtn": {
+    "message": "წმინდა"
+  },
+  "batchCopyAllBtn": {
+    "message": "დააკოპირეთ ყველა"
+  },
+  "batchExportBtn": {
+    "message": "JSON-ის ექსპორტი"
+  },
+  "batchResultsLabel": {
+    "message": "შედეგები"
+  },
+  "batchLineLabel": {
+    "message": "ხაზი"
+  },
+  "batchInputLabel": {
+    "message": "შეყვანა"
+  },
+  "batchOutputLabel": {
+    "message": "გამომავალი"
+  },
+  "batchErrorLabel": {
+    "message": "შეცდომა"
+  },
+  "utilitiesTitle": {
+    "message": "კომუნალური მომსახურება"
+  },
+  "utilDiffTitle": {
+    "message": "დროის სხვაობის კალკულატორი"
+  },
+  "utilDiffFrom": {
+    "message": "დან"
+  },
+  "utilDiffTo": {
+    "message": "რომ"
+  },
+  "utilDiffBtn": {
+    "message": "გამოთვალეთ განსხვავება"
+  },
+  "utilDiffSeconds": {
+    "message": "წამი"
+  },
+  "utilDiffMinutes": {
+    "message": "წუთები"
+  },
+  "utilDiffHours": {
+    "message": "საათები"
+  },
+  "utilDiffDays": {
+    "message": "დღეები"
+  },
+  "utilDiffMonths": {
+    "message": "თვეები"
+  },
+  "utilDiffYears": {
+    "message": "წლები"
+  },
+  "utilGeneratorTitle": {
+    "message": "დროის შტამპის გენერატორი"
+  },
+  "utilGenNow": {
+    "message": "ახლა"
+  },
+  "utilGenStartDay": {
+    "message": "დღის დასაწყისი"
+  },
+  "utilGenEndDay": {
+    "message": "დღის დასასრული"
+  },
+  "utilGenStartMonth": {
+    "message": "თვის დასაწყისი"
+  },
+  "utilGenEndMonth": {
+    "message": "თვის ბოლოს"
+  },
+  "utilGenStartYear": {
+    "message": "წლის დასაწყისი"
+  },
+  "utilGenEndYear": {
+    "message": "წლის ბოლოს"
+  },
+  "utilGenRandom": {
+    "message": "შემთხვევითი დროის შტამპი"
+  },
+  "utilEpochTitle": {
+    "message": "ეპოქის მკვლევარი"
+  },
+  "utilEpochDesc": {
+    "message": "Unix-ის დრო ითვლის წამებს 1970 წლის 1 იანვრიდან, 00:00:00 UTC (უნიქსის ეპოქა). დროის ანაბეჭდები წამებში ჯდება 32-ბიტიან მთელ რიცხვში 2038 წლის 19 იანვრამდე (Y2K38 პრობლემა). JavaScript ნაგულისხმევად იყენებს მილიწამებს."
+  },
+  "utilEpoch2038": {
+    "message": "2038 წლის პრობლემა"
+  },
+  "utilEpoch2038Desc": {
+    "message": "32-ბიტიანი ხელმოწერილი მთელი რიცხვები გადაედინება 2,147,483,647 - რაც შეესაბამება 03:14:07 UTC 2038 წლის 19 იანვარს."
+  },
+  "utilEpochPrecision": {
+    "message": "ზუსტი სახელმძღვანელო"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 ციფრი = წამი | 13 ციფრი = მილიწამი | 16 ციფრი = მიკროწამი | 19 ციფრი = ნანოწამი"
+  },
+  "formatsTitle": {
+    "message": "ფორმატი სტუდია"
+  },
+  "formatsInputLabel": {
+    "message": "თარიღი / დროის ანაბეჭდის შეყვანა"
+  },
+  "formatsPatternLabel": {
+    "message": "ფორმატის ნიმუში"
+  },
+  "formatsPreviewLabel": {
+    "message": "გადახედვა"
+  },
+  "formatsPresetsLabel": {
+    "message": "წინასწარ დაყენებები"
+  },
+  "formatsLocaleLabel": {
+    "message": "ლოკალი"
+  },
+  "formatsStyleLabel": {
+    "message": "თარიღის სტილი"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "დროის სტილი"
+  },
+  "presetFull": {
+    "message": "სრული"
+  },
+  "presetDate": {
+    "message": "მხოლოდ თარიღი"
+  },
+  "presetTime": {
+    "message": "მხოლოდ დრო"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "JavaScript"
+  },
+  "presetPython": {
+    "message": "პითონი"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "MongoDB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "დროის ანაბეჭდი აღმოჩენილია ბუფერში"
+  },
+  "clipboardConvert": {
+    "message": "კონვერტაცია"
+  },
+  "clipboardDismiss": {
+    "message": "გაუქმება"
+  },
+  "errorInvalidInput": {
+    "message": "არასწორი ან ამოუცნობი შენატანი"
+  },
+  "errorInvalidDate": {
+    "message": "არასწორი თარიღი"
+  },
+  "errorEmptyInput": {
+    "message": "გთხოვთ, შეიყვანოთ დროის ანაბეჭდი ან თარიღი"
+  },
+  "errorOutOfRange": {
+    "message": "დროის შტამპი მხარდაჭერილი დიაპაზონის გარეთ"
+  },
+  "historyTitle": {
+    "message": "ბოლო კონვერტაციები"
+  },
+  "historyClear": {
+    "message": "ისტორიის გასუფთავება"
+  },
+  "historyEmpty": {
+    "message": "ბოლო კონვერტაციები არ არის"
+  },
+  "darkModeToggle": {
+    "message": "მუქი რეჟიმის გადართვა"
+  },
+  "languageLabel": {
+    "message": "ენა"
+  },
+  "settingsTitle": {
+    "message": "პარამეტრები"
+  },
+  "keyboardShortcuts": {
+    "message": "კლავიატურის მალსახმობები"
+  },
+  "shortcutConvert": {
+    "message": "კონვერტაცია"
+  },
+  "shortcutClear": {
+    "message": "წმინდა"
+  },
+  "shortcutCopy": {
+    "message": "შედეგის კოპირება"
+  },
+  "devPresetsTitle": {
+    "message": "დეველოპერის წინასწარ პარამეტრები"
+  },
+  "devPresetCopied": {
+    "message": "კოდის ნაწყვეტი დაკოპირებულია!"
+  },
+  "relativeAgo": {
+    "message": "წინ"
+  },
+  "relativeIn": {
+    "message": "in"
+  },
+  "relativeNow": {
+    "message": "მხოლოდ ახლა"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "타임스탬프 변환기",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "TS 변환기",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "개발자를 위한 빠르고 현대적인 타임스탬프 변환 유틸리티",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "변환기"
+  },
+  "tabLiveClock": {
+    "message": "라이브 시계"
+  },
+  "tabBatch": {
+    "message": "일괄"
+  },
+  "tabUtilities": {
+    "message": "유용"
+  },
+  "tabFormats": {
+    "message": "형식"
+  },
+  "inputPlaceholder": {
+    "message": "타임스탬프, 날짜 또는 자연어를 입력하세요.",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "전환하다"
+  },
+  "clearBtn": {
+    "message": "분명한"
+  },
+  "copyBtn": {
+    "message": "복사"
+  },
+  "copiedBtn": {
+    "message": "복사되었습니다!"
+  },
+  "pasteBtn": {
+    "message": "반죽"
+  },
+  "detectedLabel": {
+    "message": "감지됨"
+  },
+  "detectedUnixSec": {
+    "message": "Unix 타임스탬프(초)"
+  },
+  "detectedUnixMs": {
+    "message": "Unix 타임스탬프(밀리초)"
+  },
+  "detectedIso": {
+    "message": "ISO 8601 날짜"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 날짜"
+  },
+  "detectedHuman": {
+    "message": "사람이 읽을 수 있는 날짜"
+  },
+  "detectedRelative": {
+    "message": "상대 날짜 표현"
+  },
+  "detectedUnknown": {
+    "message": "알 수 없는 형식"
+  },
+  "resultUnixSec": {
+    "message": "유닉스(초)"
+  },
+  "resultUnixMs": {
+    "message": "유닉스(밀리초)"
+  },
+  "resultLocalTime": {
+    "message": "현지 시간"
+  },
+  "resultUtc": {
+    "message": "UTC"
+  },
+  "resultIso": {
+    "message": "ISO 8601"
+  },
+  "resultRfc": {
+    "message": "RFC 2822"
+  },
+  "resultRelative": {
+    "message": "상대적인"
+  },
+  "resultHuman": {
+    "message": "사람이 읽을 수 있음"
+  },
+  "timezoneLabel": {
+    "message": "시간대"
+  },
+  "timezonePreview": {
+    "message": "다중 시간대 미리보기"
+  },
+  "tzUtc": {
+    "message": "UTC"
+  },
+  "tzLocal": {
+    "message": "현지의"
+  },
+  "tzNewYork": {
+    "message": "뉴욕"
+  },
+  "tzLondon": {
+    "message": "런던"
+  },
+  "tzTokyo": {
+    "message": "도쿄"
+  },
+  "tzIstanbul": {
+    "message": "이스탄불"
+  },
+  "tzSydney": {
+    "message": "시드니"
+  },
+  "tzLosAngeles": {
+    "message": "로스앤젤레스"
+  },
+  "tzBerlin": {
+    "message": "베를린"
+  },
+  "tzDubai": {
+    "message": "두바이"
+  },
+  "liveClockTitle": {
+    "message": "라이브 시계"
+  },
+  "liveUnixLabel": {
+    "message": "유닉스(초)"
+  },
+  "liveUnixMsLabel": {
+    "message": "유닉스(밀리초)"
+  },
+  "liveUtcLabel": {
+    "message": "UTC"
+  },
+  "liveLocalLabel": {
+    "message": "현지의"
+  },
+  "pauseBtn": {
+    "message": "정지시키다"
+  },
+  "resumeBtn": {
+    "message": "재개하다"
+  },
+  "batchTitle": {
+    "message": "일괄 변환"
+  },
+  "batchPlaceholder": {
+    "message": "한 줄에 하나씩 여러 개의 타임스탬프나 날짜를 붙여넣으세요."
+  },
+  "batchConvertBtn": {
+    "message": "모두 변환"
+  },
+  "batchClearBtn": {
+    "message": "분명한"
+  },
+  "batchCopyAllBtn": {
+    "message": "모두 복사"
+  },
+  "batchExportBtn": {
+    "message": "JSON 내보내기"
+  },
+  "batchResultsLabel": {
+    "message": "결과"
+  },
+  "batchLineLabel": {
+    "message": "선"
+  },
+  "batchInputLabel": {
+    "message": "입력"
+  },
+  "batchOutputLabel": {
+    "message": "산출"
+  },
+  "batchErrorLabel": {
+    "message": "오류"
+  },
+  "utilitiesTitle": {
+    "message": "유용"
+  },
+  "utilDiffTitle": {
+    "message": "시차 계산기"
+  },
+  "utilDiffFrom": {
+    "message": "에서"
+  },
+  "utilDiffTo": {
+    "message": "에게"
+  },
+  "utilDiffBtn": {
+    "message": "차이 계산"
+  },
+  "utilDiffSeconds": {
+    "message": "초"
+  },
+  "utilDiffMinutes": {
+    "message": "분"
+  },
+  "utilDiffHours": {
+    "message": "시간"
+  },
+  "utilDiffDays": {
+    "message": "날"
+  },
+  "utilDiffMonths": {
+    "message": "개월"
+  },
+  "utilDiffYears": {
+    "message": "연령"
+  },
+  "utilGeneratorTitle": {
+    "message": "타임스탬프 생성기"
+  },
+  "utilGenNow": {
+    "message": "지금"
+  },
+  "utilGenStartDay": {
+    "message": "하루의 시작"
+  },
+  "utilGenEndDay": {
+    "message": "하루의 끝"
+  },
+  "utilGenStartMonth": {
+    "message": "월의 시작"
+  },
+  "utilGenEndMonth": {
+    "message": "월말"
+  },
+  "utilGenStartYear": {
+    "message": "연초"
+  },
+  "utilGenEndYear": {
+    "message": "연말"
+  },
+  "utilGenRandom": {
+    "message": "무작위 타임스탬프"
+  },
+  "utilEpochTitle": {
+    "message": "신기원 탐험가"
+  },
+  "utilEpochDesc": {
+    "message": "Unix 시간은 1970년 1월 1일 00:00:00 UTC(Unix Epoch) 이후의 초를 계산합니다. 초 단위의 타임스탬프는 2038년 1월 19일(Y2K38 문제)까지 32비트 정수에 맞습니다. JavaScript는 기본적으로 밀리초를 사용합니다."
+  },
+  "utilEpoch2038": {
+    "message": "2038년 문제"
+  },
+  "utilEpoch2038Desc": {
+    "message": "32비트 부호 있는 정수는 2,147,483,647에서 오버플로됩니다. 이는 2038년 1월 19일 03:14:07 UTC에 해당합니다."
+  },
+  "utilEpochPrecision": {
+    "message": "정밀가이드"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10자리 = 초 | 13자리 = 밀리초 | 16자리 = 마이크로초 | 19자리 = 나노초"
+  },
+  "formatsTitle": {
+    "message": "포맷 스튜디오"
+  },
+  "formatsInputLabel": {
+    "message": "날짜/타임스탬프 입력"
+  },
+  "formatsPatternLabel": {
+    "message": "형식 패턴"
+  },
+  "formatsPreviewLabel": {
+    "message": "시사"
+  },
+  "formatsPresetsLabel": {
+    "message": "사전 설정"
+  },
+  "formatsLocaleLabel": {
+    "message": "장소"
+  },
+  "formatsStyleLabel": {
+    "message": "날짜 스타일"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "시간 스타일"
+  },
+  "presetFull": {
+    "message": "가득한"
+  },
+  "presetDate": {
+    "message": "날짜만"
+  },
+  "presetTime": {
+    "message": "시간만"
+  },
+  "presetIso": {
+    "message": "ISO 8601"
+  },
+  "presetRfc": {
+    "message": "RFC 2822"
+  },
+  "presetJs": {
+    "message": "자바스크립트"
+  },
+  "presetPython": {
+    "message": "파이썬"
+  },
+  "presetSql": {
+    "message": "SQL"
+  },
+  "presetMongo": {
+    "message": "몽고DB"
+  },
+  "presetJson": {
+    "message": "JSON"
+  },
+  "clipboardDetected": {
+    "message": "클립보드에서 타임스탬프가 감지되었습니다."
+  },
+  "clipboardConvert": {
+    "message": "전환하다"
+  },
+  "clipboardDismiss": {
+    "message": "해고하다"
+  },
+  "errorInvalidInput": {
+    "message": "유효하지 않거나 인식할 수 없는 입력"
+  },
+  "errorInvalidDate": {
+    "message": "잘못된 날짜"
+  },
+  "errorEmptyInput": {
+    "message": "타임스탬프나 날짜를 입력하세요."
+  },
+  "errorOutOfRange": {
+    "message": "지원되는 범위를 벗어난 타임스탬프"
+  },
+  "historyTitle": {
+    "message": "최근 전환"
+  },
+  "historyClear": {
+    "message": "기록 지우기"
+  },
+  "historyEmpty": {
+    "message": "최근 전환이 없습니다."
+  },
+  "darkModeToggle": {
+    "message": "다크 모드 전환"
+  },
+  "languageLabel": {
+    "message": "언어"
+  },
+  "settingsTitle": {
+    "message": "설정"
+  },
+  "keyboardShortcuts": {
+    "message": "키보드 단축키"
+  },
+  "shortcutConvert": {
+    "message": "전환하다"
+  },
+  "shortcutClear": {
+    "message": "분명한"
+  },
+  "shortcutCopy": {
+    "message": "결과 복사"
+  },
+  "devPresetsTitle": {
+    "message": "개발자 사전 설정"
+  },
+  "devPresetCopied": {
+    "message": "코드 조각이 복사되었습니다!"
+  },
+  "relativeAgo": {
+    "message": "~ 전에"
+  },
+  "relativeIn": {
+    "message": "~에"
+  },
+  "relativeNow": {
+    "message": "방금"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

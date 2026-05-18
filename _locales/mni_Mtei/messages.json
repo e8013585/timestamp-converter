@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ ꯀꯟꯚꯥꯔꯇꯔ ꯇꯧꯕꯥ꯫",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "ꯇꯤ.ꯑꯦꯁ.ꯀꯤ ꯀꯟꯚꯥꯔꯇꯔ ꯇꯧꯕꯥ꯫",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "ꯗꯤꯕꯦꯂꯄꯔꯁꯤꯡꯒꯤꯗꯃꯛꯇꯥ ꯌꯥꯝꯅꯥ ꯊꯨꯅꯥ, ꯃꯣꯗꯔꯟ ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ ꯀꯟꯕꯔꯁꯟ ꯌꯨꯇꯤꯂꯤꯇꯤ ꯑꯃꯅꯤ꯫",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "ꯀꯟꯚꯥꯔꯇꯔ ꯇꯧꯕꯥ꯫"
+  },
+  "tabLiveClock": {
+    "message": "ꯂꯥꯏꯕ ꯘꯗꯤ꯫"
+  },
+  "tabBatch": {
+    "message": "ꯀꯥꯡꯂꯨꯞ"
+  },
+  "tabUtilities": {
+    "message": "ꯌꯨꯇꯤꯂꯤꯇꯤꯁꯤꯡ꯫"
+  },
+  "tabFormats": {
+    "message": "ꯐꯣꯔꯃꯦꯇꯁꯤꯡ꯫"
+  },
+  "inputPlaceholder": {
+    "message": "ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ, ꯇꯥꯡ, ꯅꯠꯔꯒꯥ ꯃꯍꯧꯁꯥꯒꯤ ꯂꯣꯜ ꯑꯦꯟꯇꯔ ꯇꯧꯕꯤꯌꯨ...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "ꯑꯣꯟꯊꯣꯛꯄ"
+  },
+  "clearBtn": {
+    "message": "ꯑꯁꯦꯡꯕ"
+  },
+  "copyBtn": {
+    "message": "ꯀꯣꯄꯤ ꯇꯧꯕꯥ꯫"
+  },
+  "copiedBtn": {
+    "message": "ꯀꯣꯄꯤ ꯇꯧꯈ꯭ꯔꯦ!"
+  },
+  "pasteBtn": {
+    "message": "ꯄꯦꯁ꯭ꯠ ꯇꯧꯕꯥ꯫"
+  },
+  "detectedLabel": {
+    "message": "ꯈꯉꯗꯣꯀꯈ꯭ꯔꯦ꯫"
+  },
+  "detectedUnixSec": {
+    "message": "ꯌꯨꯅꯤꯛꯁ ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ (ꯁꯦꯀꯦꯟꯗ) ꯴."
+  },
+  "detectedUnixMs": {
+    "message": "ꯌꯨꯅꯤꯛꯁ ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ (ꯃꯤꯂꯤꯁꯦꯀꯦꯟꯗ)"
+  },
+  "detectedIso": {
+    "message": "ꯑꯥꯏ.ꯑꯦꯁ.ꯑꯣ.꯸꯶꯰꯱ꯒꯤ ꯇꯥꯡ꯫"
+  },
+  "detectedRfc": {
+    "message": "ꯑꯥꯔ.ꯑꯦꯐ.ꯁꯤ ꯲꯸꯲꯲ꯒꯤ ꯇꯥꯡ꯫"
+  },
+  "detectedHuman": {
+    "message": "ꯃꯤꯑꯣꯏꯕꯅꯥ ꯄꯥꯕꯥ ꯌꯥꯕꯥ ꯇꯥꯡ꯫"
+  },
+  "detectedRelative": {
+    "message": "ꯔꯤꯂꯦꯇꯤꯕ ꯗꯦꯠ ꯑꯦꯛꯁꯞꯔꯦꯁꯟ꯫"
+  },
+  "detectedUnknown": {
+    "message": "ꯑꯅꯀꯟ ꯐꯣꯔꯃꯦꯠ꯫"
+  },
+  "resultUnixSec": {
+    "message": "ꯌꯨꯅꯤꯛꯁ (ꯁꯦꯀꯦꯟꯗ) ꯴."
+  },
+  "resultUnixMs": {
+    "message": "ꯌꯨꯅꯤꯛꯁ (ꯃꯤꯂꯤꯁꯦꯀꯦꯟꯗ) ꯴."
+  },
+  "resultLocalTime": {
+    "message": "ꯂꯣꯀꯦꯜ ꯇꯥꯏꯝ꯫"
+  },
+  "resultUtc": {
+    "message": "ꯌꯨ.ꯇꯤ.ꯁꯤ"
+  },
+  "resultIso": {
+    "message": "ꯑꯥꯏ.ꯑꯦꯁ.ꯑꯣ.꯸꯶꯰꯱ ꯂꯩ꯫"
+  },
+  "resultRfc": {
+    "message": "ꯑꯥꯔ.ꯑꯦꯐ.ꯁꯤ ꯲꯸꯲꯲ ꯂꯩ꯫"
+  },
+  "resultRelative": {
+    "message": "ꯃꯔꯤ ꯃꯇꯥ"
+  },
+  "resultHuman": {
+    "message": "ꯃꯤꯑꯣꯏꯕꯅꯥ ꯄꯥꯕꯥ ꯌꯥꯕꯥ꯫"
+  },
+  "timezoneLabel": {
+    "message": "ꯇꯥꯏꯃꯖꯣꯟ꯫"
+  },
+  "timezonePreview": {
+    "message": "ꯃꯜꯇꯤ-ꯇꯥꯏꯃꯖꯣꯟ ꯄ꯭ꯔꯤꯚꯤꯎ ꯇꯧꯕꯥ꯫"
+  },
+  "tzUtc": {
+    "message": "ꯌꯨ.ꯇꯤ.ꯁꯤ"
+  },
+  "tzLocal": {
+    "message": "ꯂꯩꯀꯥꯏ"
+  },
+  "tzNewYork": {
+    "message": "ꯅ꯭ꯌꯨ ꯌꯣꯔꯀꯇꯥ ꯂꯩꯕꯥ꯫"
+  },
+  "tzLondon": {
+    "message": "ꯂꯟꯗꯟꯗꯥ ꯂꯩꯕꯥ ꯌꯨ.ꯑꯦꯁ"
+  },
+  "tzTokyo": {
+    "message": "ꯇꯣꯀꯤꯑꯣꯗꯥ ꯂꯩꯕꯥ ꯌꯨ.ꯑꯦꯁ"
+  },
+  "tzIstanbul": {
+    "message": "ꯏꯁ꯭ꯇꯥꯅꯕꯨꯂꯗꯥ ꯂꯩꯕꯥ ꯌꯨ.ꯑꯦꯁ"
+  },
+  "tzSydney": {
+    "message": "ꯁꯤꯗꯅꯤꯗꯥ ꯂꯩꯕꯥ ꯌꯨ.ꯑꯦꯁ"
+  },
+  "tzLosAngeles": {
+    "message": "ꯂꯁ ꯑꯦꯟꯖꯦꯂꯦꯁꯇꯥ ꯂꯩꯕꯥ ꯌꯨ.ꯑꯦꯁ"
+  },
+  "tzBerlin": {
+    "message": "ꯕꯔꯂꯤꯟꯗꯥ ꯂꯩꯕꯥ ꯌꯨ.ꯑꯦꯁ"
+  },
+  "tzDubai": {
+    "message": "ꯗꯨꯕꯥꯏꯗꯥ ꯂꯩꯕꯥ ꯌꯨ.ꯑꯦꯁ"
+  },
+  "liveClockTitle": {
+    "message": "ꯂꯥꯏꯕ ꯘꯗꯤ꯫"
+  },
+  "liveUnixLabel": {
+    "message": "ꯌꯨꯅꯤꯛꯁ (ꯁꯦꯀꯦꯟꯗ) ꯴."
+  },
+  "liveUnixMsLabel": {
+    "message": "ꯌꯨꯅꯤꯛꯁ (ꯃꯤꯂꯤꯁꯦꯀꯦꯟꯗ) ꯴."
+  },
+  "liveUtcLabel": {
+    "message": "ꯌꯨ.ꯇꯤ.ꯁꯤ"
+  },
+  "liveLocalLabel": {
+    "message": "ꯂꯩꯀꯥꯏ"
+  },
+  "pauseBtn": {
+    "message": "ꯉꯩꯍꯥꯛ ꯂꯦꯞꯄ"
+  },
+  "resumeBtn": {
+    "message": "ꯃꯈꯥ ꯆꯠꯊꯕ"
+  },
+  "batchTitle": {
+    "message": "ꯕꯦꯆ ꯀꯟꯕꯔꯁꯟ ꯇꯧꯕꯥ꯫"
+  },
+  "batchPlaceholder": {
+    "message": "ꯃꯁꯤꯡ ꯌꯥꯝꯂꯕꯥ ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ ꯅꯠꯔꯒꯥ ꯇꯥꯡꯁꯤꯡ ꯄꯦꯁ꯭ꯠ ꯇꯧꯕꯤꯌꯨ, ꯂꯥꯏꯟ ꯑꯃꯗꯥ ꯑꯃꯥ..."
+  },
+  "batchConvertBtn": {
+    "message": "ꯄꯨꯝꯅꯃꯛ ꯀꯟꯚꯥꯔꯠ ꯇꯧꯕꯥ꯫"
+  },
+  "batchClearBtn": {
+    "message": "ꯑꯁꯦꯡꯕ"
+  },
+  "batchCopyAllBtn": {
+    "message": "ꯄꯨꯝꯅꯃꯛ ꯀꯣꯄꯤ ꯇꯧꯕꯥ꯫"
+  },
+  "batchExportBtn": {
+    "message": "ꯖꯦ.ꯑꯦꯁ.ꯑꯣ.ꯑꯦꯟ"
+  },
+  "batchResultsLabel": {
+    "message": "ꯃꯍꯩꯁꯤꯡ"
+  },
+  "batchLineLabel": {
+    "message": "ꯂꯩꯏ"
+  },
+  "batchInputLabel": {
+    "message": "ꯏꯅꯄꯨꯠ ꯇꯧꯕꯥ꯫"
+  },
+  "batchOutputLabel": {
+    "message": "ꯑꯥꯎꯠꯄꯨꯠ ꯇꯧꯕꯥ꯫"
+  },
+  "batchErrorLabel": {
+    "message": "ꯑꯁꯣꯏꯕ"
+  },
+  "utilitiesTitle": {
+    "message": "ꯌꯨꯇꯤꯂꯤꯇꯤꯁꯤꯡ꯫"
+  },
+  "utilDiffTitle": {
+    "message": "ꯃꯇꯃꯒꯤ ꯈꯦꯠꯅꯕꯥ ꯀꯦꯂꯀꯨꯂꯦꯇꯔ꯫"
+  },
+  "utilDiffFrom": {
+    "message": "ꯗꯒꯤ"
+  },
+  "utilDiffTo": {
+    "message": "ꯇꯨ"
+  },
+  "utilDiffBtn": {
+    "message": "ꯈꯦꯠꯅꯕꯥ ꯑꯗꯨ ꯂꯦꯄꯊꯣꯀꯄꯥ꯫"
+  },
+  "utilDiffSeconds": {
+    "message": "ꯁꯦꯀꯦꯟꯗ ꯈꯔꯒꯤ ꯃꯅꯨꯡꯗꯥ꯫"
+  },
+  "utilDiffMinutes": {
+    "message": "ꯑꯄꯤꯛꯀꯁꯤꯡ"
+  },
+  "utilDiffHours": {
+    "message": "ꯄꯨꯡ"
+  },
+  "utilDiffDays": {
+    "message": "ꯅꯨꯃꯤꯠꯁꯤꯡ꯫"
+  },
+  "utilDiffMonths": {
+    "message": "ꯊꯥ ꯀꯌꯥ꯫"
+  },
+  "utilDiffYears": {
+    "message": "ꯆꯍꯤꯁꯤꯡ"
+  },
+  "utilGeneratorTitle": {
+    "message": "ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ ꯖꯦꯅꯦꯔꯦꯇꯔ ꯇꯧꯕꯥ꯫"
+  },
+  "utilGenNow": {
+    "message": "ꯍꯧꯖꯤꯛ"
+  },
+  "utilGenStartDay": {
+    "message": "ꯅꯨꯃꯤꯠꯀꯤ ꯍꯧꯔꯀꯐꯝ꯫"
+  },
+  "utilGenEndDay": {
+    "message": "ꯅꯨꯃꯤꯠꯀꯤ ꯂꯣꯏꯁꯤꯜꯂꯀꯄꯥ꯫"
+  },
+  "utilGenStartMonth": {
+    "message": "ꯊꯥ ꯍꯧꯕꯥ꯫"
+  },
+  "utilGenEndMonth": {
+    "message": "ꯊꯥꯒꯤ ꯑꯔꯣꯏꯕꯥ꯫"
+  },
+  "utilGenStartYear": {
+    "message": "ꯆꯍꯤꯒꯤ ꯍꯧꯔꯀꯄꯥ꯫"
+  },
+  "utilGenEndYear": {
+    "message": "ꯆꯍꯤꯒꯤ ꯑꯔꯣꯏꯕꯥ꯫"
+  },
+  "utilGenRandom": {
+    "message": "ꯔꯦꯟꯗꯝ ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ ꯇꯧꯕꯥ꯫"
+  },
+  "utilEpochTitle": {
+    "message": "ꯏꯄꯣꯛ ꯑꯦꯛꯁꯞꯂꯣꯌꯥꯔ ꯇꯧꯕꯥ꯫"
+  },
+  "utilEpochDesc": {
+    "message": "ꯌꯨꯅꯤꯛꯁꯀꯤ ꯃꯇꯝ ꯑꯁꯤ ꯖꯅꯨꯋꯥꯔꯤ ꯱, ꯱꯹꯷꯰, ꯰꯰:꯰꯰:꯰꯰ UTC (ꯌꯨꯅꯤꯛꯁ ꯏꯄꯣꯛ)ꯗꯒꯤ ꯁꯦꯀꯦꯟꯗꯁꯤꯡ ꯀꯥꯎꯟꯇ ꯇꯧꯏ꯫ ꯁꯦꯀꯦꯟꯗꯁꯤꯡꯗꯥ ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄꯁꯤꯡ ꯑꯁꯤ ꯖꯅꯨꯋꯥꯔꯤ 19, 2038 ꯐꯥꯎꯕꯥ 32-ꯕꯤꯠ ꯏꯟꯇꯤꯖꯔ ꯑꯃꯗꯥ ꯐꯤꯠ ꯇꯧꯏ (Y2K38 ꯄ꯭ꯔꯣꯕ꯭ꯂꯦꯝ)꯫ ꯖꯥꯚꯥꯁ꯭ꯛꯔꯤꯞꯇꯅꯥ ꯗꯤꯐꯣꯜꯇ ꯑꯣꯏꯅꯥ ꯃꯤꯂꯤꯁꯦꯀꯦꯟꯗꯁꯤꯡ ꯁꯤꯖꯤꯟꯅꯩ꯫"
+  },
+  "utilEpoch2038": {
+    "message": "ꯆꯍꯤ ꯲꯰꯳꯸ꯒꯤ ꯁꯃꯁ꯭ꯌꯥ꯫"
+  },
+  "utilEpoch2038Desc": {
+    "message": "꯳꯲-ꯕꯤꯠ ꯁꯥꯏꯟ ꯇꯧꯔꯕꯥ ꯏꯟꯇꯤꯖꯔꯁꯤꯡ ꯑꯁꯤ ꯲,꯱꯴꯷,꯴꯸꯳,꯶꯴꯷ꯗꯥ ꯑꯣꯚꯔꯐ꯭ꯂꯣ ꯇꯧꯏ — ꯃꯁꯤꯅꯥ ꯖꯅꯨꯋꯥꯔꯤ ꯱꯹, ꯲꯰꯳꯸ꯗꯥ ꯰꯳:꯱꯴:꯰꯷ UTCꯒꯥ ꯃꯥꯟꯅꯩ꯫"
+  },
+  "utilEpochPrecision": {
+    "message": "ꯄ꯭ꯔꯤꯁꯤꯁꯟ ꯒꯥꯏꯗꯂꯥꯏꯟ꯫"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "꯱꯰ ꯗꯤꯖꯤꯠ = ꯁꯦꯀꯦꯟꯗ | ꯱꯳ ꯗꯤꯖꯤꯠ = ꯃꯤꯂꯤꯁꯦꯀꯦꯟꯗ | ꯱꯶ ꯗꯤꯖꯤꯠ = ꯃꯥꯏꯛꯔꯣꯁꯦꯀꯦꯟꯗ | ꯱꯹ ꯗꯤꯖꯤꯠ = ꯅꯦꯅꯣꯁꯦꯀꯦꯟꯗ꯫"
+  },
+  "formatsTitle": {
+    "message": "ꯐꯣꯔꯃꯦꯠ ꯁ꯭ꯇꯨꯗꯤꯑꯣ꯫"
+  },
+  "formatsInputLabel": {
+    "message": "ꯇꯥꯡ / ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ ꯏꯅꯄꯨꯠ ꯇꯧꯕꯥ꯫"
+  },
+  "formatsPatternLabel": {
+    "message": "ꯐꯣꯔꯃꯦꯠ ꯄꯦꯇꯔꯟ꯫"
+  },
+  "formatsPreviewLabel": {
+    "message": "ꯄ꯭ꯔꯤꯚꯤꯎ ꯇꯧꯕꯥ꯫"
+  },
+  "formatsPresetsLabel": {
+    "message": "ꯄ꯭ꯔꯤꯁꯦꯠ ꯇꯧꯕꯥ꯫"
+  },
+  "formatsLocaleLabel": {
+    "message": "ꯂꯣꯀꯦꯜ ꯑꯣꯏꯕꯥ꯫"
+  },
+  "formatsStyleLabel": {
+    "message": "ꯇꯥꯡꯒꯤ ꯃꯑꯣꯡ ꯃꯇꯧ꯫"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "ꯃꯇꯃꯒꯤ ꯃꯑꯣꯡ ꯃꯇꯧ꯫"
+  },
+  "presetFull": {
+    "message": "ꯃꯏꯛ ꯊꯟꯕ"
+  },
+  "presetDate": {
+    "message": "ꯇꯥꯡ ꯈꯛꯇꯃꯛ꯫"
+  },
+  "presetTime": {
+    "message": "ꯃꯇꯝ ꯈꯛꯇꯒꯤ ꯑꯣꯏꯕꯥ꯫"
+  },
+  "presetIso": {
+    "message": "ꯑꯥꯏ.ꯑꯦꯁ.ꯑꯣ.꯸꯶꯰꯱ ꯂꯩ꯫"
+  },
+  "presetRfc": {
+    "message": "ꯑꯥꯔ.ꯑꯦꯐ.ꯁꯤ ꯲꯸꯲꯲ ꯂꯩ꯫"
+  },
+  "presetJs": {
+    "message": "ꯖꯥꯚꯥꯁ꯭ꯛꯔꯤꯞꯇ꯫"
+  },
+  "presetPython": {
+    "message": "ꯄꯥꯏꯊꯣꯟ꯫"
+  },
+  "presetSql": {
+    "message": "ꯑꯦꯁ.ꯀ꯭ꯌꯨ.ꯑꯦꯜ"
+  },
+  "presetMongo": {
+    "message": "ꯃꯣꯉ꯭ꯒꯣꯗꯤ.ꯕꯤ"
+  },
+  "presetJson": {
+    "message": "ꯖꯦ.ꯑꯦꯁ.ꯑꯣ.ꯑꯦꯟ"
+  },
+  "clipboardDetected": {
+    "message": "ꯀ꯭ꯂꯤꯄꯕꯣꯔꯗꯇꯥ ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ ꯊꯤꯗꯣꯀꯈ꯭ꯔꯦ꯫"
+  },
+  "clipboardConvert": {
+    "message": "ꯑꯣꯟꯊꯣꯛꯄ"
+  },
+  "clipboardDismiss": {
+    "message": "ꯈꯠꯇꯣꯛꯄ"
+  },
+  "errorInvalidInput": {
+    "message": "ꯑꯁꯣꯌꯕꯥ ꯅꯠꯠꯔꯒꯥ ꯃꯁꯛ ꯈꯪꯗꯕꯥ ꯏꯅꯄꯨꯠ꯫"
+  },
+  "errorInvalidDate": {
+    "message": "ꯑꯁꯣꯌꯕꯥ ꯇꯥꯡ꯫"
+  },
+  "errorEmptyInput": {
+    "message": "ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ ꯅꯠꯔꯒꯥ ꯇꯥꯡ ꯑꯃꯥ ꯑꯦꯟꯇꯔ ꯇꯧꯕꯤꯌꯨ꯫"
+  },
+  "errorOutOfRange": {
+    "message": "ꯁꯄꯣꯔꯠ ꯇꯧꯔꯕꯥ ꯔꯦꯟꯖꯒꯤ ꯃꯄꯥꯟꯗꯥ ꯇꯥꯏꯃꯁ꯭ꯇꯦꯝꯄ ꯇꯧꯕꯥ꯫"
+  },
+  "historyTitle": {
+    "message": "ꯍꯟꯗꯛꯀꯤ ꯀꯟꯕꯔꯁꯅꯁꯤꯡ꯫"
+  },
+  "historyClear": {
+    "message": "ꯀ꯭ꯂꯤꯌꯥꯔ ꯍꯤꯁ꯭ꯇꯔꯤ꯫"
+  },
+  "historyEmpty": {
+    "message": "ꯍꯟꯗꯛꯀꯤ ꯀꯅꯕꯔꯁꯟ ꯑꯃꯠꯇꯥ ꯂꯩꯇꯦ꯫"
+  },
+  "darkModeToggle": {
+    "message": "ꯗꯥꯔꯛ ꯃꯣꯗ ꯇꯣꯒꯜ ꯇꯧꯕꯥ꯫"
+  },
+  "languageLabel": {
+    "message": "ꯂꯣꯜ"
+  },
+  "settingsTitle": {
+    "message": "ꯁꯦꯇꯤꯡꯁꯤꯡ꯫"
+  },
+  "keyboardShortcuts": {
+    "message": "ꯀꯤꯕꯣꯔꯗ ꯁꯣꯔꯇꯀꯥꯇꯁꯤꯡ꯫"
+  },
+  "shortcutConvert": {
+    "message": "ꯑꯣꯟꯊꯣꯛꯄ"
+  },
+  "shortcutClear": {
+    "message": "ꯑꯁꯦꯡꯕ"
+  },
+  "shortcutCopy": {
+    "message": "ꯔꯤꯖꯜꯇ ꯀꯣꯄꯤ ꯇꯧꯕꯥ꯫"
+  },
+  "devPresetsTitle": {
+    "message": "ꯗꯤꯚꯦꯂꯄꯔ ꯄ꯭ꯔꯤꯁꯦꯠꯁꯤꯡ꯫"
+  },
+  "devPresetCopied": {
+    "message": "ꯀꯣꯗ ꯁ꯭ꯅꯤꯄꯦꯠ ꯀꯣꯄꯤ ꯇꯧꯈ꯭ꯔꯦ!"
+  },
+  "relativeAgo": {
+    "message": "ꯃꯃꯥꯡꯗ"
+  },
+  "relativeIn": {
+    "message": "ꯏꯟ"
+  },
+  "relativeNow": {
+    "message": "ꯍꯧꯖꯤꯛ ꯍꯧꯖꯤꯀꯃꯛ꯫"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}

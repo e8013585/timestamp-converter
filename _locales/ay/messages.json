@@ -1,0 +1,729 @@
+{
+  "appName": {
+    "message": "Tiempo Sello Jaqukipaña",
+    "description": "The name of the extension"
+  },
+  "appShortName": {
+    "message": "TS Jaqukipaña",
+    "description": "Short name of the extension"
+  },
+  "appDescription": {
+    "message": "Mä juk’a pacha, jichha pacha chimpunak mayjt’ayañ yanapt’a lurayirinakataki",
+    "description": "Description of the extension"
+  },
+  "tabConverter": {
+    "message": "Jaqukipaña"
+  },
+  "tabLiveClock": {
+    "message": "Reloj Vivo ukax mä jach’a uñacht’äwiwa"
+  },
+  "tabBatch": {
+    "message": "Luti"
+  },
+  "tabUtilities": {
+    "message": "Utilidades ukanaka"
+  },
+  "tabFormats": {
+    "message": "Formatos ukanaka"
+  },
+  "inputPlaceholder": {
+    "message": "Tiempo, uru, jan ukax natural aru qillqt’aña...",
+    "description": "Main input placeholder"
+  },
+  "convertBtn": {
+    "message": "Tukuña"
+  },
+  "clearBtn": {
+    "message": "Qhana"
+  },
+  "copyBtn": {
+    "message": "Copia luraña"
+  },
+  "copiedBtn": {
+    "message": "¡Copiatäjjewa!"
+  },
+  "pasteBtn": {
+    "message": "Ukaxa mä juk’a pachanakwa lurasi"
+  },
+  "detectedLabel": {
+    "message": "Uñt’atawa"
+  },
+  "detectedUnixSec": {
+    "message": "Unix ukan pacha chimpupa (Segundos) ."
+  },
+  "detectedUnixMs": {
+    "message": "Unix ukan pacha chimpupa (Millisegundos) ."
+  },
+  "detectedIso": {
+    "message": "ISO 8601 Ukax mä uruwa"
+  },
+  "detectedRfc": {
+    "message": "RFC 2822 Ukax mä uruwa"
+  },
+  "detectedHuman": {
+    "message": "Jaqinakan Uñakipañ Uraqi"
+  },
+  "detectedRelative": {
+    "message": "Relativo Uraqi Uñacht’ayawi"
+  },
+  "detectedUnknown": {
+    "message": "Jan uñt’at Formato"
+  },
+  "resultUnixSec": {
+    "message": "Unix (Segundos) ukat juk’ampinaka."
+  },
+  "resultUnixMs": {
+    "message": "Unix (Milisegundos) ukat juk’ampinaka."
+  },
+  "resultLocalTime": {
+    "message": "Uka chiqan pachapa"
+  },
+  "resultUtc": {
+    "message": "UTC ukax mä juk’a pachanakanwa"
+  },
+  "resultIso": {
+    "message": "ISO 8601 uka kamachirjama"
+  },
+  "resultRfc": {
+    "message": "RFC 2822 uka kamachirjama"
+  },
+  "resultRelative": {
+    "message": "Kipka"
+  },
+  "resultHuman": {
+    "message": "Jaqix Uñakipañjamawa"
+  },
+  "timezoneLabel": {
+    "message": "Zona horaria ukax mä juk’a pachanakanwa"
+  },
+  "timezonePreview": {
+    "message": "Walja Zona de Tiempo ukan nayrïr uñakipaña"
+  },
+  "tzUtc": {
+    "message": "UTC ukax mä juk’a pachanakanwa"
+  },
+  "tzLocal": {
+    "message": "Lukala"
+  },
+  "tzNewYork": {
+    "message": "Nueva York markanxa"
+  },
+  "tzLondon": {
+    "message": "Londres markanxa"
+  },
+  "tzTokyo": {
+    "message": "Tokio markanxa"
+  },
+  "tzIstanbul": {
+    "message": "Estambul markanxa"
+  },
+  "tzSydney": {
+    "message": "Sydney markanxa"
+  },
+  "tzLosAngeles": {
+    "message": "Los Ángeles markanxa"
+  },
+  "tzBerlin": {
+    "message": "Berlín markanwa"
+  },
+  "tzDubai": {
+    "message": "Dubai markanxa"
+  },
+  "liveClockTitle": {
+    "message": "Reloj Vivo ukax mä jach’a uñacht’äwiwa"
+  },
+  "liveUnixLabel": {
+    "message": "Unix (Segundos) ukat juk’ampinaka."
+  },
+  "liveUnixMsLabel": {
+    "message": "Unix (Milisegundos) ukat juk’ampinaka."
+  },
+  "liveUtcLabel": {
+    "message": "UTC ukax mä juk’a pachanakanwa"
+  },
+  "liveLocalLabel": {
+    "message": "Lukala"
+  },
+  "pauseBtn": {
+    "message": "Suyt'ata"
+  },
+  "resumeBtn": {
+    "message": "Juk'aptayaña"
+  },
+  "batchTitle": {
+    "message": "Batch Conversión ukax mä juk’a pachanakanwa"
+  },
+  "batchPlaceholder": {
+    "message": "Walja pacha chimpunaka jan ukax fechas ukanakamp lip’katayaña, sapa línea ukanx mä..."
+  },
+  "batchConvertBtn": {
+    "message": "Taqiniruw jaqukipaña"
+  },
+  "batchClearBtn": {
+    "message": "Qhana"
+  },
+  "batchCopyAllBtn": {
+    "message": "Taqi ukanak copiaña"
+  },
+  "batchExportBtn": {
+    "message": "JSON ukax mä juk’a pachanakanwa"
+  },
+  "batchResultsLabel": {
+    "message": "Utjirinaka"
+  },
+  "batchLineLabel": {
+    "message": "Chiqa"
+  },
+  "batchInputLabel": {
+    "message": "Ukax mä juk’a pachanakanwa"
+  },
+  "batchOutputLabel": {
+    "message": "Ukax mä juk’a pachanakanwa"
+  },
+  "batchErrorLabel": {
+    "message": "Pantja"
+  },
+  "utilitiesTitle": {
+    "message": "Utilidades ukanaka"
+  },
+  "utilDiffTitle": {
+    "message": "Pacha mayjt’awi Calculadora"
+  },
+  "utilDiffFrom": {
+    "message": "Ukhata"
+  },
+  "utilDiffTo": {
+    "message": "A"
+  },
+  "utilDiffBtn": {
+    "message": "Mayjt’awi jakhthapiña"
+  },
+  "utilDiffSeconds": {
+    "message": "Segundonaka"
+  },
+  "utilDiffMinutes": {
+    "message": "K'athanaka"
+  },
+  "utilDiffHours": {
+    "message": "Pachanaka"
+  },
+  "utilDiffDays": {
+    "message": "Urunaka"
+  },
+  "utilDiffMonths": {
+    "message": "Phaxsinaka"
+  },
+  "utilDiffYears": {
+    "message": "Maranaka"
+  },
+  "utilGeneratorTitle": {
+    "message": "Tiempo Sello Generador ukax mä jach’a uñacht’äwiwa"
+  },
+  "utilGenNow": {
+    "message": "Jichha"
+  },
+  "utilGenStartDay": {
+    "message": "Uru qalltaña"
+  },
+  "utilGenEndDay": {
+    "message": "Uru tukuyaña"
+  },
+  "utilGenStartMonth": {
+    "message": "Phaxsi qalltaña"
+  },
+  "utilGenEndMonth": {
+    "message": "Phaxsi tukuyañataki"
+  },
+  "utilGenStartYear": {
+    "message": "Maran qalltaña"
+  },
+  "utilGenEndYear": {
+    "message": "Maran tukuyapa"
+  },
+  "utilGenRandom": {
+    "message": "Ukax mä Sello de Tiempo Aleatorio satawa"
+  },
+  "utilEpochTitle": {
+    "message": "Epoco Explorador ukax mä jach’a uñacht’äwiwa"
+  },
+  "utilEpochDesc": {
+    "message": "Unix pachax 1 uru jallu qallta phaxsit 1970 maran 00:00:00 UTC (Epoca Unix) ukhatpach segundos ukjam jakthapitawa. Segundos ukan pacha chimpunakax 32 bits ukan chimpunakaparux 19 uru anata phaxsit 2038 marakamaw uñt’ayasi (Y2K38 jan walt’awi). JavaScript ukax milisegundos ukanak apnaqi."
+  },
+  "utilEpoch2038": {
+    "message": "Maran 2038 Jan walt’äwi"
+  },
+  "utilEpoch2038Desc": {
+    "message": "32 bits chimpuntat chimpunakax 2.147.483.647 ukharuw phuqhantawayi — ukax 03:14:07 UTC 19 uru anata phaxsit 2038 maranw uñt’ayasi."
+  },
+  "utilEpochPrecision": {
+    "message": "Precisión tuqit yatxatañataki"
+  },
+  "utilEpochPrecisionDesc": {
+    "message": "10 chimpunaka = segundos | 13 chimpunaka = milisegundos | 16 chimpunaka = microsegundos | 19 chimpunaka = nanosegundos"
+  },
+  "formatsTitle": {
+    "message": "Estudio de Formato ukax mä juk’a pachanakanwa"
+  },
+  "formatsInputLabel": {
+    "message": "Uraqi / Tiempo Sello Input"
+  },
+  "formatsPatternLabel": {
+    "message": "Patrón de Formato ukax mä juk’a pachanakanwa"
+  },
+  "formatsPreviewLabel": {
+    "message": "Nayraqata uñakipaña"
+  },
+  "formatsPresetsLabel": {
+    "message": "Presets ukanaka"
+  },
+  "formatsLocaleLabel": {
+    "message": "Ukax mä local ukhamawa"
+  },
+  "formatsStyleLabel": {
+    "message": "Estilo de Fecha ukax mä juk’a pachanakanwa"
+  },
+  "formatsTimeStyleLabel": {
+    "message": "Tiempo Estilo"
+  },
+  "presetFull": {
+    "message": "Phuqha"
+  },
+  "presetDate": {
+    "message": "Uraqi sapaki"
+  },
+  "presetTime": {
+    "message": "Tiempo Ukankiwa"
+  },
+  "presetIso": {
+    "message": "ISO 8601 uka kamachirjama"
+  },
+  "presetRfc": {
+    "message": "RFC 2822 uka kamachirjama"
+  },
+  "presetJs": {
+    "message": "JavaScript ukax mä juk’a pachanakanwa"
+  },
+  "presetPython": {
+    "message": "Python ukax mä juk’a pachanakanwa"
+  },
+  "presetSql": {
+    "message": "SQL ukax mä juk’a pachanakanwa"
+  },
+  "presetMongo": {
+    "message": "MongoDB ukax mä juk’a pachanakanwa"
+  },
+  "presetJson": {
+    "message": "JSON ukax mä juk’a pachanakanwa"
+  },
+  "clipboardDetected": {
+    "message": "Tiempo sello ukax portapapeles ukan uñt’ayatawa"
+  },
+  "clipboardConvert": {
+    "message": "Tukuña"
+  },
+  "clipboardDismiss": {
+    "message": "Khitanukuña"
+  },
+  "errorInvalidInput": {
+    "message": "Jan wali jan ukax jan uñt’at mantawi"
+  },
+  "errorInvalidDate": {
+    "message": "Jan wali uru"
+  },
+  "errorEmptyInput": {
+    "message": "Mä pacha chimpu jan ukax uru qillqt’aña"
+  },
+  "errorOutOfRange": {
+    "message": "Tiempo sello ukax janiw yanapt’atäkiti"
+  },
+  "historyTitle": {
+    "message": "Jichha pacha Jaqichasiñanaka"
+  },
+  "historyClear": {
+    "message": "Qhana Sarnaqäwi"
+  },
+  "historyEmpty": {
+    "message": "Janiw jichhak mayjt’awinakax utjkiti"
+  },
+  "darkModeToggle": {
+    "message": "Modo Ch’amaka ukar mayjt’ayaña"
+  },
+  "languageLabel": {
+    "message": "Aru"
+  },
+  "settingsTitle": {
+    "message": "Ukax mä juk’a pachanakanwa"
+  },
+  "keyboardShortcuts": {
+    "message": "Teclado ukax mä juk’a pachanakanwa"
+  },
+  "shortcutConvert": {
+    "message": "Tukuña"
+  },
+  "shortcutClear": {
+    "message": "Qhana"
+  },
+  "shortcutCopy": {
+    "message": "Copia Resultado ukax mä juk’a pachanakanwa"
+  },
+  "devPresetsTitle": {
+    "message": "Desarrollador Presets ukax mä juk’a pachanakanwa"
+  },
+  "devPresetCopied": {
+    "message": "¡Codigo fragmento ukax copiatawa!"
+  },
+  "relativeAgo": {
+    "message": "qhipa"
+  },
+  "relativeIn": {
+    "message": "ukana"
+  },
+  "relativeNow": {
+    "message": "jichhakiw jichhaki"
+  },
+  "tzMumbaiDelhi": {
+    "message": "Mumbai/Delhi"
+  },
+  "tzShanghai": {
+    "message": "Shanghai"
+  },
+  "genRandomRangeTitle": {
+    "message": "Random Range (optional)"
+  },
+  "genRangeFromPlaceholder": {
+    "message": "From (e.g. 2020-01-01)"
+  },
+  "genRangeToPlaceholder": {
+    "message": "To (e.g. 2030-12-31)"
+  },
+  "presetIsoDate": {
+    "message": "ISO Date"
+  },
+  "presetIsoDatetime": {
+    "message": "ISO Datetime (Local)"
+  },
+  "presetUsDate": {
+    "message": "US Date"
+  },
+  "presetEuDate": {
+    "message": "EU Date"
+  },
+  "presetUkDate": {
+    "message": "UK Date"
+  },
+  "presetFullDate": {
+    "message": "Full Date"
+  },
+  "presetShortDate": {
+    "message": "Short Date"
+  },
+  "presetTime24h": {
+    "message": "Time (24h)"
+  },
+  "presetTime12h": {
+    "message": "Time (12h)"
+  },
+  "presetDatetime24h": {
+    "message": "Datetime (24h)"
+  },
+  "presetDatetime12h": {
+    "message": "Datetime (12h)"
+  },
+  "presetUnixSec": {
+    "message": "Unix (Seconds)"
+  },
+  "presetUnixMs": {
+    "message": "Unix (Milliseconds)"
+  },
+  "presetWithWeek": {
+    "message": "Date + Week Number"
+  },
+  "presetQuarter": {
+    "message": "Year + Quarter"
+  },
+  "presetLogStamp": {
+    "message": "Log Timestamp"
+  },
+  "presetFilename": {
+    "message": "Filename-Safe"
+  },
+  "presetRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchRemoveDuplicates": {
+    "message": "Remove duplicates"
+  },
+  "batchSkipBlanks": {
+    "message": "Skip blanks"
+  },
+  "batchFormatIso8601": {
+    "message": "ISO 8601"
+  },
+  "batchFormatUnixSec": {
+    "message": "Unix (s)"
+  },
+  "batchFormatUnixMs": {
+    "message": "Unix (ms)"
+  },
+  "batchFormatUtc": {
+    "message": "UTC"
+  },
+  "batchFormatLocal": {
+    "message": "Local"
+  },
+  "batchFormatRfc2822": {
+    "message": "RFC 2822"
+  },
+  "batchExportCsvBtn": {
+    "message": "Export CSV"
+  },
+  "batchTotalLabel": {
+    "message": "total"
+  },
+  "batchSuccessLabel": {
+    "message": "success"
+  },
+  "batchFailedLabel": {
+    "message": "failed"
+  },
+  "batchSkippedLabel": {
+    "message": "skipped"
+  },
+  "batchDupesLabel": {
+    "message": "dupes removed"
+  },
+  "utilDiffDatePlaceholder": {
+    "message": "Date or timestamp"
+  },
+  "utilDiffDateToPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "utilDiffSwapLabel": {
+    "message": "Swap dates"
+  },
+  "utilGenRandomFull": {
+    "message": "Random Timestamp"
+  },
+  "epochUnixEpoch": {
+    "message": "Unix Epoch"
+  },
+  "epochCurrentUnix": {
+    "message": "Current Unix (s)"
+  },
+  "epochTimeSinceEpoch": {
+    "message": "Time Since Epoch"
+  },
+  "epochY2038Boundary": {
+    "message": "Y2038 Boundary"
+  },
+  "epochYourTimezone": {
+    "message": "Your Timezone"
+  },
+  "epochPrecision": {
+    "message": "Precision"
+  },
+  "epochY2038Passed": {
+    "message": "Y2038 has passed!"
+  },
+  "epochRemaining": {
+    "message": "remaining"
+  },
+  "epochPrecisionSeconds": {
+    "message": "Seconds (10 digits)"
+  },
+  "epochPrecisionMilliseconds": {
+    "message": "Milliseconds (13 digits)"
+  },
+  "epochPrecisionMicroseconds": {
+    "message": "Microseconds (16 digits)"
+  },
+  "epochPrecisionNanoseconds": {
+    "message": "Nanoseconds (19 digits)"
+  },
+  "formatsPatternHelpLabel": {
+    "message": "Show pattern help"
+  },
+  "formatsTokenYYYY": {
+    "message": "4-digit year"
+  },
+  "formatsTokenYY": {
+    "message": "2-digit year"
+  },
+  "formatsTokenMMMM": {
+    "message": "Full month name"
+  },
+  "formatsTokenMMM": {
+    "message": "Short month name"
+  },
+  "formatsTokenMM": {
+    "message": "2-digit month"
+  },
+  "formatsTokenDD": {
+    "message": "2-digit day"
+  },
+  "formatsTokenHH": {
+    "message": "24h hours"
+  },
+  "formatsTokenhh": {
+    "message": "12h hours"
+  },
+  "formatsTokenmm": {
+    "message": "Minutes"
+  },
+  "formatsTokenss": {
+    "message": "Seconds"
+  },
+  "formatsTokenSSS": {
+    "message": "Milliseconds"
+  },
+  "formatsTokenA": {
+    "message": "AM/PM"
+  },
+  "formatsTokenZ": {
+    "message": "UTC offset (+05:30)"
+  },
+  "formatsTokenX": {
+    "message": "Unix seconds"
+  },
+  "formatsTokenx": {
+    "message": "Unix milliseconds"
+  },
+  "formatsTokenDo": {
+    "message": "Day with ordinal"
+  },
+  "formatsTokenWW": {
+    "message": "ISO week number"
+  },
+  "formatsTokenQ": {
+    "message": "Quarter (1-4)"
+  },
+  "intlStyleFull": {
+    "message": "Full"
+  },
+  "intlStyleLong": {
+    "message": "Long"
+  },
+  "intlStyleMedium": {
+    "message": "Medium"
+  },
+  "intlStyleShort": {
+    "message": "Short"
+  },
+  "intlStyleNone": {
+    "message": "None"
+  },
+  "intlStyleCustom": {
+    "message": "Custom"
+  },
+  "intlStyleDateOnly": {
+    "message": "Date only"
+  },
+  "intlStyleTimeOnly": {
+    "message": "Time only"
+  },
+  "formatsInputPlaceholder": {
+    "message": "Date or timestamp (blank = now)"
+  },
+  "formatsLocalePlaceholder": {
+    "message": "en"
+  },
+  "copyUnixSec": {
+    "message": "Copy Unix seconds"
+  },
+  "copyUnixMs": {
+    "message": "Copy Unix milliseconds"
+  },
+  "copyUtcTime": {
+    "message": "Copy UTC time"
+  },
+  "copyLocalTime": {
+    "message": "Copy local time"
+  },
+  "copyFormatted": {
+    "message": "Copy formatted date"
+  },
+  "langSearchPlaceholder": {
+    "message": "Search language…"
+  },
+  "langSearchLabel": {
+    "message": "Search languages"
+  },
+  "langSelectLabel": {
+    "message": "Select language"
+  },
+  "dismissBtn": {
+    "message": "Dismiss"
+  },
+  "dstLabel": {
+    "message": "DST"
+  },
+  "unsupportedTimezone": {
+    "message": "Unsupported timezone"
+  },
+  "invalidDateLabel": {
+    "message": "Invalid Date"
+  },
+  "batchOutputHeader": {
+    "message": "Output"
+  },
+  "batchCopyRowLabel": {
+    "message": "Copy"
+  },
+  "devPresetJsDate": {
+    "message": "JavaScript (Date object)"
+  },
+  "devPresetJsIso": {
+    "message": "JavaScript (ISO string)"
+  },
+  "devPresetJsUnix": {
+    "message": "JavaScript (Unix seconds)"
+  },
+  "devPresetPythonDatetime": {
+    "message": "Python (datetime)"
+  },
+  "devPresetPythonUnix": {
+    "message": "Python (Unix timestamp)"
+  },
+  "devPresetSqlDatetime": {
+    "message": "SQL (DATETIME literal)"
+  },
+  "devPresetSqlFromUnix": {
+    "message": "SQL (FROM_UNIXTIME)"
+  },
+  "devPresetPostgresql": {
+    "message": "PostgreSQL (timestamptz)"
+  },
+  "devPresetMongodb": {
+    "message": "MongoDB (ISODate)"
+  },
+  "devPresetJson": {
+    "message": "JSON (ISO string field)"
+  },
+  "devPresetJsonUnix": {
+    "message": "JSON (Unix seconds field)"
+  },
+  "devPresetRust": {
+    "message": "Rust (chrono)"
+  },
+  "devPresetGo": {
+    "message": "Go (time.Parse)"
+  },
+  "devPresetCsharp": {
+    "message": "C# (DateTimeOffset)"
+  },
+  "devPresetJava": {
+    "message": "Java (Instant)"
+  },
+  "devPresetPhp": {
+    "message": "PHP (DateTime)"
+  },
+  "devPresetRuby": {
+    "message": "Ruby (Time)"
+  },
+  "devPresetSwift": {
+    "message": "Swift (Date)"
+  },
+  "presetApplyLabel": {
+    "message": "Apply $1 preset"
+  }
+}
