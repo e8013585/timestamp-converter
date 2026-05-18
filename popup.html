@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="appName">Timestamp Converter</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- ── Header ─────────────────────────────────────────────── -->
+    <header class="header" role="banner">
+      <div class="header__left">
+        <span class="header__logo" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </span>
+        <span class="header__title" data-i18n="appName">Timestamp Converter</span>
+      </div>
+      <div class="header__actions">
+        <!-- Language selector -->
+        <div class="lang-selector">
+          <button class="icon-btn" id="langBtn"
+                  data-i18n="langSelectLabel" data-i18n-attr="aria-label"
+                  aria-label="Select language"
+                  aria-haspopup="listbox" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </button>
+          <div class="lang-dropdown" id="langDropdown" hidden
+               role="listbox" aria-label="Language selection">
+            <div class="lang-dropdown__search">
+            <input type="text" id="langSearch"
+                   data-i18n="langSearchPlaceholder" data-i18n-attr="placeholder"
+                   placeholder="Search language…"
+                   data-i18n="langSearchLabel" data-i18n-attr="aria-label"
+                   aria-label="Search languages" />
+            </div>
+            <ul class="lang-dropdown__list" id="langList"></ul>
+          </div>
+        </div>
+        <!-- Theme toggle -->
+        <button class="icon-btn" id="themeToggle"
+                data-i18n="darkModeToggle" data-i18n-attr="aria-label"
+                aria-label="Toggle dark mode">
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" hidden>
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- ── Clipboard Banner ───────────────────────────────────── -->
+    <div class="clipboard-banner" id="clipboardBanner" hidden
+         role="alert" aria-live="polite">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+      </svg>
+      <span class="clipboard-banner__text" id="clipboardBannerText"
+            data-i18n="clipboardDetected">Timestamp detected in clipboard</span>
+      <button class="btn btn--accent" id="clipboardConvertBtn"
+              data-i18n="clipboardConvert">Convert</button>
+      <button class="icon-btn" id="clipboardDismissBtn"
+              data-i18n="dismissBtn" data-i18n-attr="aria-label"
+              aria-label="Dismiss" style="width:20px;height:20px;">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- ── Tab Navigation ─────────────────────────────────────── -->
+    <nav class="tabs" role="tablist" aria-label="Main sections">
+      <button class="tab tab--active" role="tab" aria-selected="true"
+              aria-controls="panel-converter" id="tab-converter"
+              data-i18n="tabConverter">Converter</button>
+      <button class="tab" role="tab" aria-selected="false"
+              aria-controls="panel-live" id="tab-live"
+              data-i18n="tabLiveClock">Live Clock</button>
+      <button class="tab" role="tab" aria-selected="false"
+              aria-controls="panel-batch" id="tab-batch"
+              data-i18n="tabBatch">Batch</button>
+      <button class="tab" role="tab" aria-selected="false"
+              aria-controls="panel-utilities" id="tab-utilities"
+              data-i18n="tabUtilities">Utilities</button>
+      <button class="tab" role="tab" aria-selected="false"
+              aria-controls="panel-formats" id="tab-formats"
+              data-i18n="tabFormats">Formats</button>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PANEL: Converter
+    ════════════════════════════════════════════════════════════ -->
+    <section class="panel panel--active" id="panel-converter"
+             role="tabpanel" aria-labelledby="tab-converter">
+
+      <!-- Input -->
+      <div class="input-group">
+        <div class="input-wrap">
+          <input type="text" id="mainInput" class="main-input"
+                 data-i18n="inputPlaceholder" data-i18n-attr="placeholder"
+                 placeholder="Enter timestamp, date, or natural language…"
+                 autocomplete="off" spellcheck="false"
+                 aria-label="Date or timestamp input" />
+           <button class="input-clear" id="clearInputBtn" hidden
+                   data-i18n="clearBtn" data-i18n-attr="aria-label"
+                   aria-label="Clear">✕</button>
+        </div>
+        <div class="input-actions">
+          <button class="btn btn--primary" id="convertBtn"
+                  data-i18n="convertBtn">Convert</button>
+          <button class="btn btn--ghost" id="pasteBtn"
+                  data-i18n="pasteBtn">Paste</button>
+          <button class="btn btn--ghost" id="clearBtn"
+                  data-i18n="clearBtn">Clear</button>
+        </div>
+      </div>
+
+      <!-- Detection badge -->
+      <div class="detection-badge" id="detectionBadge" hidden>
+        <span class="detection-badge__label"
+              data-i18n="detectedLabel">Detected:</span>
+        <span class="detection-badge__value" id="detectedType">—</span>
+        <span class="detection-badge__confidence"
+              id="detectedConfidence"></span>
+      </div>
+
+      <!-- Error -->
+      <div class="error-card" id="errorCard" hidden>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="15" y1="9" x2="9" y2="15"/>
+          <line x1="9" y1="9" x2="15" y2="15"/>
+        </svg>
+        <span id="errorMessage"></span>
+      </div>
+
+      <!-- Results -->
+      <div class="results" id="resultsArea" hidden>
+
+        <div class="result-cards" id="resultCards">
+
+          <div class="result-card">
+            <span class="result-card__label" data-i18n="resultUnixSec">Unix (Seconds)</span>
+            <span class="result-card__value monospace" id="val-unix-sec">—</span>
+            <button class="result-card__copy copy-btn" data-copy-target="val-unix-sec"
+                    data-i18n="copyUnixSec" data-i18n-attr="aria-label"
+                    aria-label="Copy Unix seconds">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            </button>
+          </div>
+
+          <div class="result-card">
+            <span class="result-card__label" data-i18n="resultUnixMs">Unix (Milliseconds)</span>
+            <span class="result-card__value monospace" id="val-unix-ms">—</span>
+            <button class="result-card__copy copy-btn" data-copy-target="val-unix-ms"
+                    data-i18n="copyUnixMs" data-i18n-attr="aria-label"
+                    aria-label="Copy Unix milliseconds">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            </button>
+          </div>
+
+          <div class="result-card">
+            <span class="result-card__label" data-i18n="resultIso">ISO 8601</span>
+            <span class="result-card__value monospace" id="val-iso">—</span>
+            <button class="result-card__copy copy-btn" data-copy-target="val-iso" aria-label="Copy">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            </button>
+          </div>
+
+          <div class="result-card">
+            <span class="result-card__label" data-i18n="resultUtc">UTC</span>
+            <span class="result-card__value" id="val-utc">—</span>
+            <button class="result-card__copy copy-btn" data-copy-target="val-utc" aria-label="Copy">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            </button>
+          </div>
+
+          <div class="result-card">
+            <span class="result-card__label" data-i18n="resultLocalTime">Local Time</span>
+            <span class="result-card__value" id="val-local">—</span>
+            <button class="result-card__copy copy-btn" data-copy-target="val-local" aria-label="Copy">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            </button>
+          </div>
+
+          <div class="result-card">
+            <span class="result-card__label" data-i18n="resultRfc">RFC 2822</span>
+            <span class="result-card__value monospace" id="val-rfc">—</span>
+            <button class="result-card__copy copy-btn" data-copy-target="val-rfc" aria-label="Copy">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            </button>
+          </div>
+
+          <div class="result-card">
+            <span class="result-card__label" data-i18n="resultRelative">Relative</span>
+            <span class="result-card__value" id="val-relative">—</span>
+            <button class="result-card__copy copy-btn" data-copy-target="val-relative" aria-label="Copy">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            </button>
+          </div>
+
+          <div class="result-card">
+            <span class="result-card__label" data-i18n="resultHuman">Human Readable</span>
+            <span class="result-card__value" id="val-human">—</span>
+            <button class="result-card__copy copy-btn" data-copy-target="val-human" aria-label="Copy">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="result-actions">
+          <button class="btn btn--ghost btn--sm" id="copyAllBtn"
+                  data-i18n="copyBtn">Copy All</button>
+        </div>
+
+        <!-- Timezone Preview -->
+        <div class="tz-section">
+          <div class="section-header">
+            <span class="section-title" data-i18n="timezonePreview">Multi-Timezone Preview</span>
+            <select class="tz-select" id="tzSelector"
+                    aria-label="Select timezone"></select>
+          </div>
+          <div class="tz-grid" id="tzGrid"
+               aria-label="Timezone comparisons"></div>
+        </div>
+
+        <!-- Developer Presets -->
+        <div class="dev-presets-section">
+          <div class="section-header collapsible-header"
+               id="devPresetsHeader" aria-expanded="false"
+               role="button" tabindex="0">
+            <span class="section-title" data-i18n="devPresetsTitle">Developer Presets</span>
+            <svg class="chevron" width="14" height="14" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2"
+                 aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </div>
+          <div class="dev-presets-grid" id="devPresetsContent" hidden></div>
+        </div>
+      </div>
+
+      <!-- History -->
+      <div class="history-section" id="historySection" hidden>
+        <div class="section-header collapsible-header"
+             id="historyHeader" aria-expanded="true"
+             role="button" tabindex="0">
+          <span class="section-title" data-i18n="historyTitle">Recent Conversions</span>
+          <div class="history-header-actions">
+            <button class="btn btn--xs btn--ghost" id="clearHistoryBtn"
+                    data-i18n="historyClear">Clear History</button>
+            <svg class="chevron" width="14" height="14" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2"
+                 aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </div>
+        </div>
+        <ul class="history-list" id="historyList" role="list"></ul>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PANEL: Live Clock
+    ════════════════════════════════════════════════════════════ -->
+    <section class="panel" id="panel-live" hidden
+             role="tabpanel" aria-labelledby="tab-live">
+
+      <div class="live-controls">
+        <button class="btn btn--primary" id="pauseResumeBtn">
+          <svg class="icon-pause" width="14" height="14" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2"
+               aria-hidden="true">
+            <rect x="6" y="4" width="4" height="16"/>
+            <rect x="14" y="4" width="4" height="16"/>
+          </svg>
+          <svg class="icon-play" width="14" height="14" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2"
+               aria-hidden="true" hidden>
+            <polygon points="5 3 19 12 5 21 5 3"/>
+          </svg>
+          <span class="pause-label" data-i18n="pauseBtn">Pause</span>
+        </button>
+      </div>
+
+      <div class="live-cards" aria-label="Live clock values">
+
+        <div class="live-card live-card--hero">
+          <div class="live-card__label" data-i18n="liveUnixLabel">Unix (Seconds)</div>
+          <div class="live-card__value monospace" id="live-unix" aria-live="off">—</div>
+          <button class="live-card__copy copy-btn" data-copy-target="live-unix"
+                  data-i18n="copyUnixSec" data-i18n-attr="aria-label"
+                  aria-label="Copy Unix seconds">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+
+        <div class="live-card">
+          <div class="live-card__label" data-i18n="liveUnixMsLabel">Unix (Milliseconds)</div>
+          <div class="live-card__value monospace" id="live-unix-ms" aria-live="off">—</div>
+          <button class="live-card__copy copy-btn" data-copy-target="live-unix-ms"
+                  data-i18n="copyUnixMs" data-i18n-attr="aria-label"
+                  aria-label="Copy Unix milliseconds">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+
+        <div class="live-card">
+          <div class="live-card__label" data-i18n="liveUtcLabel">UTC</div>
+          <div class="live-card__value monospace" id="live-utc" aria-live="off">—</div>
+          <button class="live-card__copy copy-btn" data-copy-target="live-utc"
+                  data-i18n="copyUtcTime" data-i18n-attr="aria-label"
+                  aria-label="Copy UTC time">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+
+        <div class="live-card">
+          <div class="live-card__label" data-i18n="liveLocalLabel">Local</div>
+          <div class="live-card__value monospace" id="live-local" aria-live="off">—</div>
+          <button class="live-card__copy copy-btn" data-copy-target="live-local"
+                  data-i18n="copyLocalTime" data-i18n-attr="aria-label"
+                  aria-label="Copy local time">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Timezone preview for live -->
+      <div class="tz-section">
+        <div class="section-header">
+          <span class="section-title" data-i18n="timezonePreview">Multi-Timezone Preview</span>
+        </div>
+        <div class="tz-grid" id="tzGridLive"
+             aria-label="Timezone comparisons"></div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PANEL: Batch
+    ════════════════════════════════════════════════════════════ -->
+    <section class="panel" id="panel-batch" hidden
+             role="tabpanel" aria-labelledby="tab-batch">
+
+      <div class="batch-input-area">
+        <textarea id="batchInput" class="batch-input"
+                  data-i18n="batchPlaceholder" data-i18n-attr="placeholder"
+                  placeholder="Paste multiple timestamps or dates, one per line…"
+                  rows="6" aria-label="Batch input"
+                  spellcheck="false"></textarea>
+
+        <div class="batch-options">
+          <label class="checkbox-label">
+            <input type="checkbox" id="batchDedupe" /> <span data-i18n="batchRemoveDuplicates">Remove duplicates</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="batchSkipBlanks" checked /> <span data-i18n="batchSkipBlanks">Skip blanks</span>
+          </label>
+          <div class="batch-format-select">
+            <label for="batchOutputFormat" data-i18n="batchOutputLabel">Output:</label>
+            <select class="select-sm" id="batchOutputFormat">
+              <option value="iso8601" data-i18n="batchFormatIso8601">ISO 8601</option>
+              <option value="unixSeconds" data-i18n="batchFormatUnixSec">Unix (s)</option>
+              <option value="unixMilliseconds" data-i18n="batchFormatUnixMs">Unix (ms)</option>
+              <option value="utcString" data-i18n="batchFormatUtc">UTC</option>
+              <option value="localString" data-i18n="batchFormatLocal">Local</option>
+              <option value="rfc2822" data-i18n="batchFormatRfc2822">RFC 2822</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="batch-actions">
+          <button class="btn btn--primary" id="batchConvertBtn"
+                  data-i18n="batchConvertBtn">Convert All</button>
+          <button class="btn btn--ghost" id="batchClearBtn"
+                  data-i18n="batchClearBtn">Clear</button>
+          <button class="btn btn--ghost" id="batchCopyAllBtn" hidden
+                  data-i18n="batchCopyAllBtn">Copy All</button>
+          <button class="btn btn--ghost" id="batchExportJsonBtn" hidden
+                  data-i18n="batchExportBtn">Export JSON</button>
+          <button class="btn btn--ghost" id="batchExportCsvBtn" hidden
+                  data-i18n="batchExportCsvBtn">Export CSV</button>
+        </div>
+
+        <div class="batch-progress" id="batchProgress" hidden
+             role="progressbar" aria-valuenow="0" aria-valuemin="0"
+             aria-valuemax="100">
+          <div class="batch-progress__bar" id="batchProgressBar"></div>
+        </div>
+
+        <div class="batch-summary" id="batchSummary" hidden
+             aria-live="polite"></div>
+      </div>
+
+      <div class="batch-results" id="batchResults" hidden>
+        <table class="batch-table">
+          <thead>
+            <tr>
+              <th data-i18n="batchLineLabel">Line</th>
+              <th data-i18n="batchInputLabel">Input</th>
+              <th data-i18n="batchOutputHeader">Output</th>
+              <th data-i18n="resultRelative">Relative</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="batchTableBody"></tbody>
+        </table>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PANEL: Utilities
+    ════════════════════════════════════════════════════════════ -->
+    <section class="panel" id="panel-utilities" hidden
+             role="tabpanel" aria-labelledby="tab-utilities">
+
+      <nav class="sub-tabs" role="tablist" aria-label="Utilities sections">
+        <button class="sub-tab sub-tab--active" data-subtab="generator"
+                role="tab" aria-selected="true"
+                data-i18n="utilGeneratorTitle">Generator</button>
+        <button class="sub-tab" data-subtab="diff"
+                role="tab" aria-selected="false"
+                data-i18n="utilDiffTitle">Time Difference</button>
+        <button class="sub-tab" data-subtab="epoch"
+                role="tab" aria-selected="false"
+                data-i18n="utilEpochTitle">Epoch Explorer</button>
+      </nav>
+
+      <!-- ── Generator ── -->
+      <div class="sub-panel sub-panel--active" id="subpanel-generator">
+        <div class="generator-grid">
+          <button class="gen-btn" data-gen="now">
+            ⚡ <span data-i18n="utilGenNow">Now</span>
+          </button>
+          <button class="gen-btn" data-gen="startDay">
+            🌅 <span data-i18n="utilGenStartDay">Start of Day</span>
+          </button>
+          <button class="gen-btn" data-gen="endDay">
+            🌙 <span data-i18n="utilGenEndDay">End of Day</span>
+          </button>
+          <button class="gen-btn" data-gen="startMonth">
+            📅 <span data-i18n="utilGenStartMonth">Start of Month</span>
+          </button>
+          <button class="gen-btn" data-gen="endMonth">
+            📆 <span data-i18n="utilGenEndMonth">End of Month</span>
+          </button>
+          <button class="gen-btn" data-gen="startYear">
+            🗓️ <span data-i18n="utilGenStartYear">Start of Year</span>
+          </button>
+          <button class="gen-btn" data-gen="endYear">
+            🎊 <span data-i18n="utilGenEndYear">End of Year</span>
+          </button>
+          <button class="gen-btn" data-gen="random">
+            🎲 <span data-i18n="utilGenRandom">Random</span>
+          </button>
+        </div>
+
+        <div class="generator-range">
+          <div class="subsection-title" data-i18n="genRandomRangeTitle">Random Range (optional)</div>
+          <div class="range-inputs">
+            <input type="text" id="rangeFrom" class="field-input"
+                   data-i18n="genRangeFromPlaceholder" data-i18n-attr="placeholder"
+                   placeholder="From (e.g. 2020-01-01)" />
+            <span class="range-sep">→</span>
+            <input type="text" id="rangeTo" class="field-input"
+                   data-i18n="genRangeToPlaceholder" data-i18n-attr="placeholder"
+                   placeholder="To (e.g. 2030-12-31)" />
+          </div>
+        </div>
+
+        <div class="gen-result" id="generatorResult" hidden>
+          <div class="gen-result-cards" id="genResultCards"></div>
+        </div>
+      </div>
+
+      <!-- ── Diff ── -->
+      <div class="sub-panel" id="subpanel-diff" hidden>
+        <div class="diff-form">
+          <div class="diff-inputs">
+            <div class="field-group field-group--half">
+              <label class="field-label" for="diffDateA"
+                     data-i18n="utilDiffFrom">From</label>
+              <input type="text" id="diffDateA" class="field-input"
+                     data-i18n="utilDiffDatePlaceholder" data-i18n-attr="placeholder"
+                     placeholder="Date or timestamp" autocomplete="off" />
+            </div>
+            <div class="diff-swap">
+              <button class="icon-btn" id="diffSwapBtn"
+                      data-i18n="utilDiffSwapLabel" data-i18n-attr="aria-label"
+                      aria-label="Swap dates">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="17 1 21 5 17 9"/>
+                  <path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+                  <polyline points="7 23 3 19 7 15"/>
+                  <path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+                </svg>
+              </button>
+            </div>
+            <div class="field-group field-group--half">
+              <label class="field-label" for="diffDateB"
+                     data-i18n="utilDiffTo">To</label>
+              <input type="text" id="diffDateB" class="field-input"
+                     data-i18n="utilDiffDateToPlaceholder" data-i18n-attr="placeholder"
+                     placeholder="Date or timestamp (blank = now)"
+                     autocomplete="off" />
+            </div>
+          </div>
+          <button class="btn btn--primary" id="diffCalcBtn"
+                  data-i18n="utilDiffBtn">Calculate Difference</button>
+        </div>
+        <div class="diff-results" id="diffResults" hidden></div>
+      </div>
+
+      <!-- ── Epoch Explorer ── -->
+      <div class="sub-panel" id="subpanel-epoch" hidden>
+        <div class="epoch-explorer">
+          <div class="epoch-card epoch-card--hero">
+            <div class="epoch-card__icon">📍</div>
+            <div class="epoch-card__title"
+                 data-i18n="utilEpochTitle">Epoch Explorer</div>
+            <div class="epoch-card__desc"
+                 data-i18n="utilEpochDesc">Unix time counts seconds since January 1, 1970, 00:00:00 UTC (the Unix Epoch). Timestamps in seconds fit in a 32-bit integer until January 19, 2038 (the Y2K38 problem). JavaScript uses milliseconds by default.</div>
+          </div>
+
+          <div class="epoch-info-grid" id="epochInfoGrid">
+            <!-- Populated by JS -->
+          </div>
+
+          <div class="epoch-card">
+            <div class="epoch-card__icon">⚠️</div>
+            <div class="epoch-card__title"
+                 data-i18n="utilEpoch2038">Year 2038 Problem</div>
+            <div class="epoch-card__desc"
+                 data-i18n="utilEpoch2038Desc">32-bit signed integers overflow at 2,147,483,647 — which corresponds to 03:14:07 UTC on January 19, 2038.</div>
+            <div class="epoch-countdown" id="y2038Countdown">—</div>
+          </div>
+
+          <div class="epoch-card">
+            <div class="epoch-card__icon">🔬</div>
+            <div class="epoch-card__title"
+                 data-i18n="utilEpochPrecision">Precision Guide</div>
+            <div class="epoch-card__desc"
+                 data-i18n="utilEpochPrecisionDesc">10 digits = seconds | 13 digits = milliseconds | 16 digits = microseconds | 19 digits = nanoseconds</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PANEL: Format Studio
+    ════════════════════════════════════════════════════════════ -->
+    <section class="panel" id="panel-formats" hidden
+             role="tabpanel" aria-labelledby="tab-formats">
+
+      <div class="formats-layout">
+
+        <div class="formats-row">
+          <div class="field-group" style="flex:1">
+            <label class="field-label" for="fmtInput"
+                   data-i18n="formatsInputLabel">Date / Timestamp Input</label>
+            <input type="text" id="fmtInput" class="field-input"
+                   data-i18n="formatsInputPlaceholder" data-i18n-attr="placeholder"
+                   placeholder="Date or timestamp (blank = now)"
+                   autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="formats-row">
+          <div class="field-group" style="flex:1">
+            <label class="field-label" for="fmtPattern"
+                   data-i18n="formatsPatternLabel">Format Pattern</label>
+            <div class="pattern-input-wrap">
+              <input type="text" id="fmtPattern" class="field-input monospace"
+                     value="YYYY-MM-DD HH:mm:ss" autocomplete="off" />
+              <button class="btn btn--xs btn--ghost" id="fmtPatternHelpBtn"
+                      data-i18n="formatsPatternHelpLabel" data-i18n-attr="aria-label"
+                      aria-label="Show pattern help">?</button>
+            </div>
+          </div>
+          <div class="field-group">
+            <label class="field-label" for="fmtLocale"
+                   data-i18n="formatsLocaleLabel">Locale</label>
+            <input type="text" id="fmtLocale" class="field-input"
+                   data-i18n="formatsLocalePlaceholder" data-i18n-attr="placeholder"
+                   placeholder="en" value="en" />
+          </div>
+        </div>
+
+        <!-- Preset chips (populated by JS) -->
+        <div class="section-header">
+          <span class="section-title"
+                data-i18n="formatsPresetsLabel">Presets</span>
+        </div>
+        <div class="preset-chips" id="presetChips"></div>
+
+        <!-- Preview -->
+        <div class="fmt-preview-card">
+          <span class="fmt-preview-card__label"
+                data-i18n="formatsPreviewLabel">Preview</span>
+          <span class="fmt-preview-card__value monospace"
+                id="fmtPreview">—</span>
+          <button class="result-card__copy copy-btn"
+                  data-copy-target="fmtPreview"
+                  data-i18n="copyFormatted" data-i18n-attr="aria-label"
+                  aria-label="Copy formatted date">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Token help -->
+        <div class="token-help" id="tokenHelp" hidden>
+          <div class="token-grid">
+            <code>YYYY</code><span data-i18n="formatsTokenYYYY">4-digit year</span>
+            <code>YY</code><span data-i18n="formatsTokenYY">2-digit year</span>
+            <code>MMMM</code><span data-i18n="formatsTokenMMMM">Full month name</span>
+            <code>MMM</code><span data-i18n="formatsTokenMMM">Short month name</span>
+            <code>MM</code><span data-i18n="formatsTokenMM">2-digit month</span>
+            <code>DD</code><span data-i18n="formatsTokenDD">2-digit day</span>
+            <code>HH</code><span data-i18n="formatsTokenHH">24h hours</span>
+            <code>hh</code><span data-i18n="formatsTokenhh">12h hours</span>
+            <code>mm</code><span data-i18n="formatsTokenmm">Minutes</span>
+            <code>ss</code><span data-i18n="formatsTokenss">Seconds</span>
+            <code>SSS</code><span data-i18n="formatsTokenSSS">Milliseconds</span>
+            <code>A</code><span data-i18n="formatsTokenA">AM/PM</span>
+            <code>Z</code><span data-i18n="formatsTokenZ">UTC offset (+05:30)</span>
+            <code>X</code><span data-i18n="formatsTokenX">Unix seconds</span>
+            <code>x</code><span data-i18n="formatsTokenx">Unix milliseconds</span>
+            <code>Do</code><span data-i18n="formatsTokenDo">Day with ordinal</span>
+            <code>WW</code><span data-i18n="formatsTokenWW">ISO week number</span>
+            <code>Q</code><span data-i18n="formatsTokenQ">Quarter (1-4)</span>
+          </div>
+        </div>
+
+        <!-- Intl style selectors -->
+        <div class="section-header">
+          <span class="section-title"
+                data-i18n="formatsStyleLabel">Date Style</span>
+        </div>
+        <div class="intl-selectors">
+          <div class="field-group">
+            <label class="field-label" for="fmtDateStyle" data-i18n="formatsStyleLabel">Date Style</label>
+            <select id="fmtDateStyle" class="field-input">
+              <option value="" data-i18n="intlStyleCustom">Custom</option>
+              <option value="full" data-i18n="intlStyleFull">Full</option>
+              <option value="long" data-i18n="intlStyleLong">Long</option>
+              <option value="medium" data-i18n="intlStyleMedium">Medium</option>
+              <option value="short" data-i18n="intlStyleShort">Short</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label class="field-label" for="fmtTimeStyle" data-i18n="formatsTimeStyleLabel">Time Style</label>
+            <select id="fmtTimeStyle" class="field-input">
+              <option value="" data-i18n="intlStyleNone">None</option>
+              <option value="full" data-i18n="intlStyleFull">Full</option>
+              <option value="long" data-i18n="intlStyleLong">Long</option>
+              <option value="medium" data-i18n="intlStyleMedium">Medium</option>
+              <option value="short" data-i18n="intlStyleShort">Short</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Intl outputs (populated by JS) -->
+        <div class="intl-outputs" id="intlOutputs"></div>
+
+      </div>
+
+    </section>
+
+  </div><!-- /.app -->
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast" hidden></div>
+
+  <!-- Keyboard shortcuts footer -->
+  <footer class="app-footer" role="contentinfo">
+    <span class="kbd-hint"><kbd>Ctrl</kbd>+<kbd>↵</kbd> Convert</span>
+    <span class="kbd-hint"><kbd>Esc</kbd> Clear</span>
+    <span class="kbd-hint"><kbd>Ctrl</kbd>+<kbd>⇧</kbd>+<kbd>C</kbd> Copy</span>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
